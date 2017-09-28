@@ -29,43 +29,53 @@ namespace ICA04_NicW
         {
             //Get a block that is identical to the block we clicked
             Block clickBlock = new Block(blockSize, pos);
-            //Check to see if we have deleted something
-            bool deleteFlag = false;
-            //While we haven't deleted something, remove blocks overlapping the clickBlock
-            do
+
+            if (true)
             {
                 lock (blockList)
                 {
-                    //make sure the list still has blocks
-                    if (blockList.Count > 0)
+                    while (blockList.Remove(clickBlock)) ;
+                }
+            }
+            else
+            {
+                //Check to see if we have deleted something
+                bool deleteFlag = false;
+                //While we haven't deleted something, remove blocks overlapping the clickBlock
+                do
+                {
+                    lock (blockList)
                     {
-                        //Go through until you find a block that overlaps
-                        for (int i = 0; i < blockList.Count; i++)
+                        //make sure the list still has blocks
+                        if (blockList.Count > 0)
                         {
-                            if (blockList[i].Equals(clickBlock))
+                            //Go through until you find a block that overlaps
+                            for (int i = 0; i < blockList.Count; i++)
                             {
-                                //Delete the overlapping block and tell it to restart the checking
-                                blockList.RemoveAt(i);
-                                deleteFlag = true;
-                                break;
-                            }
-                            else
-                            {
-                                //Nothing to check anymore
-                                deleteFlag = false;
+                                if (blockList[i].Equals(clickBlock))
+                                {
+                                    //Delete the overlapping block and tell it to restart the checking
+                                    blockList.RemoveAt(i);
+                                    deleteFlag = true;
+                                    break;
+                                }
+                                else
+                                {
+                                    //Nothing to check anymore
+                                    deleteFlag = false;
+                                }
                             }
                         }
+                        else
+                        {
+                            //Nothing to check anymore
+                            deleteFlag = false;
+                        }
                     }
-                    else
-                    {
-                        //Nothing to check anymore
-                        deleteFlag = false;
-                    }
-                }
-                
-            } while (deleteFlag);
 
+                } while (deleteFlag);
 
+            }
 
             //Clear the canvas and then render the blocks
             Block.Load = true;
@@ -137,6 +147,7 @@ namespace ICA04_NicW
             //Block to check if we can add it
             Block temp;
 
+            //only add 25 blocks or have 1000 failed blocks
             while(blocksAdded < 25 && blocksRemoved < 1000)
             {
                 //make a new block
