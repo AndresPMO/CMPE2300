@@ -42,12 +42,14 @@
             this.UI_button_Add.TabIndex = 0;
             this.UI_button_Add.Text = "Add Blocks: Size - 80";
             this.UI_button_Add.UseVisualStyleBackColor = true;
+            this.UI_button_Add.Click += new System.EventHandler(this.UI_button_Add_Click);
             // 
             // UI_progressBar_Discard
             // 
             this.UI_progressBar_Discard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UI_progressBar_Discard.Location = new System.Drawing.Point(13, 84);
+            this.UI_progressBar_Discard.Maximum = 1000;
             this.UI_progressBar_Discard.Name = "UI_progressBar_Discard";
             this.UI_progressBar_Discard.Size = new System.Drawing.Size(331, 23);
             this.UI_progressBar_Discard.TabIndex = 1;
