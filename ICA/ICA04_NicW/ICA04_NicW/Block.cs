@@ -43,6 +43,7 @@ namespace ICA04_NicW
             randNum = new Random();
             canvas = new CDrawer(800, 600, false);
         }
+        
         //Instance Constructor
         public Block(int inSize)
         {
@@ -84,6 +85,7 @@ namespace ICA04_NicW
                 }
             }
         }
+
         //Instance Methods
         public void ShowBlock()
         {
