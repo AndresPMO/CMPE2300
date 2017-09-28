@@ -17,7 +17,19 @@ namespace ICA04_NicW
         static private Random randNum;
         //Instance members
         private int size;
-        public int Size { set { this.size = Math.Abs(value); } }
+        public int Size {
+            set
+            {
+                if (value == 0)
+                {
+                    this.size = 1;
+                }
+                else
+                {
+                    this.size = Math.Abs(value);
+                }
+            }
+        }
 
         private Color colour;
 

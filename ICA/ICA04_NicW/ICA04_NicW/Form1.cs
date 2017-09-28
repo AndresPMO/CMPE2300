@@ -27,7 +27,60 @@ namespace ICA04_NicW
 
         private void Canvas_MouseLeftClickScaled(Point pos, CDrawer dr)
         {
-            throw new NotImplementedException();
+            //Get a block that is identical to the block we clicked
+            Block clickBlock = new Block(blockSize, pos);
+            //Check to see if we have deleted something
+            bool deleteFlag = false;
+            //While we haven't deleted something, remove blocks overlapping the clickBlock
+            do
+            {
+                lock (blockList)
+                {
+                    //make sure the list still has blocks
+                    if (blockList.Count > 0)
+                    {
+                        //Go through until you find a block that overlaps
+                        for (int i = 0; i < blockList.Count; i++)
+                        {
+                            if (blockList[i].Equals(clickBlock))
+                            {
+                                //Delete the overlapping block and tell it to restart the checking
+                                blockList.RemoveAt(i);
+                                deleteFlag = true;
+                                break;
+                            }
+                            else
+                            {
+                                //Nothing to check anymore
+                                deleteFlag = false;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        //Nothing to check anymore
+                        deleteFlag = false;
+                    }
+                }
+                
+            } while (deleteFlag);
+
+
+
+            //Clear the canvas and then render the blocks
+            Block.Load = true;
+            //Make sure the list doesn't change, lock it down
+            lock (blockList)
+            {
+                for (int i = 0; i < blockList.Count; i++)
+                {
+                    blockList[i].ShowBlock();
+                }
+            }
+            //Show the mouse block
+            mouseBlock.ShowBlock();
+            //Render
+            Block.Load = false;
         }
 
         private void Canvas_MouseMoveScaled(Point pos, CDrawer dr)
