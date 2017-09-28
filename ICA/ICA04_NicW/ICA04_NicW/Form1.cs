@@ -30,7 +30,7 @@ namespace ICA04_NicW
             //Get a block that is identical to the block we clicked
             Block clickBlock = new Block(blockSize, pos);
 
-            if (false)
+            if (true)
             {
                 lock (blockList)
                 {
