@@ -15,11 +15,20 @@ namespace ICA04_NicW
     {
         private int blockSize = 80;
         private List<Block> blockList = new List<Block>();
+        private Block mouseBlock;
 
         public Form1()
         {
             InitializeComponent();
             MouseWheel += Form1_MouseWheel;
+            Block.Canvas.MouseMoveScaled += Canvas_MouseMoveScaled;
+        }
+
+        private void Canvas_MouseMoveScaled(Point pos, CDrawer dr)
+        {
+            mouseBlock = new Block(blockSize, pos);
+            mouseBlock.ShowBlock();
+            Block.Load = false;
         }
 
         private void Form1_MouseWheel(object sender, MouseEventArgs e)
@@ -46,27 +55,34 @@ namespace ICA04_NicW
             {
                 //make a new block
                 temp = new Block(blockSize);
-                
-                //Found an overlap
-                if (blockList.IndexOf(temp) >= 0)
+                //Doing stuff to the list, lock it down
+                lock (blockList)
                 {
-                    //Didn't add a block, counts as removed
-                    blocksRemoved++;
-                }
-                //No overlapping
-                else
-                {
-                    //Add the block to the list
-                    blockList.Add(temp);
-                    blocksAdded++;
+                    //Found an overlap
+                    if (blockList.IndexOf(temp) >= 0)
+                    {
+                        //Didn't add a block, counts as removed
+                        blocksRemoved++;
+                    }
+                    //No overlapping
+                    else
+                    {
+                        //Add the block to the list
+                        blockList.Add(temp);
+                        blocksAdded++;
+                    }
                 }
             }
             
             //Clear the canvas and then render the blocks
             Block.Load = true;
-            for(int i = 0; i < blockList.Count; i++)
+            //Make sure the list doesn't change, lock it down
+            lock (blockList)
             {
-                blockList[i].ShowBlock();
+                for (int i = 0; i < blockList.Count; i++)
+                {
+                    blockList[i].ShowBlock();
+                }
             }
             Block.Load = false;
 

@@ -47,8 +47,8 @@ namespace ICA04_NicW
             //make the mouse pointer square
             this.Size = inSize;
             this.colour = Color.FromArgb(0);
-            this.rectangle = new Rectangle(center.X + (this.size / 2),
-                                           center.Y + (this.size / 2),
+            this.rectangle = new Rectangle(center.X - (this.size / 2),
+                                           center.Y - (this.size / 2),
                                            this.size,
                                            this.size);
             this.Highlight = true;
