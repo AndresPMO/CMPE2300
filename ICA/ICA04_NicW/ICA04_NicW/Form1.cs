@@ -30,7 +30,7 @@ namespace ICA04_NicW
             //Get a block that is identical to the block we clicked
             Block clickBlock = new Block(blockSize, pos);
 
-            if (true)
+            if (false)
             {
                 lock (blockList)
                 {
@@ -44,32 +44,20 @@ namespace ICA04_NicW
                 //While we haven't deleted something, remove blocks overlapping the clickBlock
                 do
                 {
+                    //assume that nothing is deleted
+                    deleteFlag = false;
                     lock (blockList)
                     {
-                        //make sure the list still has blocks
-                        if (blockList.Count > 0)
+                        //Go through until you find a block that overlaps
+                        for (int i = 0; i < blockList.Count; i++)
                         {
-                            //Go through until you find a block that overlaps
-                            for (int i = 0; i < blockList.Count; i++)
+                            if (blockList[i].Equals(clickBlock))
                             {
-                                if (blockList[i].Equals(clickBlock))
-                                {
-                                    //Delete the overlapping block and tell it to restart the checking
-                                    blockList.RemoveAt(i);
-                                    deleteFlag = true;
-                                    break;
-                                }
-                                else
-                                {
-                                    //Nothing to check anymore
-                                    deleteFlag = false;
-                                }
+                                //Delete the overlapping block and tell it to restart the checking
+                                blockList.RemoveAt(i);
+                                deleteFlag = true;
+                                break;
                             }
-                        }
-                        else
-                        {
-                            //Nothing to check anymore
-                            deleteFlag = false;
                         }
                     }
 
