@@ -22,12 +22,45 @@ namespace ICA04_NicW
             InitializeComponent();
             MouseWheel += Form1_MouseWheel;
             Block.Canvas.MouseMoveScaled += Canvas_MouseMoveScaled;
+            Block.Canvas.MouseLeftClickScaled += Canvas_MouseLeftClickScaled;
+        }
+
+        private void Canvas_MouseLeftClickScaled(Point pos, CDrawer dr)
+        {
+            throw new NotImplementedException();
         }
 
         private void Canvas_MouseMoveScaled(Point pos, CDrawer dr)
         {
+            //Follow the mouse with a block
             mouseBlock = new Block(blockSize, pos);
+
+            //Check if the blocks collide with the mouse
+            lock (blockList)
+            {
+                for (int i = 0; i < blockList.Count; i++)
+                {
+                    //Assume that it isn't highlighted
+                    blockList[i].Highlight = false;
+                    //Check if it is highlighted
+                    if (blockList[i].Equals(mouseBlock))
+                        blockList[i].Highlight = true;
+                }
+            }
+
+            //Clear the canvas and then render the blocks
+            Block.Load = true;
+            //Make sure the list doesn't change, lock it down
+            lock (blockList)
+            {
+                for (int i = 0; i < blockList.Count; i++)
+                {
+                    blockList[i].ShowBlock();
+                }
+            }
+            //Show the mouse block
             mouseBlock.ShowBlock();
+            //Render
             Block.Load = false;
         }
 
