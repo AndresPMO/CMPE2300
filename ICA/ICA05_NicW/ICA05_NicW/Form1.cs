@@ -7,9 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GDIDrawer;
 
 namespace ICA05_NicW
 {
+    
     public partial class Form1 : Form
     {
         public Form1()
