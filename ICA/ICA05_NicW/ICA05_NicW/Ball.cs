@@ -78,7 +78,12 @@ namespace ICA05_NicW
             Ball input = obj as Ball; //Get the input as type ball
             float distance = this.GetDistance(input); //Find the distance between the two balls
 
-            return distance <= this._radius; //If the distance is less than the balls radius, we have overlap
+            return distance <= this._radius || distance <= input._radius; //If the distance is less than either balls radius, we have overlap
+        }
+
+        public override int GetHashCode()
+        {
+            return 1;
         }
     }
 }
