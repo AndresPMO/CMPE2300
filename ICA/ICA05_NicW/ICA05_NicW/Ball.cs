@@ -10,7 +10,7 @@ namespace ICA05_NicW
 {
     public enum ESortType { eRadius, eDistance, eColour }
 
-    class Ball
+    class Ball : IComparable
     {
         //Static members
         static private CDrawer canvas;
@@ -63,7 +63,7 @@ namespace ICA05_NicW
         //Instance methods
         public void ShowBall()
         {
-            canvas.AddCenteredEllipse(_center, _radius * 2, _radius * 2, _colour);
+            canvas.AddCenteredEllipse((int)_center.X, (int)_center.Y, (int)(_radius * 2), (int)(_radius * 2), _colour);
         }
 
         private float GetDistance(Ball other)
@@ -83,7 +83,43 @@ namespace ICA05_NicW
 
         public override int GetHashCode()
         {
-            return 1;
+            return 1; //Everything goes through our Equals override
+        }
+
+        public int CompareTo(object obj)
+        {
+            //Have to have a ball or we cry
+            if (!(obj is Ball)) throw new ArgumentException("Not a valid ball, or null.");
+
+            //We have our ball
+            Ball temp = (Ball)obj;
+
+            //Make our origin point
+            Ball origin = new Ball(1);
+            origin._center.X = 0;
+            origin._center.Y = 0;
+
+            //Need something to output since we only want one return
+            int outCompare;
+
+            switch (Ball.sort){
+                case ESortType.eColour:
+                    //Check if our colour is higher than their colour
+                    outCompare = this._colour.ToArgb() - temp._colour.ToArgb();
+                    break;
+                case ESortType.eDistance:
+                    //Check if our distance from (0,0) is higher than theirs
+                    outCompare = (int)(this.GetDistance(origin) - temp.GetDistance(origin));
+                    break;
+                case ESortType.eRadius:
+                    //Check if our radius is higher than their radius
+                    outCompare = this._radius.CompareTo(temp._radius);
+                    break;
+                default:
+                    throw new Exception("Unable to find compare type");
+            }
+
+            return outCompare;
         }
     }
 }

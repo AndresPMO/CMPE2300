@@ -1,0 +1,10 @@
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\bin\Debug\ICA05_NicW.exe.config
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\bin\Debug\ICA05_NicW.exe
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\bin\Debug\ICA05_NicW.pdb
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\bin\Debug\GDIDrawer.dll
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\obj\Debug\ICA05_NicW.csprojResolveAssemblyReference.cache
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\obj\Debug\ICA05_NicW.Form1.resources
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\obj\Debug\ICA05_NicW.Properties.Resources.resources
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\obj\Debug\ICA05_NicW.csproj.GenerateResource.Cache
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\obj\Debug\ICA05_NicW.exe
+C:\Users\nwasylyshyn1\Desktop\Github\ICA\ICA05_NicW\ICA05_NicW\obj\Debug\ICA05_NicW.pdb

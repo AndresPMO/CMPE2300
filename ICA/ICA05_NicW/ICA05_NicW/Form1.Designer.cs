@@ -30,9 +30,9 @@
         {
             this.UI_button_AddBalls = new System.Windows.Forms.Button();
             this.groupBox_SortType = new System.Windows.Forms.GroupBox();
-            this.UI_radioButton_Radius = new System.Windows.Forms.RadioButton();
-            this.UI_radioButton_Distance = new System.Windows.Forms.RadioButton();
             this.UI_radioButton_Colour = new System.Windows.Forms.RadioButton();
+            this.UI_radioButton_Distance = new System.Windows.Forms.RadioButton();
+            this.UI_radioButton_Radius = new System.Windows.Forms.RadioButton();
             this.progressBar_Discards = new System.Windows.Forms.ProgressBar();
             this.groupBox_SortType.SuspendLayout();
             this.SuspendLayout();
@@ -45,7 +45,7 @@
             this.UI_button_AddBalls.Name = "UI_button_AddBalls";
             this.UI_button_AddBalls.Size = new System.Drawing.Size(209, 23);
             this.UI_button_AddBalls.TabIndex = 0;
-            this.UI_button_AddBalls.Text = "Add exclusive balls (-)";
+            this.UI_button_AddBalls.Text = "Add exclusive balls (-50)";
             this.UI_button_AddBalls.UseVisualStyleBackColor = true;
             // 
             // groupBox_SortType
@@ -62,16 +62,16 @@
             this.groupBox_SortType.TabStop = false;
             this.groupBox_SortType.Text = "Sort Type";
             // 
-            // UI_radioButton_Radius
+            // UI_radioButton_Colour
             // 
-            this.UI_radioButton_Radius.AutoSize = true;
-            this.UI_radioButton_Radius.Location = new System.Drawing.Point(7, 20);
-            this.UI_radioButton_Radius.Name = "UI_radioButton_Radius";
-            this.UI_radioButton_Radius.Size = new System.Drawing.Size(58, 17);
-            this.UI_radioButton_Radius.TabIndex = 0;
-            this.UI_radioButton_Radius.TabStop = true;
-            this.UI_radioButton_Radius.Text = "Radius";
-            this.UI_radioButton_Radius.UseVisualStyleBackColor = true;
+            this.UI_radioButton_Colour.AutoSize = true;
+            this.UI_radioButton_Colour.Location = new System.Drawing.Point(144, 20);
+            this.UI_radioButton_Colour.Name = "UI_radioButton_Colour";
+            this.UI_radioButton_Colour.Size = new System.Drawing.Size(55, 17);
+            this.UI_radioButton_Colour.TabIndex = 2;
+            this.UI_radioButton_Colour.TabStop = true;
+            this.UI_radioButton_Colour.Text = "Colour";
+            this.UI_radioButton_Colour.UseVisualStyleBackColor = true;
             // 
             // UI_radioButton_Distance
             // 
@@ -84,16 +84,16 @@
             this.UI_radioButton_Distance.Text = "Distance";
             this.UI_radioButton_Distance.UseVisualStyleBackColor = true;
             // 
-            // UI_radioButton_Colour
+            // UI_radioButton_Radius
             // 
-            this.UI_radioButton_Colour.AutoSize = true;
-            this.UI_radioButton_Colour.Location = new System.Drawing.Point(144, 20);
-            this.UI_radioButton_Colour.Name = "UI_radioButton_Colour";
-            this.UI_radioButton_Colour.Size = new System.Drawing.Size(55, 17);
-            this.UI_radioButton_Colour.TabIndex = 2;
-            this.UI_radioButton_Colour.TabStop = true;
-            this.UI_radioButton_Colour.Text = "Colour";
-            this.UI_radioButton_Colour.UseVisualStyleBackColor = true;
+            this.UI_radioButton_Radius.AutoSize = true;
+            this.UI_radioButton_Radius.Location = new System.Drawing.Point(7, 20);
+            this.UI_radioButton_Radius.Name = "UI_radioButton_Radius";
+            this.UI_radioButton_Radius.Size = new System.Drawing.Size(58, 17);
+            this.UI_radioButton_Radius.TabIndex = 0;
+            this.UI_radioButton_Radius.TabStop = true;
+            this.UI_radioButton_Radius.Text = "Radius";
+            this.UI_radioButton_Radius.UseVisualStyleBackColor = true;
             // 
             // progressBar_Discards
             // 
