@@ -47,6 +47,7 @@
             this.UI_button_AddBalls.TabIndex = 0;
             this.UI_button_AddBalls.Text = "Add exclusive balls (-50)";
             this.UI_button_AddBalls.UseVisualStyleBackColor = true;
+            this.UI_button_AddBalls.Click += new System.EventHandler(this.UI_button_AddBalls_Click);
             // 
             // groupBox_SortType
             // 
@@ -100,6 +101,7 @@
             this.progressBar_Discards.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.progressBar_Discards.Location = new System.Drawing.Point(12, 98);
+            this.progressBar_Discards.Maximum = 1000;
             this.progressBar_Discards.Name = "progressBar_Discards";
             this.progressBar_Discards.Size = new System.Drawing.Size(210, 23);
             this.progressBar_Discards.TabIndex = 2;
@@ -115,6 +117,8 @@
             this.MinimumSize = new System.Drawing.Size(250, 170);
             this.Name = "Form1";
             this.Text = "No balls";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Form1_PreviewKeyDown);
             this.groupBox_SortType.ResumeLayout(false);
             this.groupBox_SortType.PerformLayout();
             this.ResumeLayout(false);

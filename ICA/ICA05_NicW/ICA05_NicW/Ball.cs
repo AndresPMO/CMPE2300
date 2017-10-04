@@ -68,7 +68,7 @@ namespace ICA05_NicW
 
         private float GetDistance(Ball other)
         {
-            return (float)Math.Abs(Math.Sqrt(Math.Pow((other._center.X - this._center.X) ,2) + Math.Pow(other._center.Y - this._center.Y, 2))); //|Sqrt((x2-x1)^2 + (y2-y1)^2)|
+            return (float)Math.Abs(Math.Sqrt(Math.Pow((other._center.X - this._center.X), 2) + Math.Pow(other._center.Y - this._center.Y, 2))); //|Sqrt((x2-x1)^2 + (y2-y1)^2)|
         }
 
         public override bool Equals(object obj)
@@ -78,7 +78,7 @@ namespace ICA05_NicW
             Ball input = obj as Ball; //Get the input as type ball
             float distance = this.GetDistance(input); //Find the distance between the two balls
 
-            return distance <= this._radius || distance <= input._radius; //If the distance is less than either balls radius, we have overlap
+            return distance <= this._radius + input._radius; //If the distance is less than either balls radius, we have overlap
         }
 
         public override int GetHashCode()
