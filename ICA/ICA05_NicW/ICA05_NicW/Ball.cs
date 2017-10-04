@@ -96,8 +96,8 @@ namespace ICA05_NicW
 
             //Make our origin point
             Ball origin = new Ball(1);
-            origin._center.X = canvas.ScaledWidth/2;
-            origin._center.Y = canvas.ScaledHeight/2;
+            origin._center.X = 0;
+            origin._center.Y = 0;
 
             //Need something to output since we only want one return
             int outCompare;
