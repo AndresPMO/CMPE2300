@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GDIDrawer;
@@ -41,6 +42,8 @@ namespace ICA05_NicW
             int discardCounter = 0;
             Ball temp;
 
+
+            //try ~1000 times to add 25 balls
             while(addedCounter < 25 && discardCounter < 1000)
             {
                 temp = new Ball(radius);
@@ -58,7 +61,7 @@ namespace ICA05_NicW
                     }
                 }
             }
-
+            //draw the balls
             Ball.Load = true;
             lock (ballList)
             {
@@ -69,16 +72,12 @@ namespace ICA05_NicW
             }
             Ball.Load = false;
 
+            //show the user our effort
             progressBar_Discards.Value = discardCounter;
             Text = $"Added {addedCounter} unique balls, with {discardCounter} discarded balls";
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
-            
-        }
-
-        private void Form1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
             if (e.KeyData == Keys.OemMinus)
             {
@@ -89,6 +88,33 @@ namespace ICA05_NicW
                 }
                 //clear the drawer
                 Ball.Load = true;
+                Ball.Load = false;
+            }
+        }
+
+        private void UI_radioButton_Radius_Click(object sender, EventArgs e)
+        {
+            if (UI_radioButton_Colour.Checked)
+                Ball.sort = Ball.ESortType.eColour;
+            else if (UI_radioButton_Distance.Checked)
+                Ball.sort = Ball.ESortType.eDistance;
+            else if (UI_radioButton_Radius.Checked)
+                Ball.sort = Ball.ESortType.eRadius;
+
+            lock (ballList)
+            {
+                ballList.Sort();
+            }
+
+            Ball.Load = true;
+            lock (ballList)
+            {
+                for(int i = 0; i < ballList.Count; i++)
+                {
+                    ballList[i].ShowBall();
+                    Thread.Sleep(1);
+                    Ball.Load = false;
+                }
             }
         }
     }

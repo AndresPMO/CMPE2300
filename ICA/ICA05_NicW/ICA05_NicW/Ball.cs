@@ -8,10 +8,10 @@ using GDIDrawer;
 
 namespace ICA05_NicW
 {
-    public enum ESortType { eRadius, eDistance, eColour }
-
     class Ball : IComparable
     {
+        public enum ESortType { eRadius, eDistance, eColour }
+
         //Static members
         static private CDrawer canvas;
         static private Random randNum;
@@ -96,8 +96,8 @@ namespace ICA05_NicW
 
             //Make our origin point
             Ball origin = new Ball(1);
-            origin._center.X = 0;
-            origin._center.Y = 0;
+            origin._center.X = canvas.ScaledWidth/2;
+            origin._center.Y = canvas.ScaledHeight/2;
 
             //Need something to output since we only want one return
             int outCompare;
@@ -105,11 +105,11 @@ namespace ICA05_NicW
             switch (Ball.sort){
                 case ESortType.eColour:
                     //Check if our colour is higher than their colour
-                    outCompare = this._colour.ToArgb() - temp._colour.ToArgb();
+                    outCompare = this._colour.ToArgb().CompareTo(temp._colour.ToArgb());
                     break;
                 case ESortType.eDistance:
                     //Check if our distance from (0,0) is higher than theirs
-                    outCompare = (int)(this.GetDistance(origin) - temp.GetDistance(origin));
+                    outCompare = (int)(this.GetDistance(origin).CompareTo(temp.GetDistance(origin)));
                     break;
                 case ESortType.eRadius:
                     //Check if our radius is higher than their radius

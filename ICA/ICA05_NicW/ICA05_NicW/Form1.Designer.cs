@@ -73,6 +73,7 @@
             this.UI_radioButton_Colour.TabStop = true;
             this.UI_radioButton_Colour.Text = "Colour";
             this.UI_radioButton_Colour.UseVisualStyleBackColor = true;
+            this.UI_radioButton_Colour.Click += new System.EventHandler(this.UI_radioButton_Radius_Click);
             // 
             // UI_radioButton_Distance
             // 
@@ -84,6 +85,7 @@
             this.UI_radioButton_Distance.TabStop = true;
             this.UI_radioButton_Distance.Text = "Distance";
             this.UI_radioButton_Distance.UseVisualStyleBackColor = true;
+            this.UI_radioButton_Distance.Click += new System.EventHandler(this.UI_radioButton_Radius_Click);
             // 
             // UI_radioButton_Radius
             // 
@@ -95,6 +97,7 @@
             this.UI_radioButton_Radius.TabStop = true;
             this.UI_radioButton_Radius.Text = "Radius";
             this.UI_radioButton_Radius.UseVisualStyleBackColor = true;
+            this.UI_radioButton_Radius.Click += new System.EventHandler(this.UI_radioButton_Radius_Click);
             // 
             // progressBar_Discards
             // 
@@ -114,11 +117,11 @@
             this.Controls.Add(this.progressBar_Discards);
             this.Controls.Add(this.groupBox_SortType);
             this.Controls.Add(this.UI_button_AddBalls);
+            this.KeyPreview = true;
             this.MinimumSize = new System.Drawing.Size(250, 170);
             this.Name = "Form1";
             this.Text = "No balls";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Form1_PreviewKeyDown);
             this.groupBox_SortType.ResumeLayout(false);
             this.groupBox_SortType.PerformLayout();
             this.ResumeLayout(false);
