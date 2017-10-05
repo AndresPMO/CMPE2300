@@ -8,20 +8,19 @@ using GDIDrawer;
 
 namespace ICA06_NicW
 {
-    class Ball : IComparable
+    class Ball
     {
-        public enum ESortType { eRadius, eDistance, eColour }
-
         //Static members
         static private CDrawer canvas;
         static private Random randNum;
-        static public ESortType sort { get; set; }
 
         //Instance members
         private float _radius;
-        private float Radius {
+        private float Radius
+        {
             //Positive & !0
-            set {
+            set
+            {
                 if (value == 0)
                     _radius = 1;
                 else
@@ -31,7 +30,7 @@ namespace ICA06_NicW
 
         private Color _colour;
         private PointF _center;
-        
+
         //Static constuctor
         static Ball()
         {
@@ -44,9 +43,9 @@ namespace ICA06_NicW
         {
             Radius = inRadius;
             _colour = RandColor.GetColor();
-            _center = new PointF(randNum.Next((int)Math.Floor(_radius), canvas.ScaledWidth - (int)Math.Floor(_radius)), 
+            _center = new PointF(randNum.Next((int)Math.Floor(_radius), canvas.ScaledWidth - (int)Math.Floor(_radius)),
                                  randNum.Next((int)Math.Floor(_radius), canvas.ScaledHeight - (int)Math.Floor(_radius)));
-            
+
         }
 
         //Static methods
@@ -86,40 +85,25 @@ namespace ICA06_NicW
             return 1; //Everything goes through our Equals override
         }
 
-        public int CompareTo(object obj)
+        static public int CompareTo(Ball arg1, Ball arg2)
         {
-            //Have to have a ball or we cry
-            if (!(obj is Ball)) throw new ArgumentException("Not a valid ball, or null.");
+            //Check if our radius is higher than their radius
+            return -1 * arg1._radius.CompareTo(arg2._radius);
+        }
 
-            //We have our ball
-            Ball temp = (Ball)obj;
-
-            //Make our origin point
+        static public int CompareByDistance(Ball arg1, Ball arg2)
+        {
             Ball origin = new Ball(1);
             origin._center.X = 0;
             origin._center.Y = 0;
 
-            //Need something to output since we only want one return
-            int outCompare;
-
-            switch (Ball.sort){
-                case ESortType.eColour:
-                    //Check if our colour is higher than their colour
-                    outCompare = this._colour.ToArgb().CompareTo(temp._colour.ToArgb());
-                    break;
-                case ESortType.eDistance:
-                    //Check if our distance from (0,0) is higher than theirs
-                    outCompare = (int)(this.GetDistance(origin).CompareTo(temp.GetDistance(origin)));
-                    break;
-                case ESortType.eRadius:
-                    //Check if our radius is higher than their radius
-                    outCompare = this._radius.CompareTo(temp._radius);
-                    break;
-                default:
-                    throw new Exception("Unable to find compare type");
-            }
-
-            return outCompare;
+            return -1 * arg1.GetDistance(origin).CompareTo(arg2.GetDistance(origin));
         }
+
+        static public int CompareByColour(Ball arg1, Ball arg2)
+        {
+            return -1 * arg1._colour.ToArgb().CompareTo(arg2._colour.ToArgb());
+        }
+        
     }
 }

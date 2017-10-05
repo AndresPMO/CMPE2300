@@ -95,16 +95,28 @@ namespace ICA06_NicW
         private void UI_radioButton_Radius_Click(object sender, EventArgs e)
         {
             if (ReferenceEquals(sender, UI_radioButton_Colour))
-                Ball.sort = Ball.ESortType.eColour;
-            else if (UI_radioButton_Distance.Checked)
-                Ball.sort = Ball.ESortType.eDistance;
-            else if (UI_radioButton_Radius.Checked)
-                Ball.sort = Ball.ESortType.eRadius;
-
-            lock (ballList)
             {
-                ballList.Sort();
+                lock (ballList)
+                {
+                    ballList.Sort(Ball.CompareByColour);
+                }
             }
+            else if (ReferenceEquals(sender, UI_radioButton_Distance))
+            {
+                lock (ballList)
+                {
+                    ballList.Sort(Ball.CompareByDistance);
+                }
+            }
+            else if (ReferenceEquals(sender, UI_radioButton_Radius))
+            {
+                lock (ballList)
+                {
+                    ballList.Sort(Ball.CompareTo);
+                }
+            }
+
+            
 
             Ball.Load = true;
             lock (ballList)
