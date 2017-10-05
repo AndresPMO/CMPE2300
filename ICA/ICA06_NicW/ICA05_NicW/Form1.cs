@@ -47,28 +47,22 @@ namespace ICA06_NicW
             while(addedCounter < 25 && discardCounter < 1000)
             {
                 temp = new Ball(radius);
-
-                lock (ballList)
+                
+                if (ballList.IndexOf(temp) >= 0)
                 {
-                    if (ballList.IndexOf(temp) >= 0)
-                    {
-                        discardCounter++;
-                    }
-                    else
-                    {
-                        ballList.Add(temp);
-                        addedCounter++;
-                    }
+                    discardCounter++;
+                }
+                else
+                {
+                    ballList.Add(temp);
+                    addedCounter++;
                 }
             }
             //draw the balls
             Ball.Load = true;
-            lock (ballList)
+            for (int i = 0; i < ballList.Count; i++)
             {
-                for (int i = 0; i < ballList.Count; i++)
-                {
-                    ballList[i].ShowBall();
-                }
+                ballList[i].ShowBall();
             }
             Ball.Load = false;
 
@@ -81,13 +75,20 @@ namespace ICA06_NicW
         {
             if (e.KeyData == Keys.OemMinus)
             {
-                lock (ballList)
-                {
-                    //clear the list
-                    ballList.Clear();
-                }
+                //clear the list
+                ballList.Clear();
                 //clear the drawer
                 Ball.Load = true;
+                Ball.Load = false;
+            }
+            if(e.KeyData == Keys.Delete)
+            {
+                ballList.RemoveAll(Ball.tooBig);
+                Ball.Load = true;
+                for (int i = 0; i < ballList.Count; i++)
+                {
+                    ballList[i].ShowBall();
+                }
                 Ball.Load = false;
             }
         }
@@ -96,37 +97,23 @@ namespace ICA06_NicW
         {
             if (ReferenceEquals(sender, UI_radioButton_Colour))
             {
-                lock (ballList)
-                {
-                    ballList.Sort(Ball.CompareByColour);
-                }
+                ballList.Sort(Ball.CompareByColour);
             }
             else if (ReferenceEquals(sender, UI_radioButton_Distance))
             {
-                lock (ballList)
-                {
-                    ballList.Sort(Ball.CompareByDistance);
-                }
+                ballList.Sort(Ball.CompareByDistance);
             }
             else if (ReferenceEquals(sender, UI_radioButton_Radius))
             {
-                lock (ballList)
-                {
-                    ballList.Sort(Ball.CompareTo);
-                }
+                ballList.Sort(Ball.CompareTo);
             }
-
             
-
             Ball.Load = true;
-            lock (ballList)
+            for(int i = 0; i < ballList.Count; i++)
             {
-                for(int i = 0; i < ballList.Count; i++)
-                {
-                    ballList[i].ShowBall();
-                    Thread.Sleep(1);
-                    Ball.Load = false;
-                }
+                ballList[i].ShowBall();
+                Thread.Sleep(1);
+                Ball.Load = false;
             }
         }
     }

@@ -102,8 +102,12 @@ namespace ICA06_NicW
 
         static public int CompareByColour(Ball arg1, Ball arg2)
         {
-            return -1 * arg1._colour.ToArgb().CompareTo(arg2._colour.ToArgb());
+            return arg2._colour.ToArgb().CompareTo(arg1._colour.ToArgb());
         }
         
+        static public bool tooBig(Ball arg1)
+        {
+            return arg1._radius > 20;
+        }
     }
 }
