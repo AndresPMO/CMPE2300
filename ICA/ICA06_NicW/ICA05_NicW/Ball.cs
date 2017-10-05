@@ -8,7 +8,7 @@ using GDIDrawer;
 
 namespace ICA06_NicW
 {
-    class Ball
+    class Ball : IComparable
     {
         //Static members
         static private CDrawer canvas;
@@ -85,10 +85,13 @@ namespace ICA06_NicW
             return 1; //Everything goes through our Equals override
         }
 
-        static public int CompareTo(Ball arg1, Ball arg2)
+        public int CompareTo(object obj)
         {
+            if (!(obj is Ball)) throw new ArgumentException("Not a valid ball, or null");
+
+            Ball temp = (Ball)obj;
             //Check if our radius is higher than their radius
-            return -1 * arg1._radius.CompareTo(arg2._radius);
+            return -1 * this._radius.CompareTo(temp._radius);
         }
 
         static public int CompareByDistance(Ball arg1, Ball arg2)

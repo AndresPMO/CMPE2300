@@ -77,20 +77,18 @@ namespace ICA06_NicW
             {
                 //clear the list
                 ballList.Clear();
-                //clear the drawer
-                Ball.Load = true;
-                Ball.Load = false;
             }
             if(e.KeyData == Keys.Delete)
             {
                 ballList.RemoveAll(Ball.tooBig);
-                Ball.Load = true;
-                for (int i = 0; i < ballList.Count; i++)
-                {
-                    ballList[i].ShowBall();
-                }
-                Ball.Load = false;
             }
+
+            Ball.Load = true;
+            for (int i = 0; i < ballList.Count; i++)
+            {
+                ballList[i].ShowBall();
+            }
+            Ball.Load = false;
         }
 
         private void UI_radioButton_Radius_Click(object sender, EventArgs e)
@@ -105,7 +103,7 @@ namespace ICA06_NicW
             }
             else if (ReferenceEquals(sender, UI_radioButton_Radius))
             {
-                ballList.Sort(Ball.CompareTo);
+                ballList.Sort();
             }
             
             Ball.Load = true;
