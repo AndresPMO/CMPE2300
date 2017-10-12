@@ -97,39 +97,47 @@
             this.UI_button_WidthColour.TabIndex = 4;
             this.UI_button_WidthColour.Text = "Width, Colour";
             this.UI_button_WidthColour.UseVisualStyleBackColor = true;
+            this.UI_button_WidthColour.Click += new System.EventHandler(this.UI_button_WidthColour_Click);
             // 
             // UI_button_Bright
             // 
             this.UI_button_Bright.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_button_Bright.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UI_button_Bright.Location = new System.Drawing.Point(13, 163);
             this.UI_button_Bright.Name = "UI_button_Bright";
             this.UI_button_Bright.Size = new System.Drawing.Size(259, 23);
             this.UI_button_Bright.TabIndex = 5;
             this.UI_button_Bright.Text = "Bright";
             this.UI_button_Bright.UseVisualStyleBackColor = true;
+            this.UI_button_Bright.Click += new System.EventHandler(this.UI_button_Bright_Click);
             // 
             // UI_button_Length
             // 
             this.UI_button_Length.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_button_Length.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UI_button_Length.Location = new System.Drawing.Point(13, 193);
             this.UI_button_Length.Name = "UI_button_Length";
             this.UI_button_Length.Size = new System.Drawing.Size(259, 23);
             this.UI_button_Length.TabIndex = 6;
             this.UI_button_Length.Text = "Longer than 100";
             this.UI_button_Length.UseVisualStyleBackColor = true;
+            this.UI_button_Length.Click += new System.EventHandler(this.UI_button_Length_Click);
             // 
             // UI_trackBar_Length
             // 
             this.UI_trackBar_Length.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_trackBar_Length.LargeChange = 10;
             this.UI_trackBar_Length.Location = new System.Drawing.Point(13, 223);
             this.UI_trackBar_Length.Maximum = 190;
             this.UI_trackBar_Length.Minimum = 10;
             this.UI_trackBar_Length.Name = "UI_trackBar_Length";
             this.UI_trackBar_Length.Size = new System.Drawing.Size(259, 45);
+            this.UI_trackBar_Length.SmallChange = 10;
             this.UI_trackBar_Length.TabIndex = 7;
+            this.UI_trackBar_Length.TickFrequency = 10;
             this.UI_trackBar_Length.Value = 100;
             this.UI_trackBar_Length.Scroll += new System.EventHandler(this.UI_trackBar_Length_Scroll);
             // 

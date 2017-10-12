@@ -17,7 +17,7 @@ namespace ICA7_NicW
 
         //Instance variables
         public int width { get;  private set; }
-        public bool Highlight { get; private set; }
+        public bool Highlight { get; set; }
         private Color colour;
 
         //Static constructor
@@ -56,19 +56,18 @@ namespace ICA7_NicW
             Block temp = (Block)obj;
             return this.colour.ToArgb().CompareTo(temp.colour.ToArgb());
         }
-
         public static int CompareWidth(Block arg1, Block arg2)
         {
             //Compare by the Blocks width
             return arg1.width.CompareTo(arg2.width);
         }
-
-        public static int CompareWidthDesc(Block arg1, Block arg2)
+        public static int CompareWidthColour(Block arg1, Block arg2)
         {
-            //Compare by the Blocks width, descending order
-            return arg1.width.CompareTo(arg2.width) * -1;
+            if (arg1.width == arg2.width)
+                return arg1.colour.ToArgb().CompareTo(arg2.colour.ToArgb());
+            return arg1.width.CompareTo(arg2.width);
         }
-
+        
         //Methods
         public void ShowBlock(Point inPoint)
         {
@@ -76,6 +75,11 @@ namespace ICA7_NicW
                 canvas.AddRectangle(inPoint.X, inPoint.Y, this.width, height, this.colour, 2, Color.Yellow);
             else
                 canvas.AddRectangle(inPoint.X, inPoint.Y, this.width, height, this.colour, 1, Color.Black);
+        }
+
+        public static bool Brightness(Block arg)
+        {
+            return arg.colour.GetBrightness() > 0.6;
         }
     }
 }
