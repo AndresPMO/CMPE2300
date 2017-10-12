@@ -31,7 +31,7 @@ namespace ICA7_NicW
         }
 
         //Instance constructor
-        Block()
+        public Block()
         {
             width = 10 * randNum.Next(1, 20); //Random number from 10 - 190, by 10s.
             Highlight = false;

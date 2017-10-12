@@ -49,6 +49,7 @@
             this.UI_button_Populate.TabIndex = 0;
             this.UI_button_Populate.Text = "Populate";
             this.UI_button_Populate.UseVisualStyleBackColor = true;
+            this.UI_button_Populate.Click += new System.EventHandler(this.UI_button_Populate_Click);
             // 
             // UI_button_Colour
             // 
@@ -126,7 +127,8 @@
             this.UI_trackBar_Length.Name = "UI_trackBar_Length";
             this.UI_trackBar_Length.Size = new System.Drawing.Size(259, 45);
             this.UI_trackBar_Length.TabIndex = 7;
-            this.UI_trackBar_Length.Value = 10;
+            this.UI_trackBar_Length.Value = 100;
+            this.UI_trackBar_Length.Scroll += new System.EventHandler(this.UI_trackBar_Length_Scroll);
             // 
             // Form1
             // 
