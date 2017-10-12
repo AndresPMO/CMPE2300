@@ -97,7 +97,7 @@ namespace ICA7_NicW
 
         private void UI_button_WidthDesc_Click(object sender, EventArgs e)
         {
-            blockList.Sort((arg1, arg2) => arg1.width.CompareTo(arg2.width) * -1);
+            blockList.Sort((arg1, arg2) => arg2.width.CompareTo(arg1.width));
             ShowBlocks();
         }
 
