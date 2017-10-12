@@ -13,6 +13,7 @@ namespace ICA7_NicW
 {
     public partial class Form1 : Form
     {
+        List<Block> blockList = new List<Block>();
         public Form1()
         {
             InitializeComponent();

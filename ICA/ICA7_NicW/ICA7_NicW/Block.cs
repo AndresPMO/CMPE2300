@@ -51,7 +51,7 @@ namespace ICA7_NicW
         public void ShowBlock(Point inPoint)
         {
             if(Highlight)
-                canvas.AddRectangle(inPoint.X, inPoint.Y, this.width, height, this.colour, 1, Color.Yellow);
+                canvas.AddRectangle(inPoint.X, inPoint.Y, this.width, height, this.colour, 2, Color.Yellow);
             else
                 canvas.AddRectangle(inPoint.X, inPoint.Y, this.width, height, this.colour, 1, Color.Black);
         }
