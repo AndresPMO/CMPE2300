@@ -122,6 +122,7 @@ namespace ICA7_NicW
             trackBarMinMax();
         }
 
+        //track bar shizzle
         private void trackBarMinMax()
         {
             UI_trackBar_Length.Minimum = blockList.Min(arg => arg.width);

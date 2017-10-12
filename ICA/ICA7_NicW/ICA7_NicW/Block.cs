@@ -47,6 +47,11 @@ namespace ICA7_NicW
             return this.width == temp.width && this.colour == temp.colour;
         }
 
+        public override int GetHashCode()
+        {
+            return 1;
+        }
+
         //Comparisons
         public int CompareTo(object obj)
         {
