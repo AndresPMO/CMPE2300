@@ -8,7 +8,7 @@ using GDIDrawer;
 
 namespace ICA7_NicW
 {
-    class Block
+    class Block : IComparable
     {
         //Static variables
         public static CDrawer canvas { get; private set; }
@@ -45,6 +45,28 @@ namespace ICA7_NicW
             Block temp = (Block)obj;
             //If width and colour are equal, same block
             return this.width == temp.width && this.colour == temp.colour;
+        }
+
+        //Comparisons
+        public int CompareTo(object obj)
+        {
+            //Standard comparison is by colour only
+            if (!(obj is Block)) throw new ArgumentException("Input is not correct type: Block");
+
+            Block temp = (Block)obj;
+            return this.colour.ToArgb().CompareTo(temp.colour.ToArgb());
+        }
+
+        public static int CompareWidth(Block arg1, Block arg2)
+        {
+            //Compare by the Blocks width
+            return arg1.width.CompareTo(arg2.width);
+        }
+
+        public static int CompareWidthDesc(Block arg1, Block arg2)
+        {
+            //Compare by the Blocks width, descending order
+            return arg1.width.CompareTo(arg2.width) * -1;
         }
 
         //Methods

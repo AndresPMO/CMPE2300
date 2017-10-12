@@ -67,5 +67,23 @@ namespace ICA7_NicW
 
             Block.canvas.Render();
         }
+
+        private void UI_button_Colour_Click(object sender, EventArgs e)
+        {
+            blockList.Sort();
+            ShowBlocks();
+        }
+
+        private void UI_button_Width_Click(object sender, EventArgs e)
+        {
+            blockList.Sort(Block.CompareWidth);
+            ShowBlocks();
+        }
+
+        private void UI_button_WidthDesc_Click(object sender, EventArgs e)
+        {
+            blockList.Sort(Block.CompareWidthDesc);
+            ShowBlocks();
+        }
     }
 }

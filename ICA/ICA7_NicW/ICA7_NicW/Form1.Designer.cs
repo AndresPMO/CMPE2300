@@ -61,6 +61,7 @@
             this.UI_button_Colour.TabIndex = 1;
             this.UI_button_Colour.Text = "Colour";
             this.UI_button_Colour.UseVisualStyleBackColor = true;
+            this.UI_button_Colour.Click += new System.EventHandler(this.UI_button_Colour_Click);
             // 
             // UI_button_Width
             // 
@@ -72,6 +73,7 @@
             this.UI_button_Width.TabIndex = 2;
             this.UI_button_Width.Text = "Width";
             this.UI_button_Width.UseVisualStyleBackColor = true;
+            this.UI_button_Width.Click += new System.EventHandler(this.UI_button_Width_Click);
             // 
             // UI_button_WidthDesc
             // 
@@ -83,6 +85,7 @@
             this.UI_button_WidthDesc.TabIndex = 3;
             this.UI_button_WidthDesc.Text = "Width, Desc";
             this.UI_button_WidthDesc.UseVisualStyleBackColor = true;
+            this.UI_button_WidthDesc.Click += new System.EventHandler(this.UI_button_WidthDesc_Click);
             // 
             // UI_button_WidthColour
             // 
