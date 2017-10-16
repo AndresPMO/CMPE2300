@@ -94,6 +94,9 @@ namespace Lab02_NicW
             //Add all of the input dependancies to the invoking object.
             //Only add dependancies that are not already part of the invoking object's dependancies.
             this.dependancy = this.dependancy.Union(input.dependancy).ToList();
+
+            //Lambda style of above
+            //this.dependancy.AddRange(input.dependancy.FindAll(inp => this.dependancy.IndexOf(inp) < 0));
         }
     }
 }

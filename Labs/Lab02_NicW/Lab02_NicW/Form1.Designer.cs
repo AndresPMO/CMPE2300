@@ -39,6 +39,7 @@
             this.UI_toolStripComboBox_Algorithm = new System.Windows.Forms.ToolStripComboBox();
             this.UI_toolStripComboBox_View = new System.Windows.Forms.ToolStripComboBox();
             this.UI_listView_Packages = new System.Windows.Forms.ListView();
+            this.UI_openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -132,6 +133,10 @@
             this.UI_listView_Packages.TabIndex = 2;
             this.UI_listView_Packages.UseCompatibleStateImageBehavior = false;
             // 
+            // UI_openFileDialog
+            // 
+            this.UI_openFileDialog.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -163,6 +168,7 @@
         private System.Windows.Forms.ToolStripComboBox UI_toolStripComboBox_Algorithm;
         private System.Windows.Forms.ToolStripComboBox UI_toolStripComboBox_View;
         private System.Windows.Forms.ListView UI_listView_Packages;
+        private System.Windows.Forms.OpenFileDialog UI_openFileDialog;
     }
 }
 
