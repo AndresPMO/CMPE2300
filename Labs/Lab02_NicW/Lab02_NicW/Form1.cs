@@ -17,6 +17,8 @@ namespace Lab02_NicW
         List<Package> plInstalled = new List<Package>();
         List<Package> plUnInstalled = new List<Package>();
 
+        //System.IO.ReadAllLines(Path) returns an array of string
+
         public Form1()
         {
             InitializeComponent();
