@@ -48,11 +48,40 @@ namespace ICA8_NicW
                 }
             }
 
+            //Move all the balls
             greenList.ForEach(o => o.MoveBall(bgCanvas));
             blueList.ForEach(o => o.MoveBall(bgCanvas));
             redList.ForEach(o => o.MoveBall(bgCanvas));
 
+            //Check collisions
             List<BouncingBalls> templist = greenList.Intersect(blueList).ToList();
+            //Set collisions to red, remove from green and blue list
+            templist.ForEach(o => { o.colour = Color.Red; greenList.Remove(o); blueList.Remove(o); });
+            //Add the temp list to the red list (Collisions)
+            redList = redList.Union(templist).ToList();
+
+            //Clear the canvases
+            bgCanvas.Clear();
+            rCanvas.Clear();
+            //Add the counts to them
+            bgCanvas.AddText($"Blue : {blueList.Count} Green : {greenList.Count}", 50, Color.DodgerBlue);
+            rCanvas.AddText($"{redList.Count}", 50, Color.DodgerBlue);
+
+            for(int i = 0; i < blueList.Count; i++)
+            {
+                blueList[i].ShowBall(bgCanvas, i);
+            }
+            for (int i = 0; i < greenList.Count; i++)
+            {
+                greenList[i].ShowBall(bgCanvas, i);
+            }
+            for (int i = 0; i < redList.Count; i++)
+            {
+                redList[i].ShowBall(rCanvas, i);
+            }
+
+            bgCanvas.Render();
+            rCanvas.Render();
         }
     }
 }
