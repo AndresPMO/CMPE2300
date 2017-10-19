@@ -63,12 +63,12 @@ namespace ICA8_NicW
         public void MoveBall(CDrawer canvas)
         {
             //If we would leave the horizontal screen
-            if(xVelocity + radius + center.X < 0 || xVelocity + radius + center.X > canvas.ScaledWidth)
+            if(xVelocity - radius + center.X < 0 || xVelocity + radius + center.X > canvas.ScaledWidth)
             {
                 xVelocity *= -1;
             }
             //If we would leave the vertical screen
-            if (yVelocity + radius + center.Y < 0 || yVelocity + radius + center.Y > canvas.ScaledHeight)
+            if (yVelocity - radius + center.Y < 0 || yVelocity + radius + center.Y > canvas.ScaledHeight)
             {
                 yVelocity *= -1;
             }

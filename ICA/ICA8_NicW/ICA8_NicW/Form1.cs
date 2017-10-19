@@ -23,8 +23,8 @@ namespace ICA8_NicW
         public Form1()
         {
             InitializeComponent();
-            bgCanvas = new CDrawer(800, 600, false);
-            rCanvas = new CDrawer(800, 600, false);
+            bgCanvas = new CDrawer(600, 300, false);
+            rCanvas = new CDrawer(600, 300, false);
         }
 
         private void timer_Tick(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace ICA8_NicW
             //Right click, add a blue ball
             if(bgCanvas.GetLastMouseRightClickScaled(out Point rclick))
             {
-                BouncingBalls temp = new BouncingBalls(rclick, Color.Green);
+                BouncingBalls temp = new BouncingBalls(rclick, Color.Blue);
                 if(blueList.IndexOf(temp) < 0)
                 {
                     blueList.Insert(0, temp);
@@ -55,16 +55,16 @@ namespace ICA8_NicW
 
             //Check collisions
             List<BouncingBalls> templist = greenList.Intersect(blueList).ToList();
-            //Set collisions to red, remove from green and blue list
-            templist.ForEach(o => { o.colour = Color.Red; greenList.Remove(o); blueList.Remove(o); });
+            //Set collisions to red, remove all from green and blue list
+            templist.ForEach(o => { o.colour = Color.Red; while(greenList.Remove(o)); while(blueList.Remove(o)); });
             //Add the temp list to the red list (Collisions)
-            redList = redList.Union(templist).ToList();
+            redList = new List<BouncingBalls>(redList.Union(templist));
 
             //Clear the canvases
             bgCanvas.Clear();
             rCanvas.Clear();
             //Add the counts to them
-            bgCanvas.AddText($"Blue : {blueList.Count} Green : {greenList.Count}", 50, Color.DodgerBlue);
+            bgCanvas.AddText($"Blue : {blueList.Count} Green : {greenList.Count}", 40, Color.DodgerBlue);
             rCanvas.AddText($"{redList.Count}", 50, Color.DodgerBlue);
 
             for(int i = 0; i < blueList.Count; i++)
