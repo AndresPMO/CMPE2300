@@ -74,6 +74,11 @@ namespace Lab02_NicW
 
         }
 
+        private void UI_toolStripComboBox_View_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ShowSelectedLoad();
+        }
+
         private void ShowSelectedLoad()
         {
             //Want to remove everything from the list view
@@ -103,20 +108,14 @@ namespace Lab02_NicW
             ListViewItem temp;
             foreach(Package p in reference)
             {
-                //Give temp a unique name
+                //Give temp the name of package
                 temp = new ListViewItem(p.Name);
-
-                //Add the name as an item
-                temp.SubItems.Add(p.Name);
-
+                
                 //Add the dependancies as an item
                 temp.SubItems.Add(p.ToString());
 
                 //Add it to the listview
                 UI_listView_Packages.Items.Add(temp);
-
-                //Remove the added items from temp for next pass
-                temp.SubItems.Clear();
             }
             
             //Show on the status strip how many things are in each list
@@ -124,5 +123,7 @@ namespace Lab02_NicW
             UI_toolStripStatus_Installable.Text = $"{plInstalled.Count} Packages Installable";
             UI_toolStripStatus_UnInstallble.Text = $"{plUnInstalled.Count} Packages UnInstallable";
         }
+
+        
     }
 }

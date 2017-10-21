@@ -134,12 +134,14 @@
             "Unloadable Packages"});
             this.UI_toolStripComboBox_View.Name = "UI_toolStripComboBox_View";
             this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 25);
+            this.UI_toolStripComboBox_View.SelectedIndexChanged += new System.EventHandler(this.UI_toolStripComboBox_View_SelectedIndexChanged);
             // 
             // UI_listView_Packages
             // 
             this.UI_listView_Packages.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_listView_Packages.GridLines = true;
             listViewGroup1.Header = "Name";
             listViewGroup1.Name = "listViewGroup_Name";
             listViewGroup2.Header = "Dependancies";
