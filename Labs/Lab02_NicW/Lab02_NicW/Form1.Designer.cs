@@ -97,6 +97,7 @@
             this.UI_toolStripButton_Load.Name = "UI_toolStripButton_Load";
             this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 22);
             this.UI_toolStripButton_Load.Text = "Load File";
+            this.UI_toolStripButton_Load.Click += new System.EventHandler(this.UI_toolStripButton_Load_Click);
             // 
             // UI_toolStripButton_Analyze
             // 
@@ -106,6 +107,7 @@
             this.UI_toolStripButton_Analyze.Name = "UI_toolStripButton_Analyze";
             this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 22);
             this.UI_toolStripButton_Analyze.Text = "Analyze";
+            this.UI_toolStripButton_Analyze.Click += new System.EventHandler(this.UI_toolStripButton_Analyze_Click);
             // 
             // UI_toolStripComboBox_Algorithm
             // 
@@ -135,7 +137,7 @@
             // 
             // UI_openFileDialog
             // 
-            this.UI_openFileDialog.FileName = "openFileDialog1";
+            this.UI_openFileDialog.Filter = "Text Files|*.txt|All Files|*.*";
             // 
             // Form1
             // 
