@@ -75,6 +75,36 @@ namespace Lab02_NicW
 
         private void UI_toolStripButton_Analyze_Click(object sender, EventArgs e)
         {
+            //Make sure there is something to analyze
+            if(plLoaded.Count > 0)
+            {
+                plUnInstalled = new List<Package>(plLoaded);
+                plInstalled = new List<Package>();
+            }
+
+            //Stopwatch to see how long each sort takes
+            System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
+            //Figure out the algorithm to use
+            SortType sort = (SortType)UI_toolStripComboBox_Algorithm.SelectedIndex;
+            stopwatch.Restart();
+            switch (sort)
+            {
+                case SortType.eRawList:
+                    RawInstall();
+                    break;
+                case SortType.eLibraryList:
+                    LibraryInstall();
+                    break;
+                case SortType.eSortedList:
+                    SortedInstall();
+                    break;
+            }
+            stopwatch.Stop();
+
+            Text = stopwatch.Elapsed.TotalSeconds.ToString("F4");
+
+            //Show the installed selection
+            UI_toolStripComboBox_View.SelectedIndex = 1;
             //Display the analysed data
             ShowSelectedLoad();
         }
@@ -118,7 +148,6 @@ namespace Lab02_NicW
             {
                 //Give temp the package as two strings in an array
                 ListViewItem temp = new ListViewItem(new[] { p.Name, p.ToString() });
-
                 //Add it to the listview
                 UI_listView_Packages.Items.Add(temp);
             }
@@ -129,6 +158,43 @@ namespace Lab02_NicW
             UI_toolStripStatus_UnInstallble.Text = $"{plUnInstalled.Count} Packages UnInstallable";
         }
 
-        
+        private void RawInstall()
+        {
+            //bool to see if something was installed
+            bool install;
+            //Keep installing until you don't install anything else
+            do
+            {
+                //Don't know if anything has been installed yet
+                install = false;
+
+                foreach (Package p in plUnInstalled)
+                {
+                    //Can be installed if it has zero dependancies
+                    //OR if all its dependancies have already been installed
+                    if (p.Dependacies.Count == 0 || p.Dependacies.All(o => plInstalled.Contains(new Package(new[] { o }))))
+                    {
+                        //Say it can be installed
+                        plInstalled.Add(p);
+                        //Keep looping since we installed something
+                        install = true;
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(p);
+                        break;
+                    }
+                }
+            } while (install);
+        }
+
+        private void LibraryInstall()
+        {
+
+        }
+
+        private void SortedInstall()
+        {
+
+        }
+
     }
 }
