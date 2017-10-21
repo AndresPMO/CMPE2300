@@ -94,7 +94,7 @@
             this.UI_toolStripComboBox_View});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(368, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(368, 27);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -103,7 +103,7 @@
             this.UI_toolStripButton_Load.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.UI_toolStripButton_Load.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Load.Name = "UI_toolStripButton_Load";
-            this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 22);
+            this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 24);
             this.UI_toolStripButton_Load.Text = "Load File";
             this.UI_toolStripButton_Load.Click += new System.EventHandler(this.UI_toolStripButton_Load_Click);
             // 
@@ -113,7 +113,7 @@
             this.UI_toolStripButton_Analyze.Image = ((System.Drawing.Image)(resources.GetObject("UI_toolStripButton_Analyze.Image")));
             this.UI_toolStripButton_Analyze.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Analyze.Name = "UI_toolStripButton_Analyze";
-            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 22);
+            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 24);
             this.UI_toolStripButton_Analyze.Text = "Analyze";
             this.UI_toolStripButton_Analyze.Click += new System.EventHandler(this.UI_toolStripButton_Analyze_Click);
             // 
@@ -124,7 +124,7 @@
             "Library Helpers",
             "Binary Search "});
             this.UI_toolStripComboBox_Algorithm.Name = "UI_toolStripComboBox_Algorithm";
-            this.UI_toolStripComboBox_Algorithm.Size = new System.Drawing.Size(121, 25);
+            this.UI_toolStripComboBox_Algorithm.Size = new System.Drawing.Size(121, 27);
             // 
             // UI_toolStripComboBox_View
             // 
@@ -133,7 +133,7 @@
             "Loadable Packages",
             "Unloadable Packages"});
             this.UI_toolStripComboBox_View.Name = "UI_toolStripComboBox_View";
-            this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 25);
+            this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 23);
             this.UI_toolStripComboBox_View.SelectedIndexChanged += new System.EventHandler(this.UI_toolStripComboBox_View_SelectedIndexChanged);
             // 
             // UI_listView_Packages
@@ -154,6 +154,7 @@
             this.UI_listView_Packages.Size = new System.Drawing.Size(464, 488);
             this.UI_listView_Packages.TabIndex = 2;
             this.UI_listView_Packages.UseCompatibleStateImageBehavior = false;
+            this.UI_listView_Packages.View = System.Windows.Forms.View.Details;
             // 
             // UI_openFileDialog
             // 
@@ -169,7 +170,8 @@
             this.Controls.Add(this.statusStrip1);
             this.MinimumSize = new System.Drawing.Size(480, 580);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Installable Files";
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);

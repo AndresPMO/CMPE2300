@@ -24,10 +24,14 @@ namespace Lab02_NicW
         public Form1()
         {
             InitializeComponent();
+            //Always have a selected index for the combo boxes
+            UI_toolStripComboBox_Algorithm.SelectedIndex = 0;
+            UI_toolStripComboBox_View.SelectedIndex = 0;
         }
 
         private void UI_toolStripButton_Load_Click(object sender, EventArgs e)
         {
+            //Make sure the user opened a file
             if(UI_openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //Make something to read the data from file
@@ -71,12 +75,18 @@ namespace Lab02_NicW
 
         private void UI_toolStripButton_Analyze_Click(object sender, EventArgs e)
         {
-
+            //Display the analysed data
+            ShowSelectedLoad();
         }
 
         private void UI_toolStripComboBox_View_SelectedIndexChanged(object sender, EventArgs e)
         {
             ShowSelectedLoad();
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            UI_listView_Packages.Columns[1].AutoResize(ColumnHeaderAutoResizeStyle.HeaderSize);
         }
 
         private void ShowSelectedLoad()
@@ -103,16 +113,11 @@ namespace Lab02_NicW
                     reference = null;
                     break;
             }
-
-            //Make a temporary item to add to the listview
-            ListViewItem temp;
+            
             foreach(Package p in reference)
             {
-                //Give temp the name of package
-                temp = new ListViewItem(p.Name);
-                
-                //Add the dependancies as an item
-                temp.SubItems.Add(p.ToString());
+                //Give temp the package as two strings in an array
+                ListViewItem temp = new ListViewItem(new[] { p.Name, p.ToString() });
 
                 //Add it to the listview
                 UI_listView_Packages.Items.Add(temp);
