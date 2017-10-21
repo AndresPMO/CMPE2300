@@ -22,11 +22,12 @@ namespace Lab02_NicW
         {
             //First element of string[] input is the Package Name
             Name = packages[0];
+            dependancy = new List<string>();
             //All others are the dependancies of that Package
             for(int i = 1; i < packages.Length; i++)
             {
                 //No duplicates
-                if(dependancy.IndexOf(packages[i]) < 0)
+                if(!dependancy.Contains(packages[i]))
                     dependancy.Add(packages[i]);
             }
         }
@@ -46,7 +47,7 @@ namespace Lab02_NicW
         {
             //Output all the elements of the dependancy list seperated by a comma
             string output = "";
-            dependancy.ForEach(element => output += (element + ", "));
+            this.dependancy.ForEach(element => output += (element + ", "));
             return output;
         }
 
@@ -96,7 +97,7 @@ namespace Lab02_NicW
             this.dependancy = this.dependancy.Union(input.dependancy).ToList();
 
             //Lambda style of above
-            //this.dependancy.AddRange(input.dependancy.FindAll(inp => this.dependancy.IndexOf(inp) < 0));
+            //this.dependancy.AddRange(input.dependancy.FindAll(inp => !this.dependancy.Contains(inp)));
         }
     }
 }

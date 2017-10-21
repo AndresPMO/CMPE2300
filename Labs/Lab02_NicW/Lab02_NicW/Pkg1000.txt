@@ -1,0 +1,1000 @@
+telnet libc6 libncurses5 
+tunnelv libc6 libssl0.9.6 libstdc++2.10-glibc2.2 
+ccf libc6 
+cthugha glutg3 libc6 libgl1 libncurses5 libstdc++2.10-glibc2.2 libxaw6 svgalibg1 svgalib-dummyg1 xlibs 
+libwnn6 libc6 
+libnetwork-ipv4addr-perl perl5 
+gnushogi libc6 
+lg-issue34 lg-base 
+lg-issue29 lg-base 
+vim libc6 libgpmg1 libncurses5 
+libgii0-dev libgii0 libc6 libgii0 xlibs xlib6g 
+maint-guide 
+gnome-apt apt gdk-imlib1 libapt-pkg-libc6.2-3-2-3.2 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libstdc++2.10-glibc2.2 libzvt2 xlibs 
+xphoon libc6 xlibs 
+dns-browse wish dnsutils perl 
+xserver-i128 debconf xserver-common-v3 libc6 zlib1g 
+python-elisp python python python2.1-elisp 
+apcupsd libc6 libncurses5 bsdutils 
+hx libc6 libncurses5 
+bootp libc6 
+xfonts-pex 
+wdm debconf libc6 libjpeg62 libpam0g libpng2 libproplist0 libtiff3g libungif4g libwraster2 xlibs zlib1g psmisc xutils 
+ibcs-source-2.0 
+libhdf4g-dev libhdf4g libc6-dev zlib1g-dev libjpeg62-dev 
+estic libc6 libgcc1 libncurses5 libstdc++3 
+libprpc-perl perl libstorable-perl 
+xpaint libc6 libjpeg62 libpng2 libtiff3g libxaw7 xlibs zlib1g 
+titrax libc6 libxaw7 xlibs 
+jmon libc6 libncurses5 
+wdiff libc6 libncurses5 
+mysql-common 
+liblualib40 libc6 
+devfsd libc6 
+caudium caudium-modules pike7 pike7 pike7-image pike7-image pike7-gz pike7-gz pike7-crypto pike7-lobotomized-crypto pike7-crypto pike7-lobotomized-crypto logrotate 
+epic4-script-light epic4 
+python2.2 libc6 libdb3 libncurses5 libreadline4 libssl0.9.6 zlib1g 
+libfcgi-perl libc6 perl perlapi-5.6.1 
+qtcups libc6 libcupsys2 libqt2 libqtcups2 libstdc++2.10-glibc2.2 zlib1g 
+debpartial ruby libzlib-ruby 
+dillo libc6 libglib1.2 libgtk1.2 libjpeg62 libpng2 xlibs zlib1g 
+dossizola libc6 libsdl-image1.2 libsdl1.2debian xlibs dossizola-data 
+epos-ptd 
+expectk expect libc6 tcl8.3 tk8.3 xlibs expect 
+mailutils libc6 libgdbmg1 libguile9 libltdl3 libmailutils0 libncurses5 libreadline4 
+fwbuilder gdk-imlib1 libc6 libfwbuilder0 libfwbuilder0 libglib1.2 libgtk1.2 libgtkmm1.2 libpopt0 libsigc++0 libsnmp4.2 libstdc++2.10-glibc2.2 libxml2 libxslt1 xlibs fwbuilder-iptables fwbuilder-backend 
+gcompris gcompris-data vorbis-tools gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libjpeg62 libpng2 libtiff3g libungif4g libxml2 xlibs zlib1g 
+gcrontab libc6 libglib1.2 libgtk1.2 xlibs cron 
+geas e2fsprogs libc6 libglib1.2 libmysqlclient10 liborbit0 libpgsql2 libuuid1 libwrap0 python2.1 zlib1g 
+gkrellmss gkrellm esound libaudiofile0 libc6 libesd0 libesd-alsa0 libglib1.2 libgtk1.2 xlibs 
+glade-doc glade-common 
+gtk-engines-icegradient libc6 libglib1.2 libgtk1.2 xlibs 
+gtkgo gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libzvt2 xlibs 
+jbibtex-base tetex-base tetex-bin 
+juice libc6 libncurses5 libstdc++2.10-glibc2.2 
+kernel-headers-2.4.18-sparc 
+kernel-image-2.2.20 fileutils 
+libemail-valid-perl perl libmailtools-perl 
+libggi-target-glide libc6 libggi2 libgii0 libglide2 
+libglade-bonobo0 libglade-gnome0 bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 liboaf0 liborbit0 libxml1 oaf xlibs zlib1g 
+libmcal libmcal0 
+liboptparse-ruby libruby 
+libroxen-outline roxen roxen2 caudium 
+libstrscan-ruby libc6 libruby libruby 
+mcl libc6 
+merlin-clock gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liborbit0 libpanel-applet0 xlibs 
+nms-ffa perl 
+nqxml libruby 
+pppstatus libc6 libncurses5 
+python-numeric-ext python python python-numeric python2.1-numeric-ext 
+python1.5-psycopg libc6 libpgsql2 python1.5-egenix-mxdatetime python1.5 
+python2.2-numeric python2.2 libc6 
+scanmail postfix maildrop tnef gawk awk libarchive-zip-perl debianutils 
+survex-aven survex libc6 libglib1.2 libgtk1.2 libjpeg62 libpng2 libstdc++2.10-glibc2.2 libtiff3g libwxgtk2.2 xlibs zlib1g 
+udftools libc6 debconf makedev 
+xfonts-bolkhov-koi8r-75dpi xutils 
+djbdns-installer dpkg-dev patch fakeroot sudo gcc make debhelper daemontools-installer daemontools wget 
+tth libc6 
+libwrap0 libc6 
+mbr libc6 
+pciutils libc6 
+tcl8.0 libc6 
+tk8.0 libc6 tcl8.0 xlibs 
+indent-doc 
+pwgen libc6 
+lg-issue40 lg-base 
+lg-issue35 lg-base 
+courier-imap libc6 libgdbmg1 exim mail-transport-agent courier-base courier-authdaemon 
+libmon-perl perl libconvert-ber-perl 
+gnucash bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libghttp1 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgtk1.2 libgtkhtml20 libguile9 libguppi16 libgwrapguile1 libltdl3 liboaf0 liborbit0 libpopt0 libwrap0 libxml1 libzvt2 oaf xlibs zlib1g libwww-perl slib guile1.4 guile1.4-slib perl libfinance-quote-perl libdate-manip-perl 
+nas-doc 
+libgtk-perl perl perlapi-5.6.1 libc6 libglib1.2 libgtk1.2 xlibs 
+xtell libc6 libident libreadline4 netbase debconf 
+olvwm libc6 xlibs 
+le libc6 libncurses5 
+libnewt-dev libnewt0 libc6-dev slang1-dev 
+scansort libc6 
+cftp libc6 libncurses5 
+xvncviewer libc6 libjpeg62 libvncauth0 libxaw7 xlibs zlib1g vnc-common 
+cmix cpp libc6 libstdc++2.10-glibc2.2 
+mh-book 
+bind-dev 
+cern-httpd libc6 adduser netbase 
+wwwoffle libc6 zlib1g debconf fileutils debianutils 
+mgdiff lesstif1 libc6 xlibs debianutils file mawk 
+gnome-dev-doc 
+wmxmms-spectrum libc6 xlibs xmms 
+xwrits libc6 xlibs 
+libstring-shellquote-perl perl 
+dhcp-dns bind bind9 perl perl5 dhcp 
+libc6-pic libc6 
+genparse libc6 libstdc++2.10-glibc2.2 
+courier-debug libc6 libgdbmg1 libldap2 libmysqlclient10 libpam0g zlib1g courier-base courier-authdaemon 
+libarts libaudiofile0 libc6 libstdc++2.10-glibc2.2 nas-lib xlibs 
+aegis-tk aegis tk8.3 wish 
+apt-howto-pt-br 
+bfbtester libc6 
+dput python python debconf gnupg 
+doc-linux-ja-html 
+dopewars libc6 libglib1.2 libgtk1.2 libncurses5 xlibs 
+dotfile-canna dotfile 
+dpkg-ruby ruby ruby 
+pcomplete emacs20 
+gg-gtk libc6 libglib1.2 libgtk1.2 xlibs 
+ghc4-doc 
+gmt-tutorial 
+libmorph libc6 
+hfsplus libc6 libhfsp0 
+libxosd0 libc6 xlibs 
+hwdata 
+kernel-patch-2.4.14-m68k perl patch 
+konq-speaker kdelibs3 libc6 libstdc++2.10-glibc2.2 festival 
+lapack-test atlas2-base lapack lapack2 libc6 
+ldp-es ldp-es-lipp ldp-es-garl ldp-es-gulp ldp-es-glup 
+libapache-dbilogconfig-perl perl 
+libapm-dev libapm1 
+libdevice-serialport-perl perl 
+python-ecasound libc6 libecasound7 libkvutils2 libstdc++2.10-glibc2.2 python python 
+libgnomeprint-data libgnomeprint-bin gs gsfonts-x11 
+mail-audit-tools perl libmail-audit-perl libparse-recdescent-perl 
+libnasl-dev libnasl1 libc6-dev 
+libreadline-java-doc 
+libsc-dev libsc2 libc6-dev 
+libsnack2 tcl8.2 tk8.2 
+nbtscan libc6 
+php4-apc libc6 zendapi-20010901 
+po-utils libc6 
+snd-dmotif libc6 libgsl0 libguile9 libmotif xlibs 
+teapop netbase debconf libc6 
+xfonts-thai-manop xutils 
+xfonts-thai-vor xutils 
+xmms-wmdiscotux libc6 xlibs xmms 
+orp libc6 libstdc++2.10-glibc2.2 orp-classpath 
+tcltutor wish 
+kbd-compat console-tools console-tools-libs 
+heimdal-docs 
+libpaperg libc6 debconf 
+libgd-perl libc6 libfreetype6 libgd1 libjpeg62 libpng2 xlibs zlib1g perlapi-5.6.1 perl 
+gawk debianutils 
+ax25-tools libax25 libc6 zlib1g 
+lg-issue41 lg-base 
+lg-issue36 lg-base 
+anarchism 
+trans-de-en 
+xblast libc6 xlibs 
+traceroute libc6 
+itcl3.1-dev libc6-dev tcl8.3-dev itcl3.1 
+mesag3+ggi-dev mesag3+ggi libc6-dev libggi-dev libgii-dev 
+wemi emacs20 xemacs20 xemacs21 mule2 emacsen apel flim1.13 flim 
+manpages-hu 
+xfs-xtt libc6 zlib1g debconf 
+pkspxyc libc6 libdb2 
+aleph libc6 libncurses5 
+wpolish 
+libart-dev libart2 
+xfig libc6 libjpeg62 libpng2 xaw3dg xlibs zlib1g 
+word2x libc6 libstdc++2.10-glibc2.2 
+m2c libc6 
+wzip libc6 
+ruby-examples 
+tirc libc6 libncurses5 
+ibcs-source-2.2 
+svgalib-dummy1 libc5 
+epic4-script-thirdeye epic4 
+libdbd-csv-perl perl libtext-csv-perl libdbi-perl libsql-statement-perl 
+tkvnc perl5 xvncviewer perl-tk 
+libwmaker0-dev libc6-dev xlibs-dev 
+empire-hub libc6 
+vstream libc6 xlibs 
+libkadm1-kerberos4kth libc6 libcomerr1-heimdal libkrb-1-kerberos4kth libssl0.9.6 
+libkadm55 libkrb53 
+libscrollkeeper-dev libscrollkeeper0 
+gnucap libc6 libstdc++2.10-glibc2.2 
+allegro-examples dialog liballegro4 libc6 
+bbdate libc6 libstdc++2.10-glibc2.2 xlibs 
+bfr libc6 
+libefs1 libc6 libglib1.2 zlib1g 
+d4x-gnome-applet gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liborbit0 libpanel-applet0 xlibs d4x 
+doxygen libc6 libstdc++2.10-glibc2.2 
+evolver-doc 
+gmt-doc-pdf 
+kuser kdelibs3 libbz2-1.0 libc6 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+kde-i18n-pt 
+kivio kdelibs3 koffice-libs libc6 libfam0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 python2.1 xlibs zlib1g 
+kontour kdelibs3 koffice-libs libc6 libfam0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+kwave kdelibs3 libarts libarts-alsa libaudiofile0 libc6 libfam0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 nas-lib xlibs zlib1g 
+libares-dev libares0 libc6-dev 
+libart-2.0-2 libc6 
+libstlport4.5 libc6 
+libcteco50000 libc6 debconf 
+libisapnp-dev 
+libevms-dev evms libevms1 
+libglibwww-dev libglibwww1 libc6-dev 
+libnetpbm9-dev libnetpbm9 
+librexml-ruby libruby 
+libst-dev libst1 libc6-dev 
+libtiffep1 libc6 libglib1.2 
+libxerces1-dev libxerces1 libxercesicu1 libc6-dev 
+libzvbi-dev libzvbi-0.1 
+mdetect libc6 
+octave-forge octave2.1 
+phpgroupware-api-doc 
+pychecker python2.1 python2.2 python2 python1.5 python 
+user-mode-linux uml-utilities 
+rumbaview libc6 libqt2 librumba1 librumbabase1 libstdc++2.10-glibc2.2 xlibs 
+speech-tools libaudiofile0 libc6 libesd0 libesd-alsa0 libestools1.2 libncurses5 libstdc++2.10-glibc2.2 
+xiterm+thai libc6 xlibs xfonts-thai-nectec 
+tux-aqfh glutg3 libc6 libstdc++2.10-glibc2.2 plib1.5 xlibmesa3 libgl1 xlibs 
+xae emacs21 xemacs21 emacs20 emacsen psgml eieio 
+traffic-vis netpbm netpbm-nonfree libc6 libglib1.2 libpcap0 libpcap0 perl 
+cadaver libc6 libncurses5 libreadline4 libssl0.9.6 libxml1 zlib1g 
+libmcrypt-dev libmcrypt4 libltdl3-dev 
+ncurses-base 
+procps libc6 libncurses5 
+exim libc6 libdb2 libident libldap2 libpam0g libpcre3 cron 
+telnetd-ssl adduser base-files dpkg netbase passwd openssl libc6 libncurses5 libssl0.9.6 
+angband libc6 libncurses5 xlib6g xlib6g fileutils 
+gsfonts-other defoma 
+vchkpw qmail-src ucspi-tcp-src perl5 libc6 
+tk8.2 libc6 tcl8.2 xlib6g 
+tcl8.2 libc6 
+lg-issue42 lg-base 
+lg-issue37 lg-base 
+xcalendar-i18n libc6 libxaw7 xlibs 
+panorama libc6 libjpeg62 libpng2 libstdc++2.10-glibc2.2 libungif4g zlib1g 
+socks4-server libc6 libident libsocks4 
+xbatt libc6 libxaw7 xlibs 
+ami libc6 libgdk-pixbuf2 libglib1.2 libgtk1.2 xlibs 
+xpilot-client-nosound libc6 xlibs xpilot-client-common 
+xtend libc6 heyu 
+vlock libc6 libpam0g 
+gqview libc6 libgdk-pixbuf2 libglib1.2 libgtk1.2 libpng2 xlibs zlib1g 
+libxdelta2-dev libxdelta2 
+jargon-text 
+help2man perl 
+bbpager libc6 libstdc++2.10-glibc2.2 xlibs blackbox 
+transcriber libsnack2 tclex tcl8.2 tk8.2 
+user-ja language-env 
+timeoutd libc6 
+netcat libc6 
+xlbiff libc6 libxaw7 xlibs nmh mh 
+cgiemail libc6 debconf 
+fml perl libjcode-perl 
+ftape-doc 
+bibtool libc6 
+xbat libc6 xlibs 
+slang1-pic slang1-dev 
+sac libc6 
+lilypond libc6 libguile9 libkpathsea3 libstdc++2.10-glibc2.2 tetex-bin python guile 
+hypermail libc6 libgdbmg1 libpcre3 
+wu-ftpd-academ wu-ftpd 
+xmhtml1-dev xmhtml1 lesstif-dev libc6-dev 
+asmail libc6 libjpeg62 xlibs 
+empire-lafe libc6 libncurses5 libreadline4 
+gadfly python python 
+vis5d libc6 libgl1 netcdfg3 xlibs 
+ipchains libc6 debconf 
+libguppi16 libgnomeprint15 gsfonts bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgtk1.2 liboaf0 liborbit0 libxml1 oaf xlibs zlib1g 
+kdebase kdelibs3 libc6 libfam0 libjpeg62 libkonq3 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g debianutils xfree86-common libpam-modules kdewallpapers kdebase-libs 
+libkadm5clnt4-heimdal libc6 libhdb7-heimdal libkrb5-17-heimdal libroken9-heimdal 
+and libc6 
+apt-howto-en 
+asmem libc6 libjpeg62 xlibs 
+vgabios 
+clanlib-gui clanlib libc6 libstdc++2.10-glibc2.2 
+clara libc6 xlibs 
+devhelp-book-gnome devhelp devhelp-book-gtk devhelp-book-gnome2 
+epos-ktd 
+gnome-spell bonobo gdk-imlib1 libart2 libaspell10 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgtk1.2 liboaf0 liborbit0 libpspell4 libstdc++2.10-glibc2.2 libxml1 oaf xlibs zlib1g aspell 
+focalinux-html 
+gcc-avr libc6 binutils-avr 
+ghc5-prof ghc5 
+gocr libc6 libnetpbm9 
+libexif-dev libexif5 libc6-dev 
+zblast-x11 libc6 xlibs zblast-data 
+kde-i18n-ta 
+kernel-headers-2.4.18-bf2.4 fileutils 
+kernel-patch-debianlogo patch 
+libart-2.0-dev libart-2.0-2 pkg-config 
+libdb1-altdev libdb1 libc5-altdev 
+libglade-ruby libc6 libglade0 libglib1.2 libgtk1.2 libruby libxml1 xlibs zlib1g libgtk-ruby 
+libglib2.0-dbg libglib2.0-0 
+pcsc-tools libc6 libpcsclite0 libpcsc-perl libgtk-perl 
+libxml-xerces-perl libc6 libxerces1 libxerces1 perl perlapi-5.6.1 libxerces1 
+logtools libc6 libstdc++2.10-glibc2.2 
+newspost libc6 
+phpgroupware-projects phpgroupware 
+swath libc6 libstdc++2.10-glibc2.2 
+synaptic hermes1 libapt-pkg-libc6.2-3-2-3.2 libc6 libjpeg62 libpng2 libstdc++2.10-glibc2.2 libtiff3g libungif4g libwraster2 xlibs zlib1g 
+winesetuptk libc6 xlibs 
+unp perl5-base perl-base rpm cpio bzip2 sharutils cabextract tnef mpack procmail macutils lha unarj unzip unzip-crypt 
+console-tools-libs libc6 
+libgnomeui32 gnome-libs-data gdk-imlib1 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgtk1.2 xlibs zlib1g 
+x3270 libc6 libxaw7 xlibs 3270-common 
+zoo libc6 
+snes9x-svga libc6 svgalibg1 zlib1g snes9x-common 
+rcs libc6 
+lg-issue43 lg-base 
+lg-issue38 lg-base 
+blt-common 
+drawmap libc6 
+autoproject automake 
+gimp-manual 
+doc++ libc6 libstdc++2.10-glibc2.2 
+amanda-common libc6 libncurses5 libreadline4 netbase tar perl5 mailx debconf 
+php4-pgsql libc6 libpgsql2 zendapi-20010901 
+mc mc-common libc6 libcomerr2 libext2fs2 libglib1.2 libgpmg1 
+blast2 libc6 ncbi-tools6 
+gnosamba gdk-imlib1 libart2 libaudiofile0 libc6 libdb2 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libz1 xlib6g 
+fping libc6 
+gcc272 libc6 binutils 
+wmitime libc6 xlibs 
+esh libc6 libreadline4 
+gnomba smbfs smbclient gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs 
+libjs0-dev libjs0 ngs-js 
+gtk-engines-metal libc6 libglib1.2 libgtk1.2 xlibs 
+scalapack-pvm-test scalapack-test-common atlas2-base blas blas2 atlas2-base lapack lapack2 blacs1-pvm libc6 libpvm3 scalapack1-pvm 
+libterm-readline-perl-perl libterm-readkey-perl perl 
+libxml-generator-perl perl libxml-dom-perl 
+ipolish ispell perl 
+dpkg-www apt dwww info2www gawk mawk awk perl perl5 httpd debconf 
+psfontmgr defoma dialog debconf perl 
+tcl8.3 libc6 
+tk8.3 libc6 tcl8.3 xlibs 
+libungif4-dev libc6-dev libungif4g 
+pms python2.1 exim mail-transport-agent 
+libmeshio0 libc6 
+a52dec libc6 
+audacity libc6 libglib1.2 libgtk1.2 libid3-3.7-13 libjpeg62 libmad0 libogg0 libpng2 libstdc++2.10-glibc2.2 libtiff3g libvorbis0 libwxgtk2.2 xlibs zlib1g 
+casu libc6 
+libcomedi0 makedev libc6 
+doc-central httpd python info2www 
+g77-2.95 g77 libc6 gcc-2.95 gcc-2.95 
+gcompris-sound-de gcompris-data 
+gmgaclock gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs 
+gsmartcard gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs smartcard 
+icoutils libc6 perl libwww-perl 
+kde-theme-matte 
+kdeartwork-style kdelibs3 libc6 libstdc++2.10-glibc2.2 
+kernel-patch-benh patch 
+libaca-dev libaca0 libc6-dev 
+libxml-xslt-perl perl libhtml-clean-perl liburi-perl libwww-perl libxml-dom-perl 
+libast1-dev libimlib2-dev libc6-dev libast1 
+libexpect-perl perl libio-stty-perl libio-pty-perl 
+libjdom-java java-common libxalan2-java 
+libnet-ftpserver-perl perl perlapi-5.6.1 libc6 
+libparted1.4-dbg libparted1.4 libparted1.4-dev 
+libqt3-psql libc6 libfreetype6 libpgsql2 libqt3 libstdc++2.10-glibc2.2 xlibmesa3 libgl1 xlibs 
+libroxen-ecms roxen roxen2 caudium libroxen-xmlutils textutils grep findutils 
+libroxen-programcache roxen roxen2 caudium 
+libxmpi3-dev libc6-dev libxmpi3 
+makejvf libc6 
+mdk libc6 libglade0 libglib1.2 libgtk1.2 libguile9 libncurses5 libreadline4 libxml1 xlibs zlib1g 
+mpg123-el emacsen mpg321 mpg123 aumix 
+ncps libc6 libncurses5 procps 
+python2.1-orbit python2.1 libc6 libglib1.2 liborbit0 
+python2.2-egenix-mxdatetime libc6 python2.2-egenix-mxtools python2.2 
+rawrec libc6 
+scite libc6 libglib1.2 libgtk1.2 libstdc++2.10-glibc2.2 xlibs 
+sql-editor python python-mysqldb python-gtk python-pgsql python2.2-pgsql python2.1-pgsql python2-pgsql python1.5-pgsql 
+tk-brief tk8.3 wish tetex-extra xterm x-terminal-emulator 
+w3mmee-img w3mmee w3mmee-ssl imlib1 libc6 libjpeg62 libpng2 libtiff3g libungif4g xlibs zlib1g 
+webmin-core webmin perl man2html libmd5-perl 
+webmin-bind8 webmin perl bind bind9 
+xfonts-cronyx-cp1251-misc xutils 
+yacas-doc 
+zope-devguide 
+arla-modules-source debconf m4 libncurses5-dev 
+php4-mcrypt libc6 libltdl3 libmcrypt4 zendapi-20010901 
+cscope libc6 libncurses5 
+picasm libc6 
+libunicode-map8-perl libunicode-string-perl libc6 perl perlapi-5.6.0 
+imlib-base 
+pdmenu libc6 libgpmg1 slang1 
+madoka perl 
+socket libc6 
+lg-issue44 lg-base 
+lg-issue39 lg-base 
+libgtkimreg gdk-imlib1 libc6 libglib1.2 libgtk1.2 xlibs 
+libcw-dev libcw 
+gnome-iagno gnome-games-locale gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liborbit0 libwrap0 xlibs zlib1g 
+kakasi-dic 
+id3ed libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2 
+glade glade-common libc6 libglib1.2 libgtk1.2 xlibs 
+xserver-3dlabs debconf xserver-common-v3 libc6 zlib1g 
+watanabe-vfont vflib2 vflib3 
+libsufary-perl perl libc6 libsufary2 libsufary2 
+gtktalog gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libstdc++2.10-glibc2.2 xlibs zlib1g eject 
+xfonts-jmk xutils 
+sirc perl5 libc6 libncurses5 
+wmakerconf hermes1 libc6 libglib1.2 libgtk1.2 libjpeg62 libpng2 libproplist0 libtiff3g libungif4g libwraster2 xlibs zlib1g wmakerconf-data lynx wget libwww-perl lynx wget libhtml-parser-perl 
+chipmunk-log-doc 
+gnofin gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libxml1 xlibs zlib1g 
+tochnog-doc 
+knl libc6 
+photopc libc6 
+gmt-tutorial-ps 
+wfrench 
+epic4-script-lice epic4 
+oonsoo libc6 libstdc++2.10-glibc2.2 xlibs 
+hermes1-dev hermes1 
+defrag libc6 libncurses5 
+libgal19 libc6 libglib1.2 libgtk1.2 xlibs 
+quake2 libc6 libsdl1.2debian svgalibg1 xlibs quake2-data xbase-clients 
+aspell-en libaspell10 
+ilisp emacsen 
+debian-guide-zh-s 
+libcamel0 e2fsprogs gdk-imlib1 libart2 libaudiofile0 libc6 libcomerr2 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgtk1.2 libjpeg62 libkrb53 libkrb53 libpng2 libtiff3g libungif4g libxml1 xlibs zlib1g libnss3 libnspr4 
+v4l-conf libc6 libxaw7 xlibs 
+libgcj2 libc6 libgcc1 
+xscreensaver-nognome libc6 libglib1.2 libgtk1.2 xlibs xscreensaver 
+libservlet2.2-java java-common 
+libalsaplayer-dev libalsaplayer0 
+libctk-dev libctk3-dev libc6-dev libarr-dev libglib1.2-dev 
+libkvutils-dev libkvutils2 
+libgretl0-dev gretl libgretl0 
+libhtml-tagset-perl perl5 
+libinline-octave-perl perl 
+libmail-imapclient-perl perl libparse-recdescent-perl 
+libroxen-disclaimer roxen roxen2 caudium 
+libsnmp-perl perlapi-5.6.1 perl libsnmp4.2 
+libsnmp4.2-dev libc6-dev libsnmp4.2 libsnmp-perl 
+linpsk libc6 libqt2 libstdc++2.10-glibc2.2 xlibs 
+lvm-common libc6 modutils binutils 
+modlogan libadns1 libc6 libgd1 libpcre3 libpng2 libxml2 zlib1g debconf 
+mueller7-mova mova 
+mysqltcl libc6 libmysqlclient10 tcl8.3 
+python-pyogg python python libc6 libogg0 
+spawx11 dvilib2 libc6 libkpathsea3 libttf2 t1lib1 vflib3 xlibs 
+tuxracer-data 
+unaccent libc6 libunac1 
+vlc libc6 xlibs vlc-gui 
+wavelan-applet gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libeel0 libesd0 libesd-alsa0 libfreetype6 libgconf11 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome-vfs0 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liboaf0 liborbit0 libpanel-applet0 libpng2 librsvg1 libxml1 oaf xlibs zlib1g 
+webmin-sshd webmin perl ssh 
+x-window-system-core xserver-xfree86 xlibmesa3 xfonts-base xfonts-100dpi xfonts-75dpi xfonts-scalable xbase-clients xutils 
+xmeter libc6 libxaw7 xlibs 
+liveice libc6 libncurses5 
+bass libc6 
+rxvt-ml libc6 xlibs base-passwd 
+vncserver libc6 libvncauth0 xlibs zlib1g xbase-clients xserver-common vnc-common 
+libpanel-applet0 libc6 libglib1.2 liborbit0 
+picon-misc 
+liblocale-codes-perl perl 
+lg-issue45 lg-base 
+p3nfs libc6 
+sketch python python python-tk python-imaging libc6 tcl8.3 tk8.3 xlibs 
+libgtk1.2-dev libgtk1.2 libglib1.2-dev xlibs-dev pkg-config 
+manpages-it 
+mrtg debconf libsnmp-session-perl perl-modules perl libc6 libgd1 libpng2 zlib1g 
+hyperlatex emacs emacsen 
+python-pygresql libpgsql2 python python libc6 python2.1-egenix-mxdatetime 
+slang1-ja-dev slang1-ja libc6-dev 
+libg++2.8.1.3-dbg libg++2.8.1.3-glibc2.2 libg++2.8.1.3-dev 
+latte libc6 libstdc++2.10-glibc2.2 
+ruby-dev libruby 
+libcoy-perl perl5 
+shhopt-dev shhopt libc6-dev 
+gemdropx libc6 libsdl-mixer1.2 libsdl1.2debian xlibs 
+apache-dev libc6 libdb2 libexpat1 apache-common apache-common libdb2-dev libexpat1-dev 
+fp-units-net fp-units-rtl 
+pexts-mhash libc6 libmhash2 pike7 pike7 
+libglide2 libc6 xlibs pciutils debconf 
+konqueror kdelibs3 lesstif1 libc6 libfam0 libjpeg62 libkonq3 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g kdebase-libs 
+libkmid-alsa kdelibs3 libarts libarts-alsa libaudiofile0 libc6 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 nas-lib xlibs zlib1g libasound2 
+krb4-config debconf 
+libkdenetwork1 kdelibs3 libc6 libstdc++2.10-glibc2.2 
+python-xlib python python 
+battstat-applet gdk-imlib1 libapm1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liborbit0 libpanel-applet0 libwrap0 libxml1 xlibs zlib1g gnome-panel 
+c2050 libc6 gs 
+cdcover libc6 libstdc++2.10-glibc2.2 tetex-bin tetex-base tetex-extra 
+centericq libc6 libncurses5 libsigc++0 libstdc++2.10-glibc2.2 
+cl-odcl common-lisp-controller cmucl lisp-compiler 
+debbugs-el emacs20 emacsen bug reportbug 
+debian-guide-zh-t 
+dhcp3-dev libc6-dev 
+dhcp3-server debconf debianutils dhcp3-common libc6 
+dvips-fontdata-n2bk dvipsk-ja 
+liberuby libc6 libruby 
+xfonts-base-transcoded xutils 
+ewipe tk8.3 wish 
+gij cpp gij-3.0 
+libcln2 libgmp3 
+hbf-kanji48 
+jftpgw libc6 libwrap0 
+kernel-patch-2.2.20-raid bzip2 patch 
+lapack99 libc6 atlas2-base blas blas2 
+lg-issue50 lg-base 
+libadolc1-doc 
+libgconf2-dev libgconf2-4 gconf2 libglib2.0-dev libpopt-dev liborbit2-dev 
+libgtkmathview-dev libgtkmathview0 libc6-dev 
+libregexx-dev libregexx1 
+mped libc6 libncurses5 debconf 
+ptex-jisfonts ptex-bin xdvik-ja dvipsk-ja 
+php-imlib libc6 libimlib2 zendapi-20010901 
+tetradraw libc6 libncurses5 
+upx-ucl libc6 libstdc++2.10-glibc2.2 libucl0 
+vftool libc6 
+whizzytex emacsen tetex-bin 
+xgospel libc6 xaw3dg xlibs 
+zope-cmfcore zope debconf 
+gnuboy-svga libc6 svgalibg1 
+cjk-latex libc6 libkpathsea3 tetex-base tetex-bin 
+nvi-m17n-canna libc6 libcanna1g libncurses5 nvi-m17n-common libcanna1g exim mail-transport-agent 
+tetex-extra tetex-base tetex-bin gsfonts 
+pavuk libc6 libglib1.2 libgtk1.2 libsocks4 libssl0.9.6 xlibs zlib1g 
+gravitywars libc6 svgalibg1 
+vrwave libc6 libgl1 xlibs java-virtual-machine unzip 
+diablo libc6 diablo-common 
+wdg-html-validator sgml-data sp libwww-perl libhtml-parser-perl libunicode-string-perl libunicode-map8-perl libi18n-charset-perl wdg-html-reference libc6 perl 
+chrony libc6 
+lg-issue46 lg-base 
+librrdp-perl perl rrdtool 
+ifrench ispell 
+src2tex libc6 
+libauthen-pam-perl perl perlapi-5.6.1 libc6 libpam0g 
+gnomeicu gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdbmg1 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnet1.1 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liborbit0 libpanel-applet0 libxml1 xlibs zlib1g 
+mercury libc6 libncurses5 libreadline4 
+perspic-texts perspic 
+dotfile-procmail dotfile tcl8.3 tclsh 
+ltrace libc6 
+autoconf2.13 m4 debianutils autoconf perl libfile-temp-perl 
+freeswan libc6 libgmp3 gawk bsdmainutils makedev devfsd debconf openssl debianutils 
+aterm-ml libc6 xlibs 
+atsar libc6 
+ca-certificates openssl 
+chromium-data 
+css-mode emacs21 emacsen 
+drsync rsync perl libgetopt-mixed-perl 
+epos-lpc 
+gtkhtml bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libcapplet0 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libghttp1 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 libgtkhtml20 liboaf0 liborbit0 libpopt0 libwrap0 libxml1 oaf xlibs zlib1g libgtkhtml-data 
+ezbounce libc6 libstdc++2.10-glibc2.2 
+fortunes-es fortune-mod 
+gfslicer gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs 
+ghc5-libsrc 
+pantomime1 libc6 libgcc1 gnustep-base1 
+kpilot kdelibs3 kdepim-libs libc6 libfam0 libjpeg62 libpisock4 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g pilot-link 
+libjsw1.5 libc6 libstdc++2.10-glibc2.2 
+kde-i18n-ro 
+kernel-patch-2.2.18-openwall 
+kimberlite-doc 
+lg-issue51 lg-base 
+libgdk-pixbuf-ruby libc6 libgdk-pixbuf2 libglib1.2 libgtk1.2 libruby xlibs libgtk-ruby 
+libglide3 libc6 xlibs pciutils debconf 
+libgtk2.0-common libatk1.0-0 libc6 libfreetype6 libglib2.0-0 libgtk2.0-0 libpango1.0-0 xlibs 
+libjconv-dev libjconv2 libc6-dev 
+libmath3d-0.3-0 libc6 
+libooc-x11-dev libooc-x11 oo2c xlibs-dev 
+libqt2-emb libc6 libjpeg62 libmng1 libpng2 libstdc++2.10-glibc2.2 zlib1g 
+libroxen-ics roxen roxen2 caudium 
+libroxen-jsredirect roxen roxen2 caudium 
+medusa libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgconf11 libglib1.2 libgnome-vfs0 libgnome32 libgnomesupport0 libgtk1.2 libmedusa0 liboaf0 liborbit0 libxml1 oaf xlibs zlib1g 
+mifluz libc6 libmifluz0 libmifluz0 libstdc++2.10-glibc2.2 libunac1 zlib1g 
+ndiff perl nmap 
+p4fftwgel-dev p4fftwgel2 libc6 
+r-doc-html 
+rcconf whiptail 
+ckermit libc6 libncurses5 
+tkmib libsnmp-perl perl-tk 
+vigor libc6 libncurses5 tcl8.3 tk8.3 xlibs perl-tk 
+wmwave libc6 xlibs 
+gnuvd-gnome bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgnuvd0 libgtk1.2 libgtkhtml20 libjpeg62 liboaf0 liborbit0 libpng2 libpopt0 libtiff3g libungif4g libwrap0 libxml1 oaf xlibs zlib1g 
+gnomemeeting gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 libldap2 libopenh323-1.7.4 liborbit0 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2 xlibs 
+netsaint-plugins-ldap libc6 libldap2 
+adduser perl-base passwd debconf 
+fbset libc6 makedev debconf 
+lilo libc6 
+setserial libc6 
+dialog libc6 libncurses5 debianutils 
+tclex tcl8.2 tk8.2 libc6 
+smtpfeed libc6 
+quick-arrays common-lisp-controller 
+libc5-altdev libc5 
+xpacman libc6 xlibs 
+festlex-oald festival 
+motifnls 
+xisp ppp libc6 libforms0.89 xlibs 
+t1lib-dev libc6-dev t1lib1 
+lg-issue47 lg-base 
+gclinfo-html lynx www-browser 
+amaya-dict-it amaya 
+slatec g77 libc6 
+php4-imap libc6 zendapi-20010901 
+svncviewer libc6 libvncauth0 svgalibg1 
+ghostview libc6 libxaw7 xlibs zlib1g gs 
+plib1 glutg3 libgl1 
+gtkgraph gdk-imlib1 libc6 libglib1.2 libgtk1.2 xlibs 
+xlockmore-gl libc6 libgl1 libpam0g libstdc++2.10-glibc2.2 xlibs 
+sipp libc6 
+htget libc6 
+printop tk8.3 wish 
+xmabacus lesstif1 libc6 xlibs 
+libglade0-dev libglade0 libgtk1.2-dev libc6-dev libxml-dev 
+libc6-prof libc6 
+pidentd netbase adduser passwd libc6 
+libsdbm-ruby libc6 libruby 
+icom libc6 
+pptpd libc6 libwrap0 ppp netbase debconf perl-base 
+libstdc++2.10-glibc2.2 libc6 
+lsof libc6 
+glade-gnome glade-common gnome-common bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libjpeg62 liboaf0 liborbit0 libpng2 libtiff3g libungif4g libxml1 oaf xlibs zlib1g 
+vlc-gnome vlc gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs 
+courier-mlm courier-base courier-maildrop 
+libsmbclient-dev libsmbclient 
+apt-howto-es 
+bombermaze gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libstdc++2.10-glibc2.2 xlibs 
+bonsai libc6 debconf rcs cvs libdbd-mysql-perl lxr libtimedate-perl libmailtools-perl exim mail-transport-agent cvsgraph 
+libsablot0 libexpat1 libc6 libstdc++2.10-glibc2.2 
+clanlib0-display-ggi libggi2 clanlib0-common 
+cron-apt apt bash 
+devhelp-book-ggad devhelp ebook-dev-ggad 
+gnome-find gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libxml1 xlibs zlib1g 
+gsmssend gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 skyutils1 xlibs smssend 
+hamlib-doc 
+penguineyes gdk-imlib1 libc6 libglib1.2 libgtk1.2 xlibs debconf 
+kpat kdelibs3 libc6 libfam0 libjpeg62 libkdegames libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g kdebase-libs kdewallpapers kdecarddecks 
+kteatime kdelibs3 libc6 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+kde-i18n-sk 
+kernel-image-2.2.20-compact 
+kernel-image-2.2.20-reiserfs fileutils 
+komba2 kdelibs3 libc6 libfam0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g smbfs smbclient 
+lbxproxy libc6 xlibs zlib1g 
+lg-issue52 lg-base 
+libwww0 libc6 zlib1g 
+liblingua-romkan-perl perl 
+libpoe-component-client-http-perl perl 
+libroxen-mailit roxen roxen2 caudium 
+mnogosearch-common debconf 
+phpgroupware-comic phpgroupware 
+postfix-snap libc6 libdb3 libgdbmg1 netbase adduser debconf dpkg 
+python2.1-unit python2.1 
+shorewall-doc 
+snappea-dev snappea libc6-dev 
+sysprofile 
+umodpack libtie-ixhash-perl libarchive-zip-perl libconfig-ini-perl perl-tk perl 
+php4-dbase libc6 zendapi-20010901 
+kftgtd perl libc6 libcomerr2 libkrb53 
+libcrypt-blowfish-perl libc6 perl perlapi-5.6.1 
+links-ssl libc6 libgpmg1 liblua40 liblualib40 libssl0.9.6 
+netsaint-plugins-mysql libc6 libmysqlclient10 
+perdition-ldap libc6 libldap2 perdition 
+gettext libc6 gettext-base gettext-el 
+kerberos4kth-services 
+ssleay openssl 
+xfmail libc6 libforms0.88 libgdbmg1 libglib1.2 libstdc++2.10-glibc2.2 xlibs 
+iraf-ibin 
+auto-pgp libc6 perl pgp 
+lxmusserv libc6 
+pmx libc6 tetex-bin 
+libapache-mod-ruby libc6 libruby apache-common 
+libggi-target-monotext libc6 libggi2 libgii0 
+windows-el emacsen 
+libkakasi2 libc6 
+propaganda-debian 
+bitchx-gtk bitchx gdk-imlib1 libaudiofile0 libc6 libesd0 libesd-alsa0 libglib1.2 libgtk1.2 libjpeg62 libncurses5 libpng2 libtiff3g libungif4g libzvt2 xlibs zlib1g 
+dupload perl libnet-perl 
+ugidd portmap netbase libc6 libwrap0 
+jadetex debianutils tetex-bin tetex-extra jade openjade 
+genromfs libc6 
+libdbm-ruby libc6 libgdbmg1 libruby 
+zircon tk8.0 tcl8.0 
+3dchess libc6 xaw3dg xlibs 
+libfile-sync-perl perl perlapi-5.6.0 libc6 
+geda-gschem libc6 libgeda14 libglib1.2 libgtk1.2 libguile9 libstroke0 xlibs geda-symbols 
+libxml-parser-ruby libc6 libexpat1 libruby 
+dpkg-cross dpkg-dev perl5 perl 
+xpaste libc6 libxaw7 xlibs 
+cpp-2.95-doc 
+python2.1-elisp emacs20 emacs21 xemacs19 xemacs20-bin xemacs21-bin 
+orp-classpath orp 
+pkg-config libc6 
+libestools1.2 libc6 
+libio-pty-perl libc6 perlapi-5.6.1 perl 
+glide2-bin libc6 libglide2 libglide2 debconf 
+gaim-gnome gaim-common gnome-panel gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 libjpeg62 liborbit0 libpanel-applet0 libperl5.6 libpng2 libtiff3g libungif4g libwrap0 xlibs zlib1g 
+libcgi-fast-perl perl libfcgi-perl 
+libecpg3 libc6 
+acpid libc6 
+lam3 debianutils libc6 
+cappuccino gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs 
+cdbackup libc6 cdrecord 
+encompass bonobo gdk-imlib1 libart2 libaudiofile0 libbonobo2 libc6 libdb3 libesd0 libesd-alsa0 libfreetype6 libgal19 libgconf11 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome-vfs0 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgtk1.2 libgtkhtml20 libjpeg62 libneon19 liboaf0 liborbit0 libpng2 libunicode0 libxml1 oaf xlibs zlib1g 
+entity-gl libentity0 glutg3 gtkglarea5 libc6 libgl1 libglib1.2 libgtk1.2 xlibs 
+gmrun libc6 libgcc1 libglib1.2 libgtk1.2 libstdc++3 xlibs 
+libgcrypt1 libc6 
+inform-mode emacsen-common 
+k7fftwgel-dev k7fftwgel2 libc6 
+kde-i18n-sl 
+kernel-headers-2.4.19-sparc 
+kernel-patch-2.4.0-reiserfs patch 
+ktimetrace kdelibs3 libc6 libcomedi0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+lapack-pic lapack libc6-dev atlas2-base-dev blas-dev blas2-dev 
+lg-issue48 lg-base 
+lg-issue53 lg-base 
+libdetect0-pic libc6 
+libgdbi-dev libgdbi0 libgql-dev libsigcx-dev 
+libgmp3-doc 
+libunicode-map-perl perl perlapi-5.6.1 
+libxml-stream-perl perl libunicode-string-perl 
+libpth-dbg libc6 
+libsdl-ruby libc6 libruby libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf1.2 libsdl1.2debian libsmpeg0 
+wine-utils libwine wine 
+maint-guide-pt 
+phpgroupware-wap phpgroupware 
+qterm libc6 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+sanitizer perl libmime-base64-perl libdigest-md5-perl 
+smurf libc6 libglib1.2 libgtk1.2 libpng2 libsndfile0 xlibs 
+texmacs libc6 libguile9 libltdl3 libstdc++2.10-glibc2.2 xlibs tetex-base tetex-bin tetex-extra 
+xcb libc6 libxaw7 xlibs 
+xemacs21-gnome-mule-canna-wnn xemacs21-support xemacs21-bin gdk-imlib1 imlib1 libart2 libaudiofile0 libc6 libcanna1g libcompfaceg1 libdb3 libesd0 libesd-alsa0 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libjpeg62 libldap2 libncurses5 libpng2 libtiff3g libxml1 xlibs xemacs21-mulesupport xemacs21-basesupport emacsen-common 
+xfonts-bolkhov-misc xutils 
+xfsprogs-bf libc6 
+ohphone libc6 libopenh323-1.7.4 libpt-1.2.0 libsdl1.2debian libssl0.9.6 libstdc++2.10-glibc2.2 svgalibg1 xlibs 
+textutils 
+xfonts-intl-chinese xutils 
+xemacs21-bin xemacs21-support xemacs21 libc6 libdb3 libldap2 libncurses5 xlibs 
+html2ps perl perlmagick tetex-base libwww-perl weblint libhtml-parser-perl wish 
+freetype2 libttf2 
+yc-el emacs21 emacs20 xemacs20-mule xemacs21-mule xemacs20-mule-canna-wnn xemacs21-mule-canna-wnn 
+scalapack-test-common 
+blas-dev blas libc6-dev 
+mysql-server mysql-client debconf libdbi-perl perl libc6 libmysqlclient10 libstdc++2.10-glibc2.2 libwrap0 zlib1g adduser psmisc 
+libforms0.88-bin libc6 xlibs 
+distributed-net-pproxy 
+libgd-gif1 libc6 
+amp libc6 
+omniorb-dev omniorb 
+libdigest-md5-perl perl perlapi-5.6.0 libc6 
+dvidvi tetex-bin libc6 
+socks4-clients libc6 libsocks4 
+bluefish gdk-imlib1 libc6 libgdk-pixbuf2 libglib1.2 libgtk1.2 libgtkxmhtml1 libjpeg62 libpng2 xlibs zlib1g 
+e2fslibs-dev libc6-dev comerr-dev e2fsprogs 
+idle python python idle-python2.1 
+libgtop-daemon libc6 zlib1g libgtop1 
+libmbonecommon1 libuclmmbase1 
+netplan adduser libc6 
+libwn6 libc6 
+libawe0.4 libc6 
+libtime-period-perl perl 
+php3-snmp php3 libc6 libsnmp4.2 
+mlock libc6 
+unclutter libc6 xlibs 
+leafnode netbase tcpd logrotate debconf libc6 libpcre3 
+xdigger libc6 xlib6g 
+libghttp-dev libghttp1 
+rwalld portmap netbase libc6 
+libxml-writer-perl perl 
+rexima libc6 libncurses5 
+libnspr4 libc6 
+rblcheck libc6 
+update-cluster libc6 libexpat1 debconf 
+gimp1.2 wget wget-ssl aalib1 libc6 libgimp1.2 libglib1.2 libgtk1.2 libgtkxmhtml1 libjpeg62 libmpeg1 libpng2 libtiff3g slang1 xlibs zlib1g 
+kview kdelibs3 libc6 libfam0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 libtiff3g xlibs zlib1g 
+aspell-es aspell 
+bidentd libc6 libstdc++2.10-glibc2.2 netbase debconf 
+camlidl 
+drac-dev drac 
+nd libc6 libxml2 
+euro-support-x xfonts-base-transcoded xfonts-75dpi-transcoded xfonts-100dpi-transcoded euro-support 
+fcmp 
+ghemical gdk-imlib1 glutg3 gtkglarea5 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgl1 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libstdc++2.10-glibc2.2 xlibs 
+gmoo gdk-imlib1 libc6 libgdk-pixbuf2 libglib1.2 libgtk1.2 libjpeg62 libperl5.6 libpng2 libtiff3g libungif4g libzvt2 tcl8.3 xlibs zlib1g 
+gocr-gtk gocr libc6 libglib1.2 libgtk1.2 xlibs 
+googlizer gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs 
+gwydion-dylan gcc gwydion-dylan libc6 
+font3d libc6 libstdc++2.10-glibc2.2 
+insight binutils itcl3.1 itk3.1 tix41 iwidgets3.1 itcl3.1 itk3.1 libc6 libncurses5 tcl8.3 tix41 tk8.3 xlibs 
+kcalc kdelibs3 libc6 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+kernel-patch-badram bash 
+lg-issue49 lg-base 
+lg-issue54 lg-base 
+libapache-mod-relocate apache-common libc6 libdb2 libexpat1 
+libfrontier-rpc-perl perl libxml-parser-perl libwww-perl 
+libroxen-123session roxen roxen2 caudium 
+libstrutilsxx0.7 libc6 
+libtw-dev libtw libc6-dev 
+libucxx0-python libucxx0-script libc6 libsigc++0 libsigcx0 libucxx0 python2.1 
+lirc-modules-source debconf debianutils 
+noffle debconf mail-transport-agent libc6 libgdbmg1 
+pdfscreen tetex-bin 
+pingus clanlib clanlib-jpeg clanlib-mikmod clanlib-png clanlib-sound clanlib-vorbis hermes1 libc6 libstdc++2.10-glibc2.2 libxml2 pingus-data 
+scalable-cyrfonts-tex scalable-cyrfonts tetex-base tetex-bin 
+sciplot-dev sciplot1 
+scons python2.1 
+xspecs 
+xfonts-cronyx-koi8r-75dpi xutils 
+xgraph libc6 xlib6g 
+xpdf-reader libc6 libfreetype6 libpaperg libstdc++2.10-glibc2.2 t1lib1 xlibs libfreetype6 gsfonts xpdf-common 
+xpdf-cyrillic xpdf-common 
+xttitle libc6 
+libavalon-framework-java java-common 
+libcommons-collections-java java-common 
+netsaint-plugins-samba smbclient 
+perdition-dev perdition libvanessa-logger-dev libvanessa-adt-dev libvanessa-socket-dev libc6-dev 
+ttfprint libc6 
+kinput2-canna-wnn libc6 libcanna1g libwnn6 libxaw7 xlibs kinput2-common freewnn-common 
+lprng debconf libc6 
+w3m libc6 libgc6 libgpmg1 libncurses5 zlib1g 
+otp libc6 
+gnujsp jserv jikes java-compiler 
+xemacs21-supportel xemacs21-support 
+libgd-gif-tools libc6 libgd-gif1 perl5 
+procmail libc6 
+hbf-cns40-1 
+megahal libc6 
+manpages-ko 
+browser-history libc6 xlibs 
+epic4-help 
+pspp libc6 libncurses5 libreadline4 
+python-gdk-imlib python-gtk gdk-imlib1 libc6 libglib1.2 libgtk1.2 libjpeg62 libpng2 libtiff3g libungif4g xlibs zlib1g 
+pstotext gs gs-aladdin libc6 
+rep librep9 
+bock libc6 libgc6 
+cfengine libc6 libdb3 libssl0.9.6 libwrap0 perl5 
+yatex emacs21 emacsen 
+ftnchek libc6 
+libstroke0-dev libstroke0 
+konfont 
+speaker libc6 libstdc++2.10-glibc2.2 tcl8.0 tk8.0 
+cooledit libc6 python2.1 xlibs libcw 
+grpn libc6 libglib1.2 libgtk1.2 xlibs 
+libkonq3 kdelibs3 libc6 libstdc++2.10-glibc2.2 
+libooc-x11 libc6 liboo2c xlibs 
+atlas2-base-dev atlas2-base atlas2-headers 
+libmm11-dev libmm11 libc6-dev 
+aspell-fo aspell 
+biew libc6 libncurses5 
+bugsquish libc6 libsdl-image1.2 libsdl-mixer1.2 libsdl1.2debian xlibs 
+debootstrap libc6 wget 
+dmachinemon-treeview libc6 libdmachinemon3 
+doc-linux-it-text 
+ethtool libc6 
+g++-3.0 gcc-3.0-base libc6 gcc-3.0 gcc-3.0 libstdc++3-dev 
+glademm libc6 libstdc++2.10-glibc2.2 
+gnocatan-client gnocatan-data gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 xlibs zlib1g 
+gnome-pilot gconf gdk-imlib1 libart2 libaudiofile0 libc6 libcapplet0 libdb3 libesd0 libesd-alsa0 libgconf11 libglade-gnome0 libglade0 libglib1.2 libgnome-pilot1 libgnome-vfs0 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liboaf0 liborbit0 libpanel-applet0 libpisock4 libpopt0 libwrap0 libxml1 oaf xlibs zlib1g 
+gnustep-ppd gnustep-gui0 
+gocr-tk gocr tk8.0 wish 
+hztty libc6 
+irmp3 libc6 liblircclient0 mpg321 mpg123 
+jython-doc 
+kjots kdelibs3 libc6 libfam0 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g 
+lg-issue55 lg-base 
+lg-issue60 lg-base 
+libamstd-ruby libruby 
+libapache-mod-mp3 apache-common libc6 libdb2 libexpat1 libmysqlclient10 
+libdebconf-client-ruby ruby debconf 
+libguilegnome-dev libguilegnome0 libguilegtk-dev libguile-dev 
+libipc-shareable-perl perl libstorable-perl 
+libpong0 libpong-common gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglade-gnome0 libglade0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libxml1 xlibs zlib1g 
+xlibs-pic xlibs libc6-dev 
+libsdl1.2debian-esd libaudiofile0 libc6 libesd0 libesd-alsa0 xlibs 
+libsnsp0 libc6 libxml2 
+libsphinx2-dev libsphinx2g0 libc6-dev 
+libsys-cpuload-perl libc6 
+wxwin2.2-examples 
+lsh-server lsh-utils libc6 libgmp3 zlib1g 
+ne libc6 libncurses5 
+petsc2.1.3-dbg petsc2.1.3-dev 
+ppxp-applet gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 liborbit0 libpanel-applet0 xlibs ppxp 
+prosper tetex-extra gs 
+sndconfig libc6 playmidi kudzu 
+soundmodem libaudiofile0 libc6 libglib1.2 libgtk1.2 libxml1 xlibs zlib1g 
+amiwm libc6 xlibs 
+xml2 libc6 libxml1 zlib1g 
+cocoon2 java-common tomcat libxerces-java 
+libpcre3 libc6 
+libssl0.9.6 libc6 
+libpam-doc 
+freewnn-cserver freewnn-common adduser libc6 
+lesstif-bin lesstif1 libc6 xlibs 
+maildrop exim mail-transport-agent libc6 libgdbmg1 libstdc++2.10-glibc2.2 
+xfonts-75dpi xutils 
+libforms-bin libc6 xlibs 
+hbf-cns40-2 
+gbdk-examples 
+wmcalclock libc6 xlibs 
+syslog-summary python2.1 
+python-gnuplot python python python-numeric gnuplot 
+heise-register apache httpd perl 
+cnews libc6 cron 
+set6x86 libc6 
+bg5cc 
+smpeg-plaympeg libc6 libsdl1.2debian libsmpeg0 libstdc++2.10-glibc2.2 xlibs 
+libxkbsel-dev 
+chameleon imlib1 libc6 libglib1.2 libgtk1.2 libjpeg62 libpng2 libtiff3g libungif4g xlibs zlib1g 
+liby-dev liby2 
+freeciv-xaw3d freeciv libc6 xaw3dg xlibs 
+xfonts-biznet-iso-8859-2-100dpi xfonts-biznet-100dpi xfonts-100dpi-transcoded 
+qiv gdk-imlib1 libc6 libglib1.2 libgtk1.2 libjpeg62 libpng2 libtiff3g libungif4g xlibs zlib1g 
+gaspell gdk-imlib1 libart2 libaspell10 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libpspell4 libstdc++2.10-glibc2.2 xlibs 
+gentoo libc6 libglib1.2 libgtk1.2 xlibs 
+gnugo libc6 libncurses5 
+php4-cgi libbz2-1.0 libc6 libdb2 libexpat1 libpam0g libpcre3 zlib1g mime-support fileutils php4-cgi 
+ethereal-common libc6 libglib1.2 zlib1g 
+iptables libc6 debconf 
+libapache-mod-auth-mysql libc6 libdb2 libexpat1 libmysqlclient10 apache-common 
+courier-authdaemon libc6 libgdbmg1 libpam0g courier-base 
+aleph-emacs emacsen-common 
+konq-plugins kdelibs3 libc6 libkonq3 libstdc++2.10-glibc2.2 
+scalable-cyrfonts defoma 
+libsdl1.2debian-all aalib1 libarts libarts-alsa libasound2 libaudiofile0 libc6 libesd0 libesd-alsa0 svgalibg1 svgalib-dummyg1 xlibs 
+autotrace libbz2-1.0 libc6 libdps1 libfreetype6 libjpeg62 liblcms libmagick5 libpng2 libtiff3g libwmf0.2-2 libxml2 xlibs zlib1g 
+bsd-ftpd adduser debconf netbase libpam-modules libc6 libpam0g libwrap0 
+dirdiff libc6 tk8.3 
+libeb6 libc6 
+fbbdoc 
+gnome-applets scrollkeeper asclock-themes gnome-panel gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libgconf11 libgdk-pixbuf-gnome2 libgdk-pixbuf2 libghttp1 libglib1.2 libgnome-vfs0 libgnome32 libgnomesupport0 libgnomeui32 libgnorba27 libgtk1.2 libgtop1 liboaf0 liborbit0 libpanel-applet0 libpopt0 libwrap0 libxml1 libzvt2 oaf xlibs zlib1g 
+gnome-users-guide scrollkeeper 
+gnubg-bearoffs gnubg 
+klprfax kdelibs3 libc6 libjpeg62 libpng2 libqt2 libstdc++2.10-glibc2.2 xlibs zlib1g efax gs 
+noatun-plugins artsbuilder kdelibs3 libarts libarts-alsa libaudiofile0 libc6 libesd0 libesd-alsa0 libfam0 libjpeg62 libkmid libkmid-alsa libpng2 libqt2 libsdl1.2debian libstdc++2.10-glibc2.2 nas-lib noatun xlibs zlib1g 
+lg-issue56 lg-base 
+lg-issue61 lg-base 
+libapache-configfile-perl perl 
+libgnome-ruby gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libglib1.2 libgnome32 libgnomesupport0 libgnomeui32 libgtk1.2 libruby xlibs libgdk-imlib-ruby 
+libhsync-dev libhsync0 libc-dev 
+libminidom-dev libminidom0 libc6-dev 
+libopie-dev 
+libowfat-dev 
+libprogressbar-ruby libruby 
+libroxen-asis roxen roxen2 caudium 
+libroxen-hubbethrottle roxen roxen2 caudium 
+libwxgtk2.2-contrib-dev wxwin2.2-headers libwxgtk2.2-dev libwxgtk2.2-contrib libc6-dev 
+libxalan1.2-dev libxalan1.2 libxerces1-dev libc6-dev 
+nms-countdown perl 
+slapd libc6 libdb3 libiodbc2 libldap2 libsasl7 libwrap0 debconf fileutils psmisc 
+pyne python python python-gtk 
+python-expect python2.1-expect python python 
+python2.2-egenix-mxqueue libc6 python2.2-egenix-mxtools python2.2 
+webbase-doc 
+wing-data 
+wmpload libc6 xlibs 
+wmusic libc6 libdockapp1 libglib1.2 libgtk1.2 xlibs xmms 
+yorick-doc 
+its4 libc6 libstdc++2.10-glibc2.2 
+gpal libc6 libglib1.2 libgtk1.2 libssl0.9.6 xlibs 
+libnss-pgsql1 libc6 libpgsql2 
+fetchmail libc6 fetchmail-common 
+stunnel openssl libc6 libssl0.9.6 libwrap0 netbase 
+vflib2 libc6 libttf2 defoma perl-modules 
+hbf-cns40-3 
+xkbsel xbase-clients libc6 libxaw7 xlibs 
+xanim libc6 xlibs zlib1g 
+ucspi-tcp-src dpkg-dev patch fakeroot sudo gcc make 
+http-analyze libc6 libgd1 libpng2 zlib1g 
+mp3asm libc6 
+libtsp3 libc6 
+edict 
+limo libc6 
+tcpquota perl5 libdbi-perl libnet-perl libdbd-mysql-perl libdbd-msql-perl 
+libdb2-dbg libc-dev libdb2-dev libc6 libdb2 libstdc++2.10-glibc2.2 
+cwebx libc6 
+innfeed libc6 inn 
+libcompress-zlib-perl perl perlapi-5.6.1 libc6 zlib1g 
+libiniconf-perl libconfig-inifiles-perl perl 
+queso libc6 
+gedit gdk-imlib1 libart2 libaudiofile0 libc6 libdb3 libesd0 libesd-alsa0 libfreetype6 libgdk-pixbuf2 libglade-gnome0 libglade0 libglib1.2 libgnome-vfs0 libgnome32 libgnomeprint15 libgnomesupport0 libgnomeui32 libgtk1.2 libxml1 xlibs zlib1g 
+libelfg0-dev libelfg0 libc6-dev 
+ytalk libc6 libncurses5 xlibs talkd netstd 
+hfsutils-tcltk hfsutils tk8.3 tcl8.3 xlibs libc6 
+avrp libc6 
+calamaris perl5 bc debconf 
+procmeter libc6 libxaw7 xlibs 
+gnat-doc 
+ytree libc6 libncurses5 
+expectk5.24 expectk 
+sam libc6 xlibs 
+libncurses5-dbg libncurses5-dev 
+xfonts-100dpi-transcoded xutils 
+mindy libc6 libreadline4 
+mozilla-psm mozilla-browser libnss3 
+lwresd libc6 libdns5 libisc4 libisccc0 libisccfg0 liblwres1 libssl0.9.6 
+nethack-x11 libc6 libncurses5 libxaw7 xlibs nethack-common 
+kernel-image-2.4.16-386 initrd-tools fileutils modutils 
+avrprog libc6 debconf 
+camas caudium caudium 
+chicken libc6 
+ptex-base tetex-base tetex-bin 
+figurine libc6 xlibs 
+ftp-proxy libc6 libwrap0 
+booger 

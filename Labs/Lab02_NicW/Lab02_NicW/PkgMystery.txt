@@ -1,0 +1,4134 @@
+cfe libc6 libncurses5
+ppp libc6 libpam0g libpcap0 libpcap0 libpam-modules netbase sysvinit procps makedev
+spectemu-common libc6 fileutils
+fcheck file bsdutils
+libncurses5-dbg libncurses5-dev
+manpages-it
+cbedic libc6 libstdc++2.10-glibc2.2
+multimail libc6 libncurses5 libstdc++2.10-glibc2.2
+newsflash libc6
+libkpathsea3 libc6
+links-ssl libc6 libgpmg1 liblua40 liblualib40 libssl0.9.6
+pcmcia-cs libc6 modutils psmisc
+ip2host
+tendra libc6 binutils
+gperf libc6 libstdc++2.10-glibc2.2
+kde-i18n-tr
+gtypist libc6 libncurses5
+libid3tag0 libc6
+palbart libc6
+webfs libc6 debconf
+aleph libc6 libncurses5
+rain libc6
+libdc1394-8 libc6
+fspd libc6 netbase
+libstringlist-dev libstringlist0 libc6-dev
+ttysnoop libc6
+libadolc1-examples libadolc1 libc6 libstdc++2.10-glibc2.2
+minpack-dev minpack1 libc6-dev
+sformat libc6
+john libc6
+tn5250 ncurses-base libc6 libncurses5
+flac libc6 libflac1 libogg0
+astyle libc6 libstdc++2.10-glibc2.2
+libdps1 libc6
+libpaperg libc6 debconf
+liburi-dev liburi2 libc6-dev
+ldp-es-lipp
+funnelweb-doc
+byacc libc6
+lambdamoo-docs
+open-amulet-images
+libquicktime4linux-dev libquicktime4linux0 libc6-dev libpng-dev
+funnelweb libc6
+dvi2ps-fontdata-rsp dvi2ps-fontdata-ja
+libwaili-dev libwaili libc6-dev
+swi-prolog-sgml libc6 swi-prolog
+librrd0 libc6 libgd-gif1 libpng2
+debian-guide-es
+libtrain-dev libtrain1 libc6-dev
+lam3-dev lam3 libc6-dev
+dbf2pg libc6 libpgsql2
+postfix-snap libc6 libdb3 libgdbmg1 netbase adduser debconf dpkg
+jail libc6
+libwebbase libc6 libmifluz0 libmifluz0 libmysqlclient10 liburi2 zlib1g
+autofs-ldap libc6 libldap2 autofs
+harden-development
+gnutls-doc
+wdiff libc6 libncurses5
+bobot++ libc6 libguile9 libstdc++2.10-glibc2.2
+php3-cgi-imap php3-cgi libc-client2001 libc6
+f2c libc6
+twutils libc6 libstdc++2.10-glibc2.2 libtw
+xpdf-cyrillic xpdf-common
+doc-linux-html-pt
+arla-dev
+libmimelib-dev libmimelib1
+librsvg2-1 libc6
+dvi2tty libc6
+kernel-headers-2.4.19-sparc
+bsdgames-nonfree libc6 libncurses5
+manpages-ja
+pngcrush libc6 libpng2 zlib1g
+sphinx2-hmm-6k
+libg++2.8.1.3-dbg libg++2.8.1.3-glibc2.2 libg++2.8.1.3-dev
+nis libc6 libgdbmg1 netbase make portmap
+w3mmee-ssl libc6 libgc6 libgpmg1 libmoe1.5 libncurses5 libssl0.9.6 w3mmee
+rcconf whiptail
+libxerces-java java-common
+swig-doc-pdf
+cvs-conf cvs diff patch stat grep make debconf
+knl libc6
+python-uncertainities python2.2
+libjpeg-progs libc6 libjpeg62
+btyacc libc6
+ipadic
+emil libc6
+cook-doc
+sphinx2-bin sphinx2-hmm-6k libsphinx2g0 libc6 libsphinx2g0
+libvorbis0 libc6 libogg0
+phpdoc
+aggregate libc6 libpopt0 libvanessa-logger0
+redir libc6 libwrap0
+beecrypt2-dev beecrypt2
+memstat libc6
+vtun libc6 liblzo1 libssl0.9.6 zlib1g psmisc debconf
+awe-drv libawe0.4 libc6 patch
+ngrep libc6 libpcap0 libpcap0
+big-cursor xutils
+nfs-user-server portmap netbase libc6 libwrap0
+gnocatan-data
+lambdamoo libc6
+hfsplus libc6 libhfsp0
+kernel-headers-2.2.20 fileutils
+vmnet libc6
+picon-domains
+java-common
+liblog4j-doc
+svgalib-dummy1 libc5
+libxdelta3-dev libxdelta3 libc6-dev
+xutils xfree86-common libc6 libncurses5 zlib1g
+scalapack1-mpich mpich libc6
+kernel-headers-2.4.18-bf2.4 fileutils
+gap4-doc-ps
+lpr libc6 netbase
+legos libc6 binutils-h8300-hms gcc-h8300-hms
+dhid libc6 libgmp3 debconf
+autotools-dev
+maradns libc6
+rdiff libc6 libpopt0 librsync1 zlib1g
+tiger diff net-tools shellutils fileutils textutils debconf libc6
+libglib1.2-dev libglib1.2 pkg-config
+zsh30 libc6 libncurses5
+g77-2.95-doc
+mondo libc6 libnewt0 slang1 mindi afio buffer gawk cdrecord lzop
+libsasl-digestmd5-des libsasl7 libc6 libdb2 libssl0.9.6
+curves libc6 libstdc++2.10-glibc2.2
+libfribidi0 libc6
+word2x libc6 libstdc++2.10-glibc2.2
+bitcollider-plugins
+libawe0.4-dev libawe0.4
+libkvutils2 libc6 libstdc++2.10-glibc2.2
+tcl8.0 libc6
+libowfat-dev
+wm-icons
+libvx1.25 libc6 libstdc++2.10-glibc2.2
+gnut libc6 libncurses5 libreadline4
+xfonts-greek-ph-misc xfree86-common xutils
+libnspr4 libc6
+ipxripd libc6
+ttfprint libc6
+icu-doc
+dvi2ps-fontdata-three dvi2ps-fontdata-ja
+libpcap-dev libpcap0 libc6-dev
+libst-dev libst1 libc6-dev
+gmt libc6 netcdfg3 gmt-manpages
+libid3-dev libid3-3.7-13 zlib1g-dev
+hylafax-doc
+libfreecell-solver-dev libfreecell-solver0
+libax25-dev libax25
+dep.pl
+guessnet libc6 libpcap0 libpcap0 libpopt0
+libroken9-heimdal libc6 libdb3
+passwd libc6 libpam0g login libpam-modules
+m68k-vme-tftplilo
+mime-support
+webcam libc6 libjpeg62 ftp xawtv-plugins
+symlinks libc6
+xserver-w32 debconf xserver-common-v3 libc6 zlib1g
+thttpd-util libc6
+cadaver libc6 libncurses5 libreadline4 libssl0.9.6 libxml1 zlib1g
+liblockdev1-dbg liblockdev1 liblockdev1-dev
+make-doc fileutils
+djtools libc6 libpaperg libstdc++2.10-glibc2.2
+lynx libc6 libncurses5 zlib1g
+libjconv2 libc6
+libmcrypt4 libc6 libltdl3
+udhcpd libc6
+prips libc6
+extipl libc6
+queue libc6 libstdc++2.10-glibc2.2
+bitchx libc6 libncurses5
+python2.2-egenix-mxdatetime libc6 python2.2-egenix-mxtools python2.2
+dante-client libc6 libpam0g
+magpie gzip textutils libc6
+libgltt2-dev libgltt2 libc6-dev
+escm libc6
+myhungarian
+aris-extractor debconf libc6 libcurl2-ssl libssl0.9.6 libstdc++2.10-glibc2.2 libcurl2-ssl
+quinn-diff libc6 libglib1.2
+tkx8.2-doc
+sfftw-dev sfftw2 libc6
+textutils
+python2.2-numeric python2.2 libc6
+madplay libc6 libid3tag0 libmad0 zlib1g
+libacl1 libc6
+fileutils
+smtp-refuser libc6
+elk libc6 libelfg0 libgdbmg1
+kernel-patch-debianlogo patch
+freetds-dev freetds0 libc6-dev
+libtiff3g libc6 libjpeg62 zlib1g
+gmt-tutorial-ps
+dhcp3-relay debconf debianutils dhcp3-common libc6
+sntop libc6 libncurses5 fping
+libart2 libc6
+reiserfsprogs libc6
+libdb2 libc6
+tcl-sql tcl8.3 libc6 libmysqlclient10 libstdc++2.10-glibc2.2
+libstdc++2.10 libc6
+pine-docs
+libaspell-dev libaspell10
+libsocksd libc6 libpam0g
+kernel-patch-2.4-speedtouch patch
+libavalon-framework-java-doc
+mpg123 libc6
+kdeartwork-theme-desktop
+sgml-base-doc
+netscape-java-477
+blas libc6
+kernel-source-2.4.17-ia64 binutils bzip2 fileutils
+man-db groff-base groff bsdmainutils debconf dpkg libc6 libdb2
+gopher libc6 libncurses5
+libmpeg-dev libmpeg1
+vflib3-doc
+sing libc6 libpcap0 libpcap0 debconf
+libcanna1g-dev libcanna1g
+kernel-headers-2.4.16-386 fileutils
+libtrain1 libc6
+udhcpc libc6
+appunti-informatica-libera
+wmaker-data
+hesiod libc6 libhesiod0
+tree libc6
+x10 debianutils libc6 libstdc++2.10-glibc2.2
+libzvbi-0.1 libc6 libpng2 zlib1g
+abuse-lib
+kernel-source-2.4.16 binutils bzip2 fileutils
+swi-prolog-doc
+mdctl debconf mdadm
+tnef libc6
+pcrd libc6
+mawk
+libeb6-dev libeb6 libc6-dev
+liballegro-doc
+wav2cdr libc6
+console-tools console-tools-libs libc6 sysvinit console-common debconf
+enlightenment-theme-bluesteel
+libtomcat4-java java-common libxerces2-java libservlet2.3-java libregexp-java
+libmowitz0 libc6
+dancer-ircd adduser libc6 zlib1g
+scandetd libc6
+limo libc6
+epic4-script-hienoa epic4
+tuxracer-data
+netspades-slang libc6 libncurses5 libreadline4 slang1
+kernel-headers-2.4.16 fileutils
+ddt-client libc6 libgcrypt1 libgcrypt1 libregexx1 libstdc++2.10-glibc2.2 debconf
+casu libc6
+xfonts-intl-european xutils
+erlang-doc-html
+inorwegian ispell debconf
+make libc6 fileutils
+libsphinx2g0 libc6
+rlinetd libc6 libwrap0 dpkg debconf
+skktools libc6 libdb3
+asr-manpages
+kde-i18n-ca
+gnutls-dev gnutls3 libgcrypt-dev libc6-dev
+binutils-dev binutils
+kernel-doc-2.4.17 fileutils
+odbcinst1 libc6
+libsasl-digestmd5-plain libsasl7 libc6
+rlpr libc6
+ncbi-tools6-dbg ncbi-tools6
+doc-linux-it
+libpari1 libc6
+kernel-source-2.4.14 binutils bzip2 fileutils
+evolver-doc
+libsoup-dev libsoup2 libc6-dev
+dbbalancer libace5.2 libc6 libstdc++2.10-glibc2.2
+cw libc6 unixcw debconf
+dict-jargon
+icomlib-doc
+gnustep-base1 gnustep-make libc6 libffcall1 libgcc1 libgmp3 libobjc1 libxml2 zlib1g
+iptables-dev iptables
+mpi-specs
+xfonts-bolkhov-isocyr-misc xutils
+nslint libc6
+base-passwd libc6
+libpng-dev libpng3 libc6-dev zlib1g-dev
+welcome2l libc6
+liblua40-dev liblua40
+fudgit libc6 libncurses5 libreadline4
+libgd-gif1 libc6
+chicken-dev chicken
+cmt libc6 libstdc++2.10-glibc2.2
+dviutils libc6
+libtsp3 libc6
+isdnvboxserver isdnutils-base debconf libc6 tcl8.3
+mpack libc6
+qt-designer-doc
+doc-debian
+freenet6 libc6 net-tools iproute
+nfs-kernel-server debconf nfs-common libc6 libwrap0
+wireless-tools libc6
+latd libc6 libstdc++2.10-glibc2.2
+libcelsius-dev libcelsius libc6-dev
+irssi-text libc6 libglib1.2 libncurses5 libperl5.6
+proftpd-doc
+chkrootkit libc6 binutils
+dpsyco-ssh dpsyco-lib ssh sudo
+phalanx debconf libc6
+libboost-examples
+idutch ispell
+xfonts-cronyx-cp1251-misc xutils
+libsablot0 libexpat1 libc6 libstdc++2.10-glibc2.2
+lprng debconf libc6
+maint-guide-pt
+xfonts-bitmap-mule xutils
+hbf-cns40-b5 hbf-cns40-1 hbf-cns40-2 hbf-cns40-3
+guile1.4-doc
+kdebase-doc
+heyu libc6
+rpncalc libc6 libncurses5 libreadline4
+koalamud libc6 libxml1 zlib1g
+telnet libc6 libncurses5
+libmailutils0 libc6 libgdbmg1
+opie-server libc6 opie-client libpam-opie
+bigloo-runtime-2.4b libc6
+si libc6 libncurses5
+hlatex-fonts-extra
+dmapi-dev libc6-dev dmapi xfslibs-dev
+libtabe2 libc6
+inewsinn libc6
+kernel-patch-lpp patch
+geda-utils libc6
+expect libc6 tcl8.3
+libcdparanoia0-dev libc6-dev libcdparanoia0
+phpgroupware-core-doc
+wxwin2.2-i18n
+dbs make
+abc2ps libc6
+libpth-dbg libc6
+libglibwww1 libc6 libwww0 libwww-ssl0 zlib1g
+ditty libc6
+id3 libc6
+sac libc6
+bfr libc6
+libxalan2-java-doc
+libarr0 libc6
+cyrus-admin libc6 libdb2 tcl8.0
+genparse libc6 libstdc++2.10-glibc2.2
+latex2rtf-doc
+overkill-data
+zebra libc6 libncurses5 libreadline4 libsnmp4.2
+vtk-examples
+libsnmpkit-dev libsnmpkit1 libc6-dev
+makedev base-passwd
+birthday libc6
+inform-mode emacsen-common
+lojban-common
+libtrain-bin libc6 libtrain1
+yh libc6 svgalibg1
+malaga-bin libc6
+musixtex-doc
+figlet libc6
+zblast-svgalib libc6 svgalibg1 zblast-data
+turqstat libc6 libstdc++2.10-glibc2.2
+pexts-bzip2 libbz2-1.0 libc6 pike7 pike7
+perl-5.6-base perl-base
+ibcs-source-2.2
+mpi-doc
+moon-buggy-esd libaudiofile0 libc6 libesd0 libesd-alsa0 libncurses5
+libtiff3g-dev libtiff3g libc6-dev
+regina2 libc6
+libsword1 libc6 libstdc++2.10-glibc2.2 zlib1g
+dtaus libc6
+figfonts-cjk figlet
+console-log less run console-tools
+dhcp-client libc6
+scsitools libc6 debconf util-linux
+rocketworkbench libc6
+armagetron-server libc6 libstdc++2.10-glibc2.2
+file libc6 zlib1g
+cam libc6 libncurses5
+skksearch libc6 libdb2 skkdic-cdb skkdic
+libgatos0 libc6
+loadwatch libc6
+w3-doc-e20
+groff-base libc6 libstdc++2.10-glibc2.2
+forutil libc6 libgdbmg1
+inn-dev
+simulpic libc6 libstdc++2.10-glibc2.2
+gcc-3.0-base
+libmng1 libc6 libjpeg62 liblcms zlib1g
+maint-guide-de
+xfonts-thai xfonts-thai-nectec xfonts-thai-etl xfonts-thai-manop
+libtabe-db libc6 libdb3 libtabe2
+libadolc-dev libadolc1 libc6-dev
+razzle libc6 svgalibg1 debconf
+nano-tiny-utf8 libc6 slang1a-utf8
+libdb2-dev libdb2 libdb2-util
+libboost-graph1.27 libc6 libstdc++2.10-glibc2.2
+epic libc6 libncurses5
+tkx8.3-doc
+cracklib2-dev cracklib2
+libmetakit1 libc6
+tinc debconf libc6 libssl0.9.6 zlib1g
+unixcw-dev unixcw
+libapm1 libc6 powermgmt-base
+manpages-zh
+atm-tools libc6
+libmad0-dev libmad0
+yencode libc6
+zivot libc6
+ispanish ispell
+nec libc6
+netperf libc6
+skyutils-dev skyutils1 libc6-dev
+libcanna1g libc6 debconf
+mifluz-dev libmifluz0
+pgp5i libc6
+libgql0-driver-pg libc6 libglib1.2 libgql0 libpgsql2 libsigc++0 libsigcx0 libucxx0
+dict-vera
+cgiemail libc6 debconf
+flexmem libc6 libglib1.2 libobexftp1 libopenobex1
+rbootd netbase libc6 libpcap0
+ginac-tools libc6 libcln2 libginac0 libgmp3 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+simh libc6
+biew libc6 libncurses5
+malsync libc6 libpisock4
+syslinux libc6
+kcc libc6
+cocoon-doc
+update-cluster libc6 libexpat1 debconf
+lapack-doc
+libflash0 libc6 libjpeg62 zlib1g
+corkscrew libc6
+vsftpd libc6 libcap1 libpam0g
+acl libacl1 libattr1 libc6
+tac-plus libc6 libldap2 libpam0g libpgsql2 libwrap0
+shhopt-dev shhopt libc6-dev
+scalapack-lam-dev scalapack1-lam lam3-dev blacs-lam-dev
+ttf-commercial debconf xutils
+cpbk libc6
+aide libc6 debconf
+nntpcache libc6 passwd adduser
+libprozilla1-dev libprozilla1
+cppunit
+untex libc6
+ratfor libc6 libc6
+bitchx-ssl bitchx libc6 libncurses5 libssl0.9.6
+robodoc libc6
+libostyle0 libc6
+libctk3-dev libctk3 libc6-dev libarr-dev libglib1.2-dev
+jgraph libc6
+libxdb-dev libxdb libc6-dev
+xfonts-bolkhov-misc xutils
+libiso2mb0.8 libc6
+libchasen-dev libchasen0 libc6-dev
+manpages-fi
+lvs libc6
+dnsmasq netbase libc6
+debconf-tiny debconf
+dossizola-data
+libcdparanoia0 libc6
+ulogd-mysql ulogd libmysqlclient10
+libfltk1-example
+libdb2-util libc6 libdb2
+libsmi2 libc6
+kde-i18n-sr
+dnsutils libc6 libdns5 libisc4 liblwres1 libssl0.9.6 bind9-host host
+libwvstreams-doc
+libgnuvd-dev libgnuvd0
+shx libc6 libncurses5 libreadline4
+aleph-emacs emacsen-common
+libmalaga-dev libmalaga2
+yardradius debconf libpam0g libpam-runtime libc6 libgdbmg1
+pike7.2-crypto libc6 pike7.2 pike7.2
+libmedusa-dev libmedusa0
+slang1-ja libc6
+sawfish-lisp-source
+xfonts-kaname xutils
+binutils-multiarch libc6 binutils
+sfs-lib libc6
+whirlgif libc6
+secvpn bc ssh ppp timeout
+ipmasq netbase ipfwadm ipchains iptables
+xml2 libc6 libxml1 zlib1g
+vrms
+kde-i18n-ta
+diskless-image-secure debconf
+libfribidi-dev libfribidi0
+hdate libc6
+abuse-frabs
+portmap libc6 libwrap0
+libogg-dev libogg0 libc6-dev
+xpcd-svga libc6 svgalibg1
+ucspi-proxy libc6
+wpolish
+yacas-doc
+lukemftpd libc6 netkit-inetd
+kdeaddons-doc-html
+felt-doc
+libregexx1 libc6
+clustalw libc6
+libgempc430 libc6
+hotplug-utils libc6
+debian-zh-faq-t
+apt-proxy wget rsync grep-dctrl tcpd netbase ash
+xfonts-biznet-iso-8859-2-75dpi xfonts-biznet-75dpi xfonts-75dpi-transcoded
+xfonts-intl-phonetic xutils
+tpctl thinkpad-base libc6 libncurses5 debconf
+popa3d libc6 libpam0g
+libcorelinux-examples libcorelinux-dev
+evms-ncurses evms libc6 libevms1 libncurses5
+libsnacc0 libc6
+cookietool libc6
+libc5
+libobexftp-dev libopenobex-dev
+ipmasqadm libc6
+xfonts-biznet-100dpi xutils
+eggdrop libc6 tcl8.3 zlib1g
+echoping libc6
+pdq libc6 file
+hlfl libc6
+libalsaplayer-dev libalsaplayer0
+libqhull-dev libqhull3 libc6-dev
+pike7.2-mysql libc6 libmysqlclient10 zlib1g pike7.2
+crossfire-doc
+arbortext-catalog java-common libxerces-java
+sudo libc6 libpam0g libpam-modules
+libsasl2-dev libsasl2 libc6-dev
+prc-tools-doc
+kde-i18n-lv
+laptop-net libc6 libpcap0 libpcap0 debconf psmisc modutils netbase net-tools lockfile-progs
+kismet libc6 libglib1.2 libncurses5 libpcap0 libpcap0 libstdc++2.10-glibc2.2 zlib1g
+bf-utf-source
+nasm libc6
+kde-i18n-pt
+trans-de-en
+time libc6
+dict-wn
+comedi-source
+genpower sysvinit libc6
+ftp-proxy libc6 libwrap0
+manpages
+r-doc-html
+cook-rsh cook ssh rsh-client rstat-client
+font3d libc6 libstdc++2.10-glibc2.2
+hbf-cns40-4
+wswedish debconf
+tcs libc6
+cmatrix libc6 libncurses5
+python2.2-imaging-sane python2.2-imaging libc6 libsane
+dvdplusrw libc6
+libdime-doc
+libhttpfetcher-dev libhttpfetcher1 libc6-dev
+nas-doc
+python2.2-popy python2.2-egenix-mxdatetime debconf python2.2 libpgsql2
+vnc-common libc6 libvncauth0
+nwall libc6 libreadline4
+mp3asm libc6
+libnurbs++1 libc6
+vtkdata-installer
+slmon libc6 libglib1.2 libgtop1 libpopt0 slang1
+flick libc6 libstdc++2.10-glibc2.2
+siege-ssl libc6 libssl0.9.6
+ttylog libc6
+zgv libc6 libjpeg62 libpng2 libtiff3g svgalibg1 zlib1g
+gmt-tutorial
+dpsyco-skel dpsyco-lib rsync
+snmptrapfmt snmpd libsnmp4.2
+libapache-mod-ssl-doc
+kerberos4kth-clients libc6 libcomerr1-heimdal libdb3 libkadm1-kerberos4kth libkafs0-heimdal libkrb-1-kerberos4kth libncurses5 libotp0-heimdal libreadline4 libroken9-heimdal libssl0.9.6 krb4-config
+kernel-headers-2.2.20-reiserfs fileutils
+laptop-netconf libc6 libpcap0 libpcap0
+libregexx-dev libregexx1
+librumba-dev librumba1 libc6-dev
+postfix-doc
+cmucl libc6
+libnss-dev libnss3 libnspr-dev
+acorn-fdisk libc6
+libmpeg3-1 libc6
+rocks libc6 libssl0.9.6
+cracklib2 libc6
+sted libc6 libncurses5
+libgsmme-dev libgsmme1 libc6-dev
+clips libclips clips-common
+dsh libc6
+libsndfile0 libc6
+atlas2-3dnow-dev atlas2-3dnow atlas2-headers
+pmidi libasound1 libc6
+libgarbo-dev libgarbo libc6-dev
+mocka libc6
+libsensors-dev libsensors1
+sauce tcl8.2 authbind libadns1-bin
+freewnn-jserver freewnn-common adduser libc6
+icomlib1-dev icomlib1 libc6-dev
+w3-url-lisp
+libapm-dev libapm1
+fbset libc6 makedev debconf
+an libc6
+libst1 libc6
+genromfs libc6
+pine-tracker
+gnuyahoo ftplib3 libc6 libguile9 libncurses5 libreadline4 libyahoo0
+wwwcount libc6
+pdmenu libc6 libgpmg1 slang1
+dwarfs-debian-guide
+yiyantang libc6 libhz0
+svncviewer libc6 libvncauth0 svgalibg1
+libubit0
+tf libc6 libncurses5
+libcw libc6
+bnetd libc6
+zmailer-ssl libc6 libdb2 libgdbmg1 libpam0g libssl0.9.6 netbase
+tcl8.2-dev libc6-dev tcl8.2
+htget libc6
+robotfindskitten libc6 libncurses5
+pilot-template
+hamlib-dev hamlib1 libc6-dev
+pkg-config libc6
+libdps1-dbg libdps1
+lacheck libc6
+dvb-mpegtools libc6 libstdc++2.10-glibc2.2
+sysvinit dpkg mount util-linux e2fsprogs
+doc-debian-es
+xfingerd libc6
+libsnmp4.2 libsnmp-base libc6
+hbf-jfs56
+njamd libc6 libncurses5
+libti68k libc6 libticables3 libticalcs3
+autorespond libc6
+oops libdb2 debconf libc6 libdb2 libpcre3
+xawtv-plugins libc6 libglib1.2 libpng2 libquicktime4linux0 zlib1g
+aspell-fr aspell
+gnat-glade gnat gnat
+sysprofile
+quotatool libc6
+xgobi-doc
+tcpd libc6 libwrap0
+ipppd isdnutils-base debconf ppp libc6
+netsaint-plugins-mysql libc6 libmysqlclient10
+bogosort libc6
+mmv libc6
+openslp-doc
+avr-libc
+sendmail-doc
+w3mmee libc6 libgc6 libgpmg1 libmoe1.5 libncurses5
+toshset libc6 libstdc++2.10-glibc2.2
+libfam0 libc6
+netenv libc6
+wavemon libc6 libncurses5
+vcdtools libc6
+gmt-doc-ps
+sendip libc6
+libc6-dev libc6
+nas-lib libc6
+netsaint-plugins-snmp libc6 snmp
+mboxgrep libc6 libpcre3 zlib1g
+splitdigest libc6
+ifhp file a2ps libc6
+inventor-data
+xfig-doc
+libbind-dev libdns5 libisc4 libisccc0 libisccfg0 liblwres1
+kernel-headers-2.4.18-686-smp fileutils
+sfs-server sfs-common libc6 libgmp3 libstdc++2.10-glibc2.2 sfs-lib nfs-kernel-server
+sqlite libc6 libreadline4 libsqlite0
+speech-tools libaudiofile0 libc6 libesd0 libesd-alsa0 libestools1.2 libncurses5 libstdc++2.10-glibc2.2
+atsar libc6
+odbc-postgresql libc6 odbcinst1
+rsync libc6 libpopt0
+nntp libc6 libpam0g cnews
+libmysqlclient10 mysql-common libc6 zlib1g
+libleakbug-dev libleakbug1
+sufary-dev libsufary2
+libecasoundc0-dev libecasoundc0 libecasound-dev
+iroffer libc6
+crossfire-client-sounds rplay-client crossfire-client
+libmifluz0 libc6 libunac1 zlib1g
+libldap2-dev libldap2
+bing libc6
+libzvt2 libc6 zlib1g
+findutils
+music123 libc6 libgnat-3.14p-1 gnat libgnat-3.14p-1 gnat
+pencam libc6 libusb-0.1-4
+smbfs netbase samba-common libc6 libcupsys2 libpam0g
+kernel-headers-2.4.16-586tsc fileutils
+kernel-patch-uml patch
+libcomedi0 makedev libc6
+nfs-common portmap libc6 libwrap0
+libfreefem-doc
+libcdaudio0 libc6
+abook libc6 libncurses5
+sword-comm-pers adduser
+dvhtool libc6
+pexts-openldap libc6 libldap2 pike7 pike7
+libgnupg-interface-perl libclass-methodmaker-perl gnupg
+ttyrec libc6
+zsh30-static zsh30
+atlas2-sse2 libc6 debconf
+libregex0-altdev libregex0 libc5-altdev
+empire-hub libc6
+hpscanpbm libc6
+id3tool libc6
+node libax25 libc6 zlib1g
+skkserv libc6 skkdic
+libxbase2.0-0 libc6 libstdc++2.10-glibc2.2
+fp-units-gfx fp-units-rtl fp-units-base
+wordnet-doc
+libquantlib0-dev libquantlib0 libc6-dev
+ftp-utils libc6
+libsnmp-base
+rubybook
+xtend libc6 heyu
+libares-dev libares0 libc6-dev
+scalapack1-pvm blacs1-pvm libc6
+xfonts-75dpi xutils
+ifrench ispell
+kernel-patch-2.4-kgdb patch
+xfs-xtt libc6 zlib1g debconf
+expect5.31-dev expect-dev
+eject libc6
+aegis3-doc
+libjconv-dev libjconv2 libc6-dev
+nbtscan libc6
+apcalc libc6 libncurses5 libreadline4
+raccess libc6 queso
+dbf2mysql libc6 libmysqlclient10
+libmpeg3-dev libmpeg3-1
+electric-fence libc6
+erlang-manpages
+linuxinfo libc6
+re libc6 libstdc++2.10-glibc2.2
+libcln2 libgmp3
+xfree86-common debianutils
+bibtool libc6
+info libc6 libncurses5
+klic-doc
+ppthtml libc6
+xserver-common-v3 xfree86-common xserver-common libc6
+gap4-doc-html
+pmidi-0.9 libasound2 libc6 libglib1.2
+libisccc0 libc6
+icewm-themes icewm-common
+slocate libc6 adduser dpkg
+manpages-ko
+crossfire-client libc6
+cweb-latex cweb tetex-base
+protoize gcc-3.0-base libc6 gcc-3.0 gcc-3.0
+snes9x-common
+gcc-3.0-doc gcc-3.0-base
+kate-plugins libc6 libstdc++2.10-glibc2.2
+libexif-dev libexif5 libc6-dev
+mona libc6 libstdc++2.10-glibc2.2
+gnugo libc6 libncurses5
+ng-cjk libc6 libncurses5 ng-common
+witalian
+bzflag-server libc6 libstdc++2.10-glibc2.2
+vgrabbj ftplib3 libc6 libjpeg62 libpng2 libttf2 zlib1g
+pike-image libc6 libjpeg62 pike
+hamlib1 libc6
+libecgi-dev libecgi0 libc6-dev
+geekcode libc6
+pidentd-des netbase adduser passwd libc6 libssl0.9.6
+miscutils
+lclint-doc
+debiandoc-sgml-doc
+teapop-mysql netbase debconf libc6 libmysqlclient10
+abcde cd-discid wget cdparanoia cdda2wav vorbis-tools
+ude
+libcapi20 isdnutils-base libc6
+libsnacc-dbg libsnacc-dev
+isdnactivecards isdnutils-base libc6 libcapi20 libncurses5
+util-linux
+vtprint libc6
+sitecopy libc6 libxml2
+xtermset libc6 libc6
+aime libc6 libstdc++2.10-glibc2.2
+sdcc-ucsim libc6 libncurses5 libstdc++2.10-glibc2.2
+bind-doc
+mixal libc6
+jpeg2ps libc6
+libcommons-digester-java-doc
+xfonts-artwiz xutils
+unzip libc6
+ngs-js libc6 libjs0 libncurses5
+libhsync0 libc6
+camlidl
+octave2.1-doc
+libavalon-framework-java java-common
+rio500 libc6 libglib1.2 debconf
+python-doc python2.1-doc
+libmagick++5 libc6 libstdc++2.10-glibc2.2
+fp-units-gtk fp-units-rtl
+chos libc6
+gnat-doc
+ltrace libc6
+psp-doc
+src2tex libc6
+xfonts-intl-japanese-big xutils
+postgresql-dev libpgsql2 libecpg3 libssl-dev
+libvncauth-dev libvncauth0
+jfbterm libc6 xfonts-base
+libogg0 libc6
+dmachinemon-master libc6 libdmachinemon3
+r-doc-info
+hotplug modutils debconf
+pcmcia-source
+xdelta libc6 libglib1.2 libxdelta2 zlib1g
+libmcal libmcal0
+swig-examples swig
+etherwake libc6
+libgmime-dev libgmime0 libc6-dev
+radiusd-cistron libc6 libdb3 libpam0g
+ftplib3 libc6
+sablotron libsablot0
+libtiffep1-dev libtiffep1 libc6-dev libglib1.2-dev
+gpc-2.95-doc
+fhist-doc
+rplay-client libc6 libreadline4 librplay3
+zsh libc6 libcap1 libncurses5
+libavc1394-0 libc6 libraw1394-5
+libadns1-dev libadns1 libc6-dev
+ncftp libc6 libncurses5 libreadline4
+ntfsdoc
+a52dec libc6
+libgeda-dev
+dict-gazetteer
+masqmail libc6 libglib1.2 libident liblockfile1 netbase
+qvplay libc6
+snacc-doc
+pike7 libc6 libgmp3
+manpages-ja-dev
+swi-prolog-clib libc6 swi-prolog
+sipp-dev sipp
+libarr-dev libarr0 libc6-dev
+libzvt-dev libzvt2
+crashme libc6
+dhcp3-dev libc6-dev
+login libpam-modules
+rx320 libc6
+tcl8.0-ja libc6 libncurses5 libreadline4
+icewm-common
+libffcall1 libc6
+unzip-crypt unzip
+faubackup libc6
+cabextract libc6
+cern-httpd libc6 adduser netbase
+plplot-doc
+libreadline4 libc6 libncurses5
+asp libc6
+logcheck-database debconf
+tdl libc6
+pgdocs-pdf
+pppconfig ppp whiptail dialog
+beav libc6 libncurses5
+python1.5-mpz python1.5 libc6 libgmp3
+libmad0 libc6
+freeciv libc6 libreadline4 zlib1g
+libhdf4g-dev libhdf4g libc6-dev zlib1g-dev libjpeg62-dev
+kernel-doc-2.4.16 fileutils
+console-tools-libs libc6
+libpsys-dev libpsys1 libc6-dev
+dvorak7min libc6 libncurses5
+patch libc6
+tftpd netbase libc6
+debconf-doc
+statserial libc6 libncurses5
+kde-i18n-is
+libooc-xml libc6 liboo2c
+lftp libc6 libncurses5 libreadline4 netbase
+quake2-data wget unzip debconf
+vftool libc6
+joe libc6 libncurses5
+libstlport4.5-dbg libstlport4.5
+tcpslice libc6 libpcap0 libpcap0
+libident libc6
+apt-spy libc6
+mailutils-pop3d libc6 libgdbmg1 libmailutils0 libpam0g netbase
+shapetools atfs atfs libc6
+kerberos4kth-servers libc6 libdb3 libhesiod0 libkafs0-heimdal libkrb-1-kerberos4kth libncurses5 libotp0-heimdal libroken9-heimdal libssl0.9.6 netbase krb4-config
+elks-libc bcc
+libticables3 libc6 libusb-0.1-4
+pccts libc6
+libgnupg-perl gnupg
+python2.2-egenix-mxproxy libc6 python2.2-egenix-mxtools python2.2
+libmbonecommon1 libuclmmbase1
+jed libc6 libgpmg1 slang1 jed-common
+liblockfile-dev liblockfile1
+tclx8.2 libc6 tcl8.2
+wfinnish
+libstringlist0 libc6
+mtools libc6
+ppmtofb libc6 libnetpbm9 libpopt0
+libpam0g libc6 libpam-runtime
+yorick-doc
+libdl1-altdev ldso libc5-altdev
+doc-linux-zh-s
+slang1-pic slang1-dev
+gpm libc6 libncurses5 debianutils
+update-cluster-hosts update-cluster
+ickle-common
+blacs-pvm-dev blacs1-pvm
+libavalon-excalibur-java-doc
+netsaint-plugins-pgsql libc6 libpgsql2
+camediaplay libc6 liblockdev1
+nwrite libc6 dpkg
+libgdome2-cpp-smart0 libc6 libstdc++2.10-glibc2.2
+unison libc6
+kernel-source-2.4.10 binutils bzip2 fileutils
+libpt-dbg libpt-dev
+gcc-avr libc6 binutils-avr
+gob libc6 libglib1.2
+xfonts-base xutils
+kde-i18n-it
+mico-bin libc6 libncurses5 libstdc++2.10-glibc2.2 libmico2.3.5
+hermes1-dev hermes1
+jed-common-ja libc6
+cmatrix-xfont xutils
+fvwm-icons
+colrconv libc6 libncurses5
+slang1a-utf8 libc6
+libaspell10 libc6 libpspell4 libstdc++2.10-glibc2.2
+dhcp3-client debconf debianutils dhcp3-common libc6
+mpgtx libc6 libstdc++2.10-glibc2.2
+conserver-client libc6 debconf
+libeb6 libc6
+mminstance libc6 libstdc++2.10-glibc2.2
+mpg123-oss-3dnow libc6
+chktex libc6 libncurses5
+paragui-themes
+scalapack-mpich-dev scalapack1-mpich blacs-mpich-dev
+memoization cmucl
+cfengine-doc
+diffstat libc6
+libtar-dev libtar libc6-dev
+nd libc6 libxml2
+gengetopt libc6
+libgtop-daemon libc6 zlib1g libgtop1
+wdanish
+libefs-dev libefs1
+mp3blaster libc6 libncurses5 libsidplay1 libstdc++2.10-glibc2.2 libvorbis0
+yiff-server libc6 libstdc++2.10-glibc2.2 liby2
+kernel-patch-2.4-grsecurity patch
+fbbdoc
+cnt yabba dabba do
+jython-doc
+irda-common libc6
+libgempc410 libc6 debconf
+libxmlrpc-c0 libc6 libwww0
+libapt-pkg-doc
+apcalc-dev libc6-dev
+libssl0.9.6 libc6
+doom-wad-shareware
+kde-i18n-fr
+php4-pear
+outguess libc6
+unaccent libc6 libunac1
+libpth14 libc6
+squidclient libc6
+gmt-tutorial-pdf
+pexts-admintools libc6 libpam0g pike7 pike7
+libuclmmbase1-dev libuclmmbase1 libc6-dev
+ncurses-bin
+pysol-sounds
+lucas-root
+avrprog libc6 debconf
+slang1-ja-dev slang1-ja libc6-dev
+cutils libc6
+routed libc6
+smtpfeed libc6
+cruft libc6
+libace-rmcast5.2 libace5.2 libc6 libstdc++2.10-glibc2.2
+heimdal-servers libasn1-5-heimdal libc6 libcomerr1-heimdal libdb3 libgssapi1-heimdal libkafs0-heimdal libkrb-1-kerberos4kth libkrb5-17-heimdal libncurses5 libotp0-heimdal libroken9-heimdal libssl0.9.6 netbase
+partimage-doc
+python1.5-dev python1.5
+rdiff-backup python2.2 rdiff
+bsd-ftpd adduser debconf netbase libpam-modules libc6 libpam0g libwrap0
+xfonts-greek-ph-75dpi xfree86-common xutils
+talkd netbase libc6 libwrap0
+avrp libc6
+rproxy libc6
+bridge-utils libc6 ifupdown
+libpam-smbpass libc6 libcupsys2 libpam0g
+ari-yahoo libc6 libncurses5 libyahoo0
+libgtkextramm12 libc6
+zile libc6 libncurses5
+vtgrab libc6 libncurses5
+picp libc6
+exim libc6 libdb2 libident libldap2 libpam0g libpcre3 cron
+adduser perl-base passwd debconf
+freetype2 libttf2
+php3-cgi-ldap php3-cgi libc6 libldap2
+cedictgb
+librxp1 libc6
+rwho rwhod libc6
+pike7.2-sane libc6 libsane pike7.2
+mpich libc6 rsh-client
+libgcc1 libc6
+regina-rexx libc6 regina2
+libxmltok1-dev libxmltok1 libc6-dev
+whois libc6
+usbutils libc6
+perdition-dev perdition libvanessa-logger-dev libvanessa-adt-dev libvanessa-socket-dev libc6-dev
+scribe libc6 bigloo-runtime-2.4b
+host libc6
+autogen libc6 libguile9 libltdl3 libopts9 libopts9-dev
+jam libc6
+isic libc6
+libao-dev libao2 libc6-dev
+tclexpat libc6 tcl8.2
+libatk1.0-dev libatk1.0-0 pkg-config libglib2.0-dev
+dctc libc6 libdb3 libglib1.2
+doc-linux-text
+kernel-headers-2.2.20-sparc
+nemesis libc6 libpcap0 libpcap0
+pike-gdbm libc6 libgdbmg1 pike
+ghc5-doc
+libtiff-tools libc6 libjpeg62 libtiff3g zlib1g
+eboard-extras-pack1
+cracklib-runtime cracklib2 file
+lsb-release
+libpth-prof libpth14
+pforth libc6
+bvi libc6 libncurses5
+sfio-dev sfio2000
+plib-doc
+libisccfg0 libc6
+kdevelop-doc
+libhesiod-dev libhesiod0
+libhttpfetcher1 libc6
+mii-diag libc6
+libcqcam-dev libc6-dev
+libaudiofile-dev libaudiofile0 libc6-dev
+librxp1-dev librxp1 libc6-dev
+sfftw2 libc6
+hwb
+is yabba dabba do
+libucl0 libc6
+nms-cookielib
+kde-i18n-fi
+createdisk
+gmt-manpages
+libesd0-dev libesd0 libesd-alsa0 libaudiofile-dev esound-common
+libsufary2 libc6
+fonter libc6 libncurses5
+crafty libc6
+libsc-doc
+hubcot libc6
+dpsyco dpsyco-base dpsyco-lib adduser
+libtdb1 libc6
+dpsyco-base dpsyco-lib
+megahal libc6
+ccf libc6
+picon-misc
+compface libc6 libcompfaceg1
+icu libicu20 make
+ettercap libc6 libncurses5 libssl0.9.6
+webbase-dev libwebbase
+fp-units-base fp-units-rtl
+libc5-altdev libc5
+bash-doc
+canna-utils libc6 libcanna1g
+meschach libc6
+rman libc6
+vpnd libc6 zlib1g debconf
+ppxp libc6 libncurses5 libreadline4 zlib1g
+ibcs-source-2.0
+netpbm-nonfree libc6 libnetpbm9 netpbm
+amp libc6
+libax25 libc6
+libmalaga2 libc6
+m4 libc6
+rats libc6 libexpat1
+libg++2.8.1.3-dev libg++2.8.1.3-glibc2.2
+lesstif1 libc6
+admesh libc6
+shaper libc6 debconf iproute
+libncurses5 libc6
+udftools libc6 debconf makedev
+libservlet2.2-java java-common
+libgocr0 libc6 libnetpbm9
+netplan adduser libc6
+tyvis1-dev tyvis1 libc6-dev
+libsmi2-dev libsmi2 libc6-dev
+snort-doc
+libopenobex-dev libopenobex1 libc6-dev libglib1.2-dev
+buthead libc6
+libmbonecommon1-dev libuclmmbase1-dev
+mew-bin libc6 zlib1g
+xfonts-cronyx-koi8r-75dpi xutils
+hercules libbz2-1.0 libc6 zlib1g
+simh-rsts-images simh
+cgiwrap libc6
+vibrant6-dbg vibrant6
+multex-base
+alsa-utils-0.5 libasound1 libc6 libncurses5
+netpipe-tcp libc6
+pconf-detect libc6 libglib1.2 libprinterconf0 libsnmpkit1 libstdc++2.10-glibc2.2
+liboop3 libc6
+xserver-3dlabs debconf xserver-common-v3 libc6 zlib1g
+libpam-pwdfile libc6 libpam0g
+dvi2ps-fontdata-n2a dvi2ps-fontdata-ja
+mrouted libc6
+syslog-ng libc6
+tag-types libc6
+hostname
+libevms-dev evms libevms1
+netdiag libc6 libncurses5 netbase
+libxmlrpc-c0-dev libxmlrpc-c0 libc6-dev
+libecasoundc0 libc6 libecasound7 libkvutils2 libstdc++2.10-glibc2.2
+streamer libc6 libjpeg62 xawtv-plugins
+imlib-base
+librsvg1 libc6
+libdetect0-pic libc6
+pike7-mysql libc6 libmysqlclient10 zlib1g pike7
+libmorph-dev libmorph
+code2html
+freewnn-cserver freewnn-common adduser libc6
+qt-doc
+libsasl-dev libsasl7 libc6-dev
+dia-common libc6
+kinput2-common debconf
+libjpeg62-dev libjpeg62 libc6-dev
+youbin-client libc6
+libgtrans-ifase0 libc6 libglib1.2
+umsdos libc6
+unixcw libc6
+librpm4 libbz2-1.0 libc6 zlib1g
+xfonts-a12k12 xutils
+bwbasic libc6
+libncurses5-dev libncurses5 libc6-dev
+libstlport4.5-dev libstlport4.5
+atlas2-headers libc6-dev
+libcdk-dev libcdk4 libncurses5-dev
+grub libc6 libncurses5
+gnews-dev libgnews1 libc6-dev
+libcupsys2 libc6 libjpeg62 libpng2 libtiff3g zlib1g
+mcrypt libc6 libltdl3 libmcrypt4 libmhash2
+blender
+syslogout
+cgilib
+dog libc6
+libslbreflex-dev libslbreflex2 libc6-dev
+netpipe-mpich mpich libc6
+busybox libc6
+tree-puzzle libc6
+kernel-image-2.2.20 fileutils
+libgimpprint1 libc6 zlib1g
+afio libc6
+chicken libc6
+libboost-python1.27 libc6 libstdc++2.10-glibc2.2 libstlport4.5
+libmcal0 libc6
+beecrypt2 libc6
+libquantlib0 libc6 libstdc++2.10-glibc2.2
+libnewt-utf8-0 libc6 slang1a-utf8
+xfonts-biznet-base xutils
+axel libc6
+makejvf libc6
+qt3-emb-doc
+apmd libapm1 libc6 debconf powermgmt-base
+libseal1 libc6
+dxpc libc6 liblzo1 libstdc++2.10-glibc2.2
+kakasi-dic
+dbview libc6
+libgpcl0 libc6
+arping libc6 libpcap0 libpcap0
+pantomime1 libc6 libgcc1 gnustep-base1
+librecode-dev libc6 librecode0
+slsc libc6 slang1
+sysvbanner libc6 bsdmainutils
+libmico-dev libmico2.3.5 libc6-dev
+crawl libc6 libncurses5 libstdc++2.10-glibc2.2
+user-de
+libnurbs++-dev libnurbs++1
+e2fsprogs
+netsaint-plugins-extra netsaint-plugins-fping netsaint-plugins-ldap netsaint-plugins-snmp netsaint-plugins-mysql netsaint-plugins-pgsql netsaint-plugins-radius netsaint-plugins-game
+epos-ktd
+lirc-modules-source debconf debianutils
+saml libc6 libgdbmg1 libncurses5 libreadline4
+kernel-headers-2.4.18-686 fileutils
+libc-client2001-dev libc-client2001 libpam0g-dev
+xspecs
+xfonts-cronyx-koi8r-100dpi xutils
+vacation libc6 libdb3
+vgabios
+detachtty libc6
+kernel-patch-benh patch
+gawk debianutils
+debiandoc-sgml-doc-pt-br
+id3ed libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+bootp libc6
+attr-dev libc6-dev attr
+dgipip libc6
+nload libc6 libncurses5 libstdc++2.10-glibc2.2
+skkfep libc6 libncurses5
+localepurge dpkg debconf debianutils
+rtf2latex libc6
+libole2-0 libc6 libglib1.2
+libjpeg-mmx-dev libjpeg62-dev libc6-dev
+ee libc6 libncurses5
+lv libc6 libncurses5
+libc6
+sasl2-bin libc6 libdb3 libpam0g libsasl2
+libxercesicu1 libc6 libicu20 libstdc++2.10-glibc2.2
+slirp libc6
+ivtools-doc
+atlas2-sse libc6 debconf
+pike7-image libc6 libfreetype6 libjpeg62 libtiff3g libttf2 zlib1g pike7
+bsign
+bogl-bterm libc6
+xfonts-cronyx-koi8u-misc xutils
+l2tpd libc6
+icmake libc6
+python2.1-doc
+iamerican ispell
+francine libc6 libpam0g slang1
+muh libc6
+libgsm-bin libc6 libgsm1
+fastjar libc6 zlib1g
+libcupsys2-dev libcupsys2 libc6-dev
+w-bassman libc6 procps procps
+libucxx0-script libc6 libsigc++0 libucxx0
+sword-text-web
+ntaim libc6 libncurses5
+libprinterconf-dev libprinterconf0 libc6-dev
+ident2 netbase adduser libc6
+lpkg libc6
+xfonts-jmk xutils
+binutils-doc
+lvm-common libc6 modutils binutils
+liblockdev1-dev liblockdev1 libc6-dev
+libpam-heimdal libc6 libkrb5-17-heimdal
+am-utils-doc
+libcim3 libc6
+xfonts-intl-japanese xutils
+libkdb-1-kerberos4kth libc6 libkrb-1-kerberos4kth libssl0.9.6
+wine-doc
+doxygen-docs
+apt-zip apt
+ov511-source
+libgql-dev libgql0 libucxx-dev pkg-config
+sed
+acl-installer bzip2
+recite libc6
+icu-data icu
+picasm libc6
+libraw1394-dev libc6-dev libc6 libraw1394-5
+kde-i18n-sl
+kerberos4kth-user
+catdoc libc6
+libsnsp0 libc6 libxml2
+iprint libc6
+eql libc6
+es libc6 libncurses5 libreadline4
+gnuvd libc6 libgnuvd0
+sms-pl libc6 libgdbmg1 libstdc++2.10-glibc2.2
+binutils-sparc libc6 binutils
+harden-doc
+whowatch libc6 libncurses5
+minicom libc6 libncurses5 debconf
+clips-doc
+prozilla libc6 libncurses5
+opengate libc6 libopenh323-1.7.4 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+falselogin libc6
+lpr-ppd libc6 netbase
+bumprace-data
+ppdfilt libppd0 libc6 libglib1.2 libppd0
+xserver-s3 debconf xserver-common-v3 libc6 zlib1g
+kernel-headers-2.4.18-k7 fileutils
+crossfire-maps
+ldp-es-glup
+bg5cc
+ghc5-libsrc
+tcpreplay libc6 libpcap0 libpcap0
+python2.2-egenix-mxstack libc6 python2.2-egenix-mxtools python2.2
+g77-3.0-doc gcc-3.0-base
+xserver-agx debconf xserver-common-v3 libc6 zlib1g
+kimwitu++ libc6 libstdc++2.10-glibc2.2
+vrrpd libc6
+libsigc++-dev libsigc++0
+libffi2 gcc-3.0-base libc6 libgcc1
+cproto libc6
+libgnorbagtk0 libc6 zlib1g
+libmcal0-dev libc6-dev libmcal0
+dictfmt libc6
+wdiff-doc
+cyrus-dev
+qe libc6 libncurses5 libstdc++2.10-glibc2.2
+aa3d libc6
+mailutils-imap4d libc6 libgdbmg1 libmailutils0 libpam0g netbase
+lilypond-doc
+cfdisk-utf8 libc6 slang1a-utf8
+libopts9 libc6
+libgtkimreg-dev
+modeline libc6
+tar
+apt-howto-ko
+libatk1.0-dbg libatk1.0-0
+libprinterconf0 libc6 libglib1.2 libsnmpkit1
+ng-latin libc6 libncurses5 ng-common
+libasound1-dev libasound1 alsa-headers-0.5
+rolldice libc6
+guikachu2rcp xsltproc
+sylpheed-doc
+openacs-doc
+libncursesw5-dev libncursesw5 libc6-dev
+nmap libc6
+libacl1-kerberos4kth libc6 libkrb-1-kerberos4kth
+kimberlite-doc
+mmx-emu libc6
+apt-howto-it
+geda-symbols
+upsd libc6
+python1.5-gdbm python1.5 libc6 libgdbmg1
+hp48cc libc6
+htcheck libc6 libmysqlclient10 libstdc++2.10-glibc2.2 zlib1g
+libfox0.99-doc
+recode libc6 librecode0
+cook libc6
+libmyodbc libc6 libmysqlclient10 odbcinst1 zlib1g debconf
+libxml1 libc6 zlib1g
+libusb-dev libusb-0.1-4 libc6-dev
+libcgicg1 libc6
+libcurl-ssl-dev libcurl2-ssl libc6-dev libssl-dev
+rc libc6 libncurses5 libreadline4
+discover libc6 libdiscover1 ash
+icecast-server libc6 libwrap0
+manpages-de
+e2ps libc6 libpaperg
+kbd-compat console-tools console-tools-libs
+harden-clients debconf
+xacc-smotif
+rusers libc6
+net-tools libc6
+ayuda
+plib1.5-doc
+kissme libc6 libgmp3 libncurses5 kissme-classpath
+proj-ps-doc
+libnetpbm9 libc6
+liblua40 libc6
+libgmp2 libc6
+bsdmainutils libc6 libncurses5 bsdutils debianutils debconf
+suck libc6 libsocks4 libssl0.9.6 debconf
+ugidd portmap netbase libc6 libwrap0
+smail libc6 libident libwrap0 cron
+fmtools libc6
+cpp-2.95-doc
+lirc-svga libc6 svgalibg1 lirc
+python-imaging-doc-html
+doc-linux-it-text
+kde-i18n-he
+kernel-doc-2.4.10 fileutils
+recode-doc
+camlidl-doc
+doc-debian-ja
+coq libc6 libncurses5
+emacsen-common bsdmainutils
+libtw-dev libtw libc6-dev
+axyftp-doc
+pvm libpvm3 libc6 libpvm3
+sgb libc6
+clisp libc6 libncurses5
+authbind libc6
+stat libc6
+libelfg0 libc6
+sbm libc6 libucl0
+perl-base
+mcl libc6
+pike-gmp libc6 libgmp3 pike
+libraw1394-5 libc6 makedev
+admwebuser libc6
+makedic libc6
+mrename
+libaca0 libc6
+lockvc libc6 libpam0g svgalibg1
+texinfo libc6
+fp-docs
+unicon-im libc6 libstdc++2.10-glibc2.2
+libdb3 libc6
+purity-off purity
+libnss-lwres lwresd libc6 liblwres1
+dict-hitchcock
+superd libc6
+libpaperg-dev libpaperg
+gpw libc6
+hbf-cns40-3
+pexts-mhash libc6 libmhash2 pike7 pike7
+doc-jakarta-ja
+xfonts-terminus xutils
+ghc4-libsrc
+set6x86 libc6
+gzip debianutils
+vibrant6 libc6 lesstif1
+garlic-doc
+atlas2-base libc6 debconf
+dbskkd-cdb libc6 skkdic-cdb
+glade-common
+xshipwars-server libc6 libstdc++2.10-glibc2.2
+bdfresize libc6
+tftp libc6
+rgpsp libc6 libstdc++2.10-glibc2.2
+dhcp3-common debconf debianutils libc6
+kerberos4kth-services
+fwbuilder-dev
+camlp4-doc
+zsh-beta-doc
+xmhtml1 libc6
+libstrutilsxx-dev libstrutilsxx0.7
+libtabe-dev libtabe2
+flin libc6 libncurses5
+libcoin20-runtime
+gbdk-dev
+xttitle libc6
+libmico2.3.5 libc6
+gnupg-doc
+libproc-dev libc6-dev procps
+xemacs21-mulesupport-el
+cpmtools libc6 libncurses5
+libcommons-collections-java java-common
+radio libc6 libncurses5
+apache-doc
+hbf-cns40-6
+watchdog libc6 makedev
+multimix libc6
+kernel-internals-guide
+xfonts-cronyx-75dpi xutils
+pump libc6 libpopt0 debconf
+asd4-clients libc6 libglib1.2 libxml2
+vlan libc6 iproute
+anarchism
+cucipop netbase libc6 libpam0g
+nget libc6 libncurses5 libpopt0 libstdc++2.10-glibc2.2 zlib1g
+swig-doc
+siege libc6 libssl0.9.6
+splitvt libc6 libncurses5
+kerberos4kth-kip libc6 libdb3 libkrb-1-kerberos4kth libroken9-heimdal libssl0.9.6 krb4-config
+modemu libc6
+mpg123-esd libaudiofile0 libc6 libesd0 libesd-alsa0
+manpages-dev manpages
+kernel-patch-2.4.19-mips
+sysutils libncurses5
+shoop-modules shoop
+mikmod libc6 libmikmod2 libncurses5
+dome libc6 libstdc++2.10-glibc2.2
+libdb3++-dev libdb3++ libdb3-dev
+cd-discid libc6
+python1.5-egenix-mxdatetime libc6 python1.5-egenix-mxtools python1.5
+iesperanto ispell
+doc-linux-sv-html
+fingerd netbase finger libc6
+autoclass libc6
+lucas ldp-es lucas-novato lucas-root lucas-redes lucas-manifesto
+python-pyqt-doc
+cvsupd libc6 libpm3 libpm3-extra zlib1g
+tclx8.2-doc
+mergelog libc6 zlib1g
+libctl2 libguile9 libc6
+scottfree libc6 libncurses5
+wget libc6
+sabre-common
+libflux0 libc6
+aspell-da aspell
+liboro-java java-common
+nsmon libc6
+radioclk libc6 ntp-refclock debconf
+file-rc sysvinit
+libvanessa-socket-dev libvanessa-socket0 libvanessa-logger-dev libc6-dev
+cddb libc6
+tetex-doc tetex-base
+imgvtopgm netpbm libc6
+kde-i18n-da
+g77-3.0 gcc-3.0-base libc6 gcc-3.0 gcc-3.0
+slang1 libc6
+liby-dev liby2
+debian-guide-zh-s
+libsys-cpuload-perl libc6
+petsc2.1.3-doc
+purity libc6
+kde-i18n-eo
+hwtools libc6
+libdb3-tcl libc6 tcl8.3
+gravitywars libc6 svgalibg1
+debrecipes-es
+tendra-doc
+libosp2 libc6
+dpsyco-lib rsync
+libcap1 libc6
+rcs libc6
+kde-theme-pastel
+ftjam libc6
+chrony libc6
+libesmtp5 libc6
+mnogosearch-pgsql libc6 libpgsql2 libssl0.9.6 postgresql-client mnogosearch-common
+madbomber-data
+libvanessa-adt-dev libvanessa-adt0 libvanessa-logger-dev libc6-dev
+kernel-source-2.2.22 binutils bzip2 fileutils
+libminidom0 libc6 libglib1.2 libxml2
+unifont xutils
+libhdf4g-run libc6 libhdf4g libjpeg62 zlib1g
+integrit libc6
+freewnn-jserver-dev
+gcl-doc
+xfonts-bolkhov-koi8u-75dpi xutils
+svgalibg1-dev svgalibg1 libc6 libc6-dev
+jove libc6 libncurses5 debconf
+lcap libc6
+zh-autoconvert libc6 libhz0
+midentd netbase adduser
+libclips-dev libclips libc6-dev
+libnessus1 libc6 libgmp3 libpcap0 libpcap0 zlib1g
+xfonts-bolkhov-cp1251-misc xutils
+icatalan ispell
+bwm libc6
+lyskom-server libc6 debconf
+ethereal-common libc6 libglib1.2 zlib1g
+hsftp libc6 libncurses5 libreadline4 ssh
+povray-misc
+libgpio-dev libgpio0 libc6-dev
+libzorn-dev libzorn libc6-dev
+namazu2-common
+enscript libc6 libpaperg
+mangoquest-data
+linpac libc6 libncurses5 libstdc++2.10-glibc2.2
+ftpfs-utils libc6
+epic4-script-thirdeye epic4
+isync libc6 libssl0.9.6
+python2.2-optik python2.2
+bchunk libc6
+kde-i18n-de
+heimdal-lib
+hx libc6 libncurses5
+libwrap0-dev libwrap0 libc6-dev
+ftape-util modutils libc6
+kernel-patch-ppscsi-2.4 patch
+nvi libc6 libncurses5
+timeoutd libc6
+svgalib-bin svgalibg1 libc6
+mingw32-runtime
+metacam libc6 libstdc++2.10-glibc2.2
+lyskom-tty-client libc6
+countrycodes libc6
+libpspell-ispell1 libc6 libpspell4 ispell
+kdelibs3-doc
+opt
+libucl-dev libucl0 libc6-dev
+gcc272-docs
+yodl libc6
+ddt-server libc6 libgcrypt1 libgcrypt1 libpgsql2 libregexx1 libstdc++2.10-glibc2.2 debconf
+python2.2-pgsql libc6 libpgsql2 python2.2 python2.2-egenix-mxdatetime
+sfs-client sfs-common libc6 libgmp3 libstdc++2.10-glibc2.2 sfs-lib
+idswakeup libc6 hping2
+libcap2-dev libcap2 libc6-dev
+figfonts figlet
+sgb-doc sgb
+gri libc6 libstdc++2.10-glibc2.2 netcdfg3 emacsen-common
+python1.5 libc6 libdb2 libncurses5 libreadline4 zlib1g
+libglib2.0-data libglib2.0-0
+libvanessa-logger-sample libvanessa-logger0 libvanessa-logger-dev libc6-dev
+libsasl-gssapi-heimdal libsasl7 libasn1-5-heimdal libc6 libcomerr1-heimdal libdb2 libgssapi1-heimdal libkrb5-17-heimdal libroken9-heimdal libssl0.9.6
+junkfilter procmail
+xlib6-altdev libc5 libc5-altdev
+xpdf-chinese-simplified xpdf-common
+motor libc6 libncurses5 libstdc++2.10-glibc2.2
+iputils-tracepath libc6
+perl-5.004-base perl-base
+libpcd-dev libpcd
+icu-locales libicu20
+gch libasis-3.14p-1 libc6 libgnat-3.14p-1 gnat libgnat-3.14p-1 gnat gnat
+filters libc6
+shaperd libc6 libstdc++2.10-glibc2.2
+kernel-doc-2.2.22 fileutils
+python2.2-unit python2.2
+maildir-bulletin libc6 libstdc++2.10-glibc2.2
+rumba-manifold-demo libc6 librumba1 librumbabase1 libstdc++2.10-glibc2.2
+libvanessa-logger-dev libvanessa-logger0 libc6-dev
+gcc-3.0 gcc-3.0-base libgcc1 libc6 cpp-3.0 cpp-3.0 binutils
+zenirc emacsen-common
+libobexftp1 libc6 libopenobex1 libglib1.2
+libtw libncurses5 libgpmg1
+cloop-utils libc6
+ascii libc6
+sfs-common libc6 libgmp3 libstdc++2.10-glibc2.2 sfs-lib nfs-common adduser
+pexts-pcre libc6 pike7 pike7
+id3v2 libc6 libid3-3.7-13 libstdc++2.10-glibc2.2
+liborbit2 libc6 libglib2.0-0 liblinc1 libpopt0
+iportuguese ispell
+zlib1g libc6
+xfonts-naga10 xutils
+libgpgme-dev libgpgme6 libc6-dev
+libxkbsel-dev
+animals libc6 libdb2++ libstdc++2.10-glibc2.2
+doc-linux-hr
+sbcl libc6
+dircproxy libc6
+donkey libc6
+exim-doc
+dvi2ps-fontdata-tbank dvi2ps-fontdata-ja
+scanlogd libc6
+python2.2-doc
+netcdf-doc
+libgtrans-mysql-3-23 libc6 libglib1.2 libmysqlclient10 libgtrans-ifase0
+saytime libc6 sox
+fp-units-api fp-units-rtl
+ebook-dev-kde20
+setmixer libc6
+libscrollkeeper-dev libscrollkeeper0
+kernel-patch-evms patch
+ftplib-dev ftplib3 libc6 ftplib3
+fp-units-rtl
+libstonith0 libc6
+lam-mpidoc debianutils
+libtcp4u-dev libtcp4u3 libc6-dev
+ldap-gateways libc6 libldap2 libsasl7
+s3switch libc6
+rawrec libc6
+tclx8.3 libc6 tcl8.3
+kernel-patch-2.4-lsm patch
+expect5.24 expect
+turbine-doc
+kanadic
+liblzo1 libc6
+rsh-client libc6
+harden-localflaws debconf
+aegis3 libc6 zlib1g
+libmacrosystem-dev libmacrosystem0
+libdb3++ libc6 libdb3 libstdc++2.10-glibc2.2
+libzvbi-dev libzvbi-0.1
+octave octave2.0
+entity-doc
+hello libc6
+x3270-htmldoc
+libhz-dev libhz0 libc6-dev
+dict-foldoc
+savant libc6 libstdc++2.10
+umfpack3-dev umfpack3 blas libc6-dev
+fp-utils
+freewnn-kserver-dev
+harden-remoteflaws debconf
+gnupg libc6 libgdbmg1 zlib1g makedev devfsd
+perl-5.005-base perl-base
+java-virtual-machine-dummy java-common
+ihungarian ispell
+ibrazilian ispell
+libavc1394-dev libavc1394-0 libc6-dev
+bnc libc6
+vrflash libc6
+mlock libc6
+libopenldap1 libc6 libopenldap-runtime
+anti-aliasing-howto
+interchange-doc
+ipip libc6
+xfonts-cronyx-isocyr-75dpi xutils
+wzip libc6
+microcode.ctl libc6 modutils makedev
+ytree libc6 libncurses5
+picon-usenix
+kernel-patch-2.2.19-arm
+libltdl3 libc6
+lpe libc6 slang1
+atlas2-sse2-dev atlas2-sse2 atlas2-headers
+kde-i18n-no
+hylafax-client libc6 libstdc++2.10-glibc2.2 libtiff3g zlib1g enscript libpaperg
+enlightenment-data
+libflash-dev libflash0 libc6-dev
+avra libc6
+kernel-patch-int
+libstrutilsxx0.7 libc6
+bidentd libc6 libstdc++2.10-glibc2.2 netbase debconf
+remstats-bintools libc6 netbase
+git libc6 libncurses5 libreadline4
+knocker libc6
+ftnchek libc6
+tcpdump libc6 libpcap0 libpcap0
+tintin++ libc6 libncurses5 libreadline4
+fp-compiler fp-units-rtl
+ispell libc6 libncurses5
+kde-i18n-lt
+netpipe-lam lam-runtime lam3 libc6
+gnome-games-locale
+lsh-utils libc6 libgmp3 zlib1g
+dvipdfm tetex-base libc6 libkpathsea3 libpaperg libpng2 zlib1g
+scsh libc6 libelfg0
+nut libc6 debconf adduser
+libsc2 libc6 libstdc++2.10-glibc2.2
+simgear0 libc6
+skkdic-extra
+python-egenix-mx-base-dev
+cdebconf-dev cdebconf
+wprint libc6 libfreetype6
+pike-pg libc6 pike
+sortmail libc6
+ocaml-findlib libc6
+mtd-tools libc6 zlib1g
+gnu-standards
+libkadm5clnt4-heimdal libc6 libhdb7-heimdal libkrb5-17-heimdal libroken9-heimdal
+mh-book
+stopafter libc6
+xfonts-base-transcoded xutils
+epic4-script-light epic4
+bc libc6 libncurses5 libreadline4
+kbackup-doc
+liblockfile-simple-perl
+shhopt libc6
+notifyme libc6
+mtx libc6
+adjtimex libc6
+fam portmap libc6 libstdc++2.10-glibc2.2
+libxdelta2-dev libxdelta2
+freesci-doc
+jbofihe libc6
+signing-party gnupg
+libnmz3 libc6
+libxslt1 libc6 libxml2
+libestools1.2 libc6
+jedstate libc6 libgdbmg1 jed-common
+hdparm libc6
+xfonts-cronyx-misc xutils
+itcl3.0-dev libc6-dev tcl8.0-dev itcl3.0
+cupsys-pstoraster libc6 libcupsys2 libjpeg62 libpng2 libtiff3g zlib1g
+nullmailer libc6 libstdc++2.10-glibc2.2 debconf
+libcap-bin libcap1
+libgsm1 libc6
+cdcd libc6 libcdaudio0 libncurses5 libreadline4
+netcdfg3 libc6
+swapd libc6
+libxmpi3-dev libc6-dev libxmpi3
+utalk libc6 libncurses5
+fping libc6
+lsbdev-guide
+crash libc6 libncurses5 zlib1g
+umfpack-doc
+fuzz libc6 libreadline4
+flick-dev
+kdepalettes
+cpp-3.0 gcc-3.0-base gcc-3.0-base libc6
+libgtop2-daemon libc6 libglib2.0-0 libgtop2
+isdnutils-doc
+libibtk-dev libibtk0 libc6-dev
+snarf libc6
+sourcenav-doc
+xfonts-kappa20 xutils
+arpd libc6
+blas-dev blas libc6-dev
+libunicode0 libc6
+libpgsql2 libc6 libssl0.9.6 libstdc++2.10-glibc2.2
+libgsl0-dev libgsl0
+icon-ipl
+kde-i18n-el
+id3ren libc6
+loadlin libc6
+m2c libc6
+sysnews libc6
+libproplist0 libc6
+ezbounce libc6 libstdc++2.10-glibc2.2
+kernel-patch-usagi patch
+xserver-xfree86 debconf xserver-common libc6 zlib1g
+star libc6
+screen libc6 libncurses5 libpam0g base-passwd
+libpng2 libc6 zlib1g
+libbitcollider-dev
+libgts-dev libc6-dev libc6 libglib1.2
+pike7.2-gz libc6 zlib1g pike7.2
+debwrap libc6
+angband-doc fileutils
+diskless-image-simple debconf
+aleph-doc
+tochnog-doc
+lib-saxon-java java-common
+iproute libc6
+libpth-dev libpth14
+php3-cgi-xml php3-cgi libc6 libxmltok1
+acidwarp libc6 svgalibg1
+grap libc6 libstdc++2.10-glibc2.2
+barcode libc6 libpaperg
+nn libc6 libncurses5 debconf
+autobook
+cdparanoia libcdparanoia0
+scantv libc6 libjpeg62 xawtv-plugins
+dvi2ps-fontdata-ptexfake dvi2ps-fontdata-ja
+goops libgoops5
+latte libc6 libstdc++2.10-glibc2.2
+kerberos4kth-x11
+isdnutils-base debconf makedev libc6 libncurses5
+libmysqlclient10-dev libmysqlclient10
+shorewall iptables gawk
+hpsockd libc6 libdb3
+ipgrab libc6 libpcap0 libpcap0
+jad libc6 libstdc++2.10-glibc2.2
+libwxgtk2.2-dbg wxwin2.2-headers libc6-dev
+libicu20 libc6 libstdc++2.10-glibc2.2
+python1.5-doc-info
+ttf-larabie-uncommon
+saydate sox
+manpages-pl
+fixincludes gcc-3.0-base libc6 gcc-3.0 gcc-3.0
+libgdome2-cpp-smart-dev libgdome2-cpp-smart0
+kernel-headers-2.4.18 fileutils
+divine libc6 libpcap0 libpcap0
+blas-doc
+mcvert libc6
+unarj libc6
+mpe-source
+kde-i18n-ja
+tob debianutils
+kernel-patch-2.2.20-p3 bzip2 patch
+libtrash libc6
+samba-common debconf libpam-modules libc6 libcupsys2 libpam0g
+cvsps libc6 cvs
+libwxbase2.2-dev wxwin2.2-headers libwxbase2.2 zlib1g-dev libc6-dev
+fweb-doc
+icomlib1 libc6 libstdc++2.10-glibc2.2
+libhdb7-heimdal libasn1-5-heimdal libc6 libdb3 libkrb5-17-heimdal libroken9-heimdal
+libferite-dev libferite0
+ncurses-hexedit libc6 libncurses5
+php3-cgi-pgsql php3-cgi php3-cgi libc6 libpgsql2
+hbf-cns40-1
+gphoto2-dev gphoto2 libexif-dev libc6-dev
+wfaroese
+blackened libc6 libncurses5 debconf
+atfs libc6
+mped libc6 libncurses5 debconf
+linuxfacile
+ftp libc6 libncurses5 libreadline4
+libevms1 evms libc6
+libmoe-dev libmoe1.5 libc6-dev
+tcsh-kanji libc6 libncurses5
+dictd libc6 zlib1g
+cdtool libc6
+raidtools2 libc6 libpopt0 debconf makedev
+pas2html libc6
+netsaint-plugins-fping libc6 fping
+netbase net-tools iproute ifupdown ipchains ipfwadm iptables netkit-inetd tcpd netkit-ping iputils-ping debconf
+bplay libc6
+jvim-doc
+ftpd debconf netbase libpam-modules libc6 libpam0g
+xfonts-mona xutils
+phpgroupware-api-doc
+ecasound libc6 libecasound7 libkvutils2 libncurses5 libstdc++2.10-glibc2.2
+vbox3 libc6 tcl8.0
+gimp-data-extras
+libpspell4 libc6 libltdl3 libstdc++2.10-glibc2.2
+tetex-src
+libapache-mod-lisp libc6 libdb3
+doc-linux-sv-text
+libqhull3 libc6
+libadns1-bin libadns1 libc6
+lirc libc6 liblircclient0 debconf
+libpcap0 libc6
+wavtools libc6
+svgatextmode console-tools libc6
+libgpmg1-dev libgpmg1 libc6-dev
+mindy libc6 libreadline4
+gsl-bin libc6 libgsl0
+shorewall-doc
+perdition libc6 libgdbmg1 libpam0g libpopt0 libssl0.9.6 libvanessa-adt0 libvanessa-logger0 libvanessa-socket0
+pcmcia-modules-2.2.20-reiserfs kernel-image-2.2.20-reiserfs pcmcia-cs
+zlib1g-dev zlib1g libc6-dev
+raidtools libc6 debconf makedev
+linux-tutorial-es
+puf libc6
+libcrimson-java-doc java-common
+psk31lx libc6 libncurses5 libstdc++2.10-glibc2.2
+libgd1-noxpm libc6 libfreetype6 libjpeg62 libpng2 zlib1g
+exim-doc-html
+pari-extra
+tleds libc6
+enlightenment-theme-brushedmetal
+python1.5-egenix-mxqueue libc6 python1.5-egenix-mxtools python1.5
+libgtk1.2-common
+debian-history
+hbf-kanji48
+lifelines-reports lifelines
+libzorn libc6 libpng2
+libnewt-pic libnewt0 libnewt-dev
+libalsaplayer0 libc6
+ntp-simple debconf libc6 libreadline4
+morse libc6
+solid-pop3d libc6
+libuu-dev
+ted-common
+binstats bsdmainutils debianutils file
+mysqltcl libc6 libmysqlclient10 tcl8.3
+netsed libc6
+libperl-dev libperl5.6
+cfitsio-doc
+remind libc6
+ntpdate debconf libc6 libreadline4
+pgdocs-pdf-a4
+tetradraw libc6 libncurses5
+cupsys libc6 libcupsys2 libpam0g libslp1 libstdc++2.10-glibc2.2 zlib1g cupsys-pstoraster adduser debconf
+dante-server libc6 libpam0g libwrap0
+libservlet2.3-java java-common
+exdbm libc6
+quickppp libc6
+harden-3rdflaws
+kdeartwork-misc
+libdime-dev
+run libc6
+rdate libc6
+xfonts-bolkhov-koi8u-misc xutils
+swath libc6 libstdc++2.10-glibc2.2
+chromium-data
+dds2tar libc6 tar
+slib
+nbd-server libc6 debconf
+rxsock libc6 regina2
+queso libc6
+picon-weather
+usbmgr libc6
+libyahoo0 libc6
+libgnet-dev libgnet1.1 libc6-dev libglib1.2-dev
+kde-i18n-ru
+lookup libc6
+libgd-gif1-dev libgd-gif1 libc6-dev
+radiusd-livingston libc6
+ccal libc6
+kernel-headers-2.4.16-586 fileutils
+pc532down libc6
+zone-file-check
+kernel-source-2.4.17 binutils bzip2 fileutils
+snacc libc6 libsnacc0
+cdecl libc6 libreadline4
+libssl09 libc6
+focalinux-html
+libdime libc6 libstdc++2.10-glibc2.2
+truc
+zip libc6
+libmikmod2-dev libmikmod2 libc6-dev
+libjsw1.5 libc6 libstdc++2.10-glibc2.2
+libstdc++2.10-glibc2.2 libc6
+kernel-headers-2.4.16-k7 fileutils
+libsmbclient libc6 libcupsys2 libpam0g
+libgtk1.2-doc
+mpage libc6 libpaperg
+xvfb libc6 zlib1g
+aspell-en libaspell10
+gsm-utils libc6 libgsmme1 libstdc++2.10-glibc2.2
+pratico
+libgoops5 libc6 libguile9
+maint-guide-es
+yforth libc6
+xfstt libc6 libstdc++2.10-glibc2.2
+navigator-nethelp-477
+gnumeric-doc
+kdewallpapers
+mt-st libc6
+ruby-examples
+rstatd netbase portmap netbase libc6
+tcpflow libc6 libpcap0 libpcap0
+bonnie++ libc6 libstdc++2.10-glibc2.2
+gnustep-make gobjc-3.0 libc6
+pppdcapiplugin ppp libcapi20 libc6
+mifluz-doc
+gnome-audio
+tcpstat libc6 libpcap0 libpcap0
+samba-doc-ja
+xserver-i128 debconf xserver-common-v3 libc6 zlib1g
+ipmi-control libc6 makedev devfsd
+libxalan1.2-dev libxalan1.2 libxerces1-dev libc6-dev
+python1.5-psycopg libc6 libpgsql2 python1.5-egenix-mxdatetime python1.5
+csh libc6
+iczech ispell
+libsoup2 libc6 libglib1.2 libxml1 zlib1g
+mserv-dev
+mdadm libc6 makedev debconf
+liwc libc6
+slpim libc6 libgdbmg1 libncurses5 libpcre3
+rrdtool-tcl libc6 librrd0 tcl8.3
+eblook libc6 libeb6 zlib1g
+gcompris-sound-fr gcompris-data
+libhdf4g libc6 libjpeg62 zlib1g
+rtlinux-doc
+xalan libc6 libstdc++2.10-glibc2.2 libxalan1.2 libxerces1 libxerces1
+parted-doc
+cursel libc6 libncurses5
+mkcramfs libc6 zlib1g
+quantlib-refman
+sleepd libapm1 libc6
+saxon-catalog java-common lib-saxon-java arbortext-catalog libcrimson-java
+jftpgw libc6 libwrap0
+manpages-es debconf
+evms-lvmutils evms libc6 libevms1
+libdetect-dev libdetect0 libc6-dev libisapnp-dev
+libedit-dev libedit2 libncurses5-dev
+ser2net libc6
+libpam-cracklib cracklib2 libc6 libpam0g cracklib-runtime
+boxes libc6
+kernel-headers-2.4.18-k6 fileutils
+libxdb libc6 libstdc++2.10-glibc2.2
+bind9-host libc6 libdns5 libisc4 libssl0.9.6
+pstngw libc6 libopenh323-1.7.4 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+iswedish ispell
+lde
+libpam-sfs sfs-client libc6
+dvgrab libc6 libraw1394-5 libstdc++2.10-glibc2.2
+libsmapi2-dev libsmapi2 libc6-dev
+opennap libc6 zlib1g
+focalinux-text
+verilog-mode emacsen-common
+kernel-patch-2.2.19-reiserfs patch
+libslp-dev libslp1 libc6-dev
+libwxbase2.2 libc6 libstdc++2.10-glibc2.2 zlib1g
+hlatex-fonts-base
+libg++27-altdev libc5 libc5-altdev libg++27 libg++27
+fbb libax25 libc6 libncurses5
+gnucap libc6 libstdc++2.10-glibc2.2
+librsvg-dev librsvg1 libc6-dev
+libsqlite0-tcl libc6 libsqlite0 tcl8.3
+netpbm bc libnetpbm9 libc6 libjpeg62 libpng2 libtiff3g zlib1g
+libgocr-doc
+dhcping libc6
+libsnack2-doc
+cfitsio2 libc6
+libgc6-dev libgc6 libc6-dev
+bass libc6
+gprolog libc6
+iraf-dev
+wanpipe libc6 libstdc++2.10-glibc2.2
+kapptemplate
+libgdbmg1-dev libc6-dev libgdbmg1
+icom libc6
+libdns5 libc6
+libasis-3.14p-1 gnat
+empire-lafe libc6 libncurses5 libreadline4
+t1utils libc6
+libc5-altdbg libc5-altdev libc5
+spectrum-roms
+libcorelinux-dev libcorelinux libc6-dev
+libcorelinux libc6
+libkeynote0 libc6 libssl0.9.6
+libswig1.1 libc6
+xfonts-cronyx-isocyr-misc xutils
+xfslibs-dev libc6-dev xfsprogs
+lsof libc6
+ipchains libc6 debconf
+swig1.3 libc6 libstdc++2.10-glibc2.2 libswig1.3
+tcptraceroute libc6 libpcap0 libpcap0
+ftp-ssl libc6 libncurses5 libreadline4 libssl0.9.6
+kde-i18n-az
+libming-fonts-openoffice libming
+prcs rcs libc6 libstdc++2.10-glibc2.2
+librumbabase1 libc6 libstdc++2.10-glibc2.2
+read-edid libc6
+lifelines libc6 libncurses5
+firewall-easy
+telnet-ssl libc6 libncurses5 libssl0.9.6
+snoopy libc6 ld.so.preload-manager debconf
+binutils-h8300-hms libc6
+mp3info libc6 libncurses5 debconf
+ifenslave libc6
+libsasl2 libc6
+debian-keyring
+sharefont xutils
+canna-shion canna
+mpg321 libao2 libc6 libid3tag0 libmad0 zlib1g
+rdist libc6
+libdiscover1 libc6 discover-data
+libnss-db libc6 libdb3 make
+alsa-headers-0.4
+lprng-doc
+jabber libc6 libssl0.9.6
+geda-doc
+libgnome-pilot1 libc6
+pretzel libc6 libstdc++2.10-glibc2.2 flex bison
+libkafs0-heimdal libc6 libkrb-1-kerberos4kth libkrb5-17-heimdal libroken9-heimdal libssl0.9.6
+libgcrypt-doc
+nictools-pci libc6
+intel2gas libc6 libstdc++2.10-glibc2.2
+postgresql-client libc6 libpam0g libreadline4 libssl0.9.6 zlib1g libpgsql2
+irussian ispell
+p4fftwgel2 libc6
+wbritish
+fp-units-net fp-units-rtl
+kiss libc6 libncurses5 libreadline4
+xfsdump attr dmapi libc6 xfsprogs
+libc-client-ssl2001 libpam-modules mlock libc6 libpam0g libssl0.9.6
+krb4-config debconf
+apple2 libc6 svgalibg1
+xpdf-korean xpdf-common
+mgt libc6 libncurses5
+clanlib-doc
+sufary libc6 libsufary2 libsufary2
+db2-doc libdb2
+ticker libc6 slang1
+icecast-client libc6
+r5rs-doc
+libhdf4g-doc
+python1.5-egenix-mxproxy libc6 python1.5-egenix-mxtools python1.5
+libadns1 libc6
+cxref-doc
+debian-policy fileutils
+dmachinemon-servent libc6 libdmachinemon3
+flex-doc
+tsocks libc6
+svgalibg1 libc6
+gcompris-sound-de gcompris-data
+libapache-mod-xslt libc6 libdb2 libexpat1 libxalan1.2
+aprsd libax25 libc6 libstdc++2.10-glibc2.2
+libgmp3-doc
+libmorph libc6
+rstat-client libc6
+amap libc6
+dpkg
+esound-common
+p4fftwgel-dev p4fftwgel2 libc6
+fonty console-tools console-data debconf
+chrpath libc6
+traceroute-nanog libc6
+gperf-ace libace5.2 libc6 libstdc++2.10-glibc2.2
+discover-data
+tzwatch
+ud libc6
+lzop libc6 liblzo1
+gap4-tdat
+tcl8.3-doc
+bock libc6 libgc6
+libident-dev libident libc6
+glut-doc
+libhz0 libc6
+libpam-pgsql libc6 libmhash2 libpam0g libpgsql2
+tuxkart-data
+debian-guide
+pike-gz libc6 zlib1g pike
+libpcd libc6
+apg libc6
+doc-debian-fr
+ssh libc6 libpam0g libssl0.9.6 libwrap0 zlib1g libpam-modules debconf adduser
+libopenh323-dev libopenh323-1.7.4 libssl-dev libpt-dev
+minpack1 libc6
+p2c libc6
+zblast-data
+luxman libc6 libstdc++2.10-glibc2.2 svgalibg1
+libnasl1 libc6 libgmp3 libnessus1 libpcap0 libpcap0 zlib1g
+chpp libc6 libgc6 libmysqlclient10
+modutils libc6 sysvinit
+thinkpad-base modutils debconf
+re2c libc6 libstdc++2.10-glibc2.2
+gpsim-doc
+sasl-bin libc6 libdb2 libpam0g libsasl7
+kde-theme-sweetpill
+lrzsz libc6
+teapop-pgsql netbase debconf libc6 libpgsql2
+nbd-client libc6 debconf
+libffi2-dev gcc-3.0-base libffi2 libc6-dev
+xfonts-100dpi-transcoded xutils
+pm3 libc6 libpm3 libpm3
+nessus-dev
+python1.5-popy python1.5-egenix-mxdatetime debconf python1.5 libpgsql2
+sox-dev
+shoop-dev shoop
+alcovebook-sgml-doc
+freesweep libc6 libncurses5
+libopts9-dev libopts9
+mp3rename libc6
+kernel-patch-openmosix patch
+libseal-dev libseal1 libc6-dev
+apcupsd libc6 libncurses5 bsdutils
+xfonts-bolkhov-koi8r-75dpi xutils
+doc-linux-pl
+libmm11-dev libmm11 libc6-dev
+cmake libc6 libncurses5 libstdc++2.10-glibc2.2
+libtiffep1 libc6 libglib1.2
+doc-html-w3
+ipv6calc libc6
+libcommons-beanutils-java-doc
+libbcel-java java-common
+int-fiction
+bind9-doc
+wspanish
+libneon19 libc6 libxml2 zlib1g
+playmp3list mpg321 mpg123 libc6 libncurses5 libstdc++2.10-glibc2.2
+6tunnel libc6
+libsmapi2 libc6
+libgpmg1 libc6 libncurses5
+ipvsadm libc6 libpopt0 debconf
+youbin-dev
+wordplay libc6
+systemimager-doc
+aprsdigi libax25 libc6
+libldap2 libc6 libsasl7
+gwm-doc
+freewnn-kserver freewnn-common adduser libc6
+powstatd-crypt libc6
+xfsprogs libc6
+xtail libc6
+gnade-doc
+tethereal libc6 libglib1.2 libpcap0 libpcap0 zlib1g ethereal-common
+libgdome2-0 libc6 libglib1.2 libxml2
+libsnacc-dev libsnacc0
+p3nfs libc6
+cfs libc6 nfs-kernel-server nfs-user-server
+iputils-arping libc6
+systemimager-initrd-i386
+junior-doc
+python1.5-examples python1.5
+le libc6 libncurses5
+picon-news
+compilercache libc6
+libctk-dev libctk3-dev libc6-dev libarr-dev libglib1.2-dev
+octave2.0-doc
+libctk3 libarr0 libc6 libglib1.2 libgpmg1
+octave2.0-headers octave2.0
+mailutils libc6 libgdbmg1 libguile9 libltdl3 libmailutils0 libncurses5 libreadline4
+libnss-multidomain libdb3 libc6 libdb3
+file-kanji libc6
+omega-rpg libc6 libncurses5
+zsh-doc
+ccache libc6
+calife libc6
+id-utils libc6
+kissme-classpath
+dancer-services libc6 lsof
+libcppopt-dev libcppopt0 libc6-dev
+linleech libc6 slang1
+libbz2 libc6
+libreadline4-dbg libreadline4
+doc-es-misc
+zoo libc6
+pcmcia-modules-2.4.18-bf2.4 kernel-image-2.4.18-bf2.4 pcmcia-cs
+mird1 libc6
+kde-theme-matte
+libexif5 libc6
+libtowitoko-dev libtowitoko2 libc6-dev
+php3-cgi-mhash php3-cgi libc6 libmhash2
+libregexp-java java-common
+transformiix libc6 libstdc++2.10-glibc2.2
+qt-emb-doc
+hbf-cns40-5
+kvirc-doc
+kde-i18n-zhtwbig5
+kernel-image-2.2.20-compact
+ledcontrol libc6 libglib1.2
+tcl8.0-dev libc6-dev tcl8.0
+plptools libc6 libreadline4 libstdc++2.10-glibc2.2
+cflow libc6 debianutils
+libsensors1 libc6
+openh323gk libc6 libopenh323-1.7.4 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+pciutils libc6
+libdmachinemon3 libc6
+grep
+xprobe libc6 libpcap0 libpcap0
+libssl095a libc6
+libnetpbm9-dev libnetpbm9
+rwalld portmap netbase libc6
+kernel-patch-preempt-2.4 patch
+scsiadd libc6
+docbook-doc
+libxerces2-java java-common
+newspost libc6
+wfrench
+suidmanager dpkg
+vim-scripts
+quota libc6 libwrap0 debconf
+tin debconf libc6 libncurses5 libpcre3
+alsa-source-0.4 debconf
+spell libc6 ispell
+skyutils1 libc6
+xfonts-pex
+ploticus-doc
+procmail libc6
+mgetty-voice libc6 mgetty
+stone libc6
+libcapplet1 libc6
+xringd libc6 debconf debianutils
+libntfs-dev libntfs3
+lwresd libc6 libdns5 libisc4 libisccc0 libisccfg0 liblwres1 libssl0.9.6
+libhs libc6
+zip-crypt zip
+dc libc6
+labelnation
+cvsbook
+xpdf-common
+python2.2-mysqldb libc6 libmysqlclient10 zlib1g python2.2
+spline libc6
+lifelines-doc
+xserver-s3v debconf xserver-common-v3 libc6 zlib1g
+apt-localepurge localepurge
+moon-buggy libc6 libncurses5 debconf
+icmpush libc6
+libopenh323-dbg libopenh323-dev
+slrn debianutils debconf libc6 slang1
+libgdbi-dev libgdbi0 libgql-dev libsigcx-dev
+the-doc
+webbase-doc
+kernel-image-2.2.20-idepci
+manpages-fr
+rsaref2 libc6
+autofs-hesiod libc6 libhesiod0 autofs
+gnuboy-svga libc6 svgalibg1
+libglib1.2 libc6
+irmp3 libc6 liblircclient0 mpg321 mpg123
+whiptail-utf8 libc6 libnewt-utf8-0 libpopt0 slang1a-utf8
+libgql0 libc6 libglib1.2 libsigc++0 libsigcx0 libucxx0
+libuclmmbase1 libc6
+xarchon-theme-default
+kde-i18n-mt
+simph323 libc6 libopenh323-1.7.4 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+entity-tcl libentity0 libc6 tcl8.3
+libwww-dev libwww0 zlib1g-dev
+kde-i18n-sv
+heroes-sound-effects
+ncps libc6 libncurses5 procps
+ncbi-tools6 libc6 ncbi-data
+kde-theme-neon
+diff-doc
+libhs-dev libhs libc6-dev
+libnss-mysql libmysqlclient10
+pppstatus libc6 libncurses5
+cupsys-client libc6 libcupsys2 zlib1g
+idanish ispell
+nano-tiny libc6 slang1
+mtr-tiny libc6 libncurses5
+net-acct cron libc6
+enlightenment-theme-ganymede
+libgeda14 libc6
+blast2 libc6 ncbi-tools6
+libcppopt0 libc6 libstdc++2.10-glibc2.2
+libpcre3 libc6
+libsoap-java-doc
+frotz libc6 libncurses5
+mailutils-doc
+xext libc6
+libgc6 libc6 libstdc++2.10-glibc2.2
+libdotconf1.0 libc6
+php3-dev
+roxen2-ssl roxen2 pike7-crypto pike7-lobotomized-crypto pike7.2-lobotomized-crypto
+php3-doc
+libtorch1 libc6
+libsablot0-dev libsablot0 libc6-dev libexpat1-dev
+developers-reference
+xfonts-intl-chinese-big xutils
+libhfsp-dev libhfsp0 libc6-dev
+lib-gnu.getopt-java java-common
+ocaml-source
+ldp-es-gulp
+lucas-novato
+fastdnaml libc6
+fdutils libc6 debianutils
+scanssh libc6 libpcap0 libpcap0
+gmt-examples
+noflushd libc6
+libreadline4-dev libreadline4 libncurses5-dev
+doc-iana
+communicator-spellchk-477
+s3270 libc6 3270-common
+k7fftwgel2 libc6
+libc6-prof libc6
+dosfstools libc6
+scalapack-test-common
+scansort libc6
+libpvm3 libc6
+cramfsprogs libc6 zlib1g
+libuclibc-dev libuclibc0
+ibritish ispell
+iptraf libc6 libncurses5
+tcl8.0-doc
+libssl-dev libssl0.9.6
+dstooltk-doc
+libecasound7 libc6 libkvutils2 libstdc++2.10-glibc2.2
+cloop-src zlib1g-dev
+libopenafs-dev
+xfonts-intl-asian xutils
+manpages-de-dev
+libncursesw5-dbg libncursesw5-dev
+python2.2-examples python2.2
+members libc6 libstdc++2.10-glibc2.2
+blacs1-pvm pvm libc6
+libsane-dev libsane
+python1.5-egenix-mxtools libc6 python1.5
+deborphan libc6 whiptail dialog
+magicfilter libc6 libpaperg enscript
+htp libc6
+xpdf-thai xpdf-common
+eb-doc
+libgtop1 libc6 libglib1.2
+libstdc++3 gcc-3.0-base libc6 libgcc1
+swh-plugins fftw2 libc6
+bnlib1 libc6
+jless libc6 libncurses5 debianutils
+mmorph libc6
+netsaint-plugins-ldap libc6 libldap2
+pike libc6 libreadline4
+libjconv-bin libc6
+nfsbooted
+libkeynote-dev libkeynote0 libc6-dev
+busybox-static
+libjunitperf-java-doc
+liblockdev1 libc6
+lesstif-doc
+liblogkit-java-doc java-common
+libg++2.8.1.3 libstdc++2.10 libstdc++2.10 libc6
+liveice libc6 libncurses5
+libkakasi2 libc6
+systemimager-kernel-i386
+hello-debhelper libc6
+pftp libc6
+libgmp3-dev libgmp3
+libzephyr-dev libc6-dev
+hugs libc6 libncurses5 libreadline4
+libwn6 libc6
+vh libc6 libncurses5
+ftpgrab libc6 libstdc++2.10-glibc2.2
+libqt3-emb libc6 libpng3 libstdc++2.10-glibc2.2 zlib1g
+libtemplate-perl-doc
+libsocks4 libc6
+lam-runtime lam3 libc6 rsh-client ssh rsh-server ssh debconf
+pcal libc6 libpaperg
+psmisc libc6 libncurses5
+sharutils-doc
+bmconf libc6
+doc-linux-nl-text
+kernel-patch-ipmi-kcs
+libhesiod0 libc6 debconf
+talk libc6 libncurses5
+metamail libc6 libncurses5
+pspp libc6 libncurses5 libreadline4
+tidy libc6
+postmark libc6
+bottlerocket libc6 debconf
+zlib1-altdev zlib1 libc5-altdev
+cssc libc6 libstdc++2.10-glibc2.2
+libsigcx0 libc6 libsigc++0
+libtse3-dev libtse3 libc6-dev
+pexts-newt libc6 libnewt0 pike7 pike7
+libgmp3 libc6
+xcingb xfonts-base
+lilo-doc
+xfonts-cronyx-koi8r-misc xutils
+xclips libclips clips-common
+libkadm1-kerberos4kth libc6 libcomerr1-heimdal libkrb-1-kerberos4kth libssl0.9.6
+bind9 libc6 libdns5 libisc4 libisccc0 libisccfg0 liblwres1 libssl0.9.6 netbase
+beep libc6 debconf
+liquidwar-data
+python1.5-egenix-mxtexttools libc6 python1.5-egenix-mxtools python1.5
+libxml2 libc6 zlib1g
+libsdl-net1.2 libc6
+kernel-patch-2.2.19-adaptec patch
+libjsw-dev libjsw1.5
+pppoe libc6 ppp
+lam3 debianutils libc6
+pari-doc
+gcompris-data
+intuitively libc6 libpcap0 libpcap0
+itcl3.1 libc6 tcl8.3
+libwww0 libc6 zlib1g
+ksymoops libc6
+bfbtester libc6
+libmusicbrainz-dev libmusicbrainz1 libc6-dev
+pfe-dev pfe libc6-dev
+libsasl-modules-plain libsasl7 libc6 libpam0g
+tth libc6
+safecat libc6
+ash
+apt-howto-es
+slrn-ja libc6 slang1-ja
+links libc6 libgpmg1 liblua40 liblualib40
+bzip2 libbz2-1.0 libc6
+lib-gnu.regexp-java java-common
+xfonts-thai-vor xutils
+kernel-headers-2.4.18-386 fileutils
+bison++ libc6
+netris libc6 libncurses5
+cedictb5
+nas-dev nas-lib libc6
+ncurses-term
+ipsc libc6
+rexima libc6 libncurses5
+rumba-utils libc6 librumba1 librumbabase1 libstdc++2.10-glibc2.2
+jhead libc6
+libpisock-dev libpisock4
+libsane libc6 libjpeg62 libusb-0.1-4
+freefont xutils
+tcsh-i18n tcsh tcsh-kanji
+typespeed fileutils libc6 libncurses5
+verilog libc6 libstdc++2.10-glibc2.2
+doschk libc6
+sl libc6 libncurses5
+hmmer libc6
+gforth libc6
+libc-client2001 libpam-modules mlock libc6 libpam0g
+extipl-boot
+librsync1 libc6 libpopt0 zlib1g
+abcmidi-yaps libc6
+libnewt0 libc6 slang1
+libgoops5-dev libgoops5
+cfi-en
+gnat libc6
+jwhois libc6 libgdbmg1 adduser dpkg
+xfonts-shinonome xutils
+atlas2-sse-dev atlas2-sse atlas2-headers
+newt-tcl libnewt0 libnewt-utf8-0 tcl8.3
+groovycd libc6 libncurses5
+kernel-headers-2.4.18-586tsc fileutils
+cxref libc6
+kde-i18n-es
+esh libc6 libreadline4
+kde-i18n-uk
+liblog4cpp0 libc6
+apt-howto-en
+vche libc6 libncurses5
+libfam-dev libfam0
+sg-utils libc6
+nbfc libc6
+pike7-crypto libc6 pike7 pike7
+blacs-lam-dev blacs1-lam lam3-dev
+libsp1 libc6
+ctklight
+translate trans-de-en
+levee libc6 libncurses5
+konfont
+ulogd libc6
+weex libc6
+transproxy libc6 libwrap0
+dict-devil
+gidentd libc6 netkit-inetd debconf
+xtradius libc6
+nhfsstone nfs-common libc6
+libpng3 libc6 zlib1g
+expect-dev tcl8.3-dev expect
+vreng wget libubit0
+libpam-modules libc6 libcap1 libdb3 libpam0g
+nvi-m17n-common
+xpdf-japanese xpdf-common
+acct libc6 debconf
+mgetty libc6
+ladspa-sdk libc6 libstdc++2.10-glibc2.2
+leksbot libc6
+libroy0 libc6
+libvanessa-adt0 libc6 libvanessa-logger0
+libglibwww-ssl1 libc6 libssl0.9.6 libwww0 libwww-ssl0 zlib1g
+ifinnish ispell
+defendguin-data
+ant-doc
+libss0-heimdal libc6 libcomerr1-heimdal libncurses5 libreadline4
+libmusicbrainz1 libc6
+rcs-latex tetex-base
+mconfig libc6 libncurses5
+bnlib1-dev bnlib1 libc6-dev
+pinfo libc6 libncurses5
+logtool debconf libc6
+octave2.0-htmldoc octave2.0
+xmake libc6
+ncompress libc6
+a2ps libc6 libpaperg debianutils psutils
+wenglish
+atftpd libc6 libwrap0 netkit-inetd debconf
+netsaint-plugins-game libc6 qstat
+trustees libc6 debconf
+gobjc-3.0 gcc-3.0-base libc6 libobjc1 gcc-3.0 gcc-3.0
+tpconfig libc6 debconf
+funny-manpages
+pgrep libc6 libpcre3
+xfonts-cronyx-isocyr-100dpi xutils
+scribus-doc-fr
+atftp libc6 libreadline4
+blinkd libc6
+librio500-dev libc6-dev
+workbone libc6
+libsl0-heimdal libc6 libncurses5 libreadline4
+grunch libc6 libnetpbm9 netpbm libnetpbm9
+kernel-patch-2.2.20-ide bzip2 patch
+joystick libc6 makedev debconf
+doc-linux-ja-html
+gtml
+libace5.2 libc6 libstdc++2.10-glibc2.2
+libgcrypt1 libc6
+cdda2wav libc6
+lm-sensors makedev devfsd debconf libc6 libsensors1
+libaca-dev libaca0 libc6-dev
+oss-preserve libc6 libglib1.2
+mercury libc6 libncurses5 libreadline4
+libgssapi1-heimdal libasn1-5-heimdal libc6 libkrb5-17-heimdal libroken9-heimdal libssl0.9.6
+libreadline-java-doc
+pciutils-dev pciutils
+firewall-easy-doc-es
+glpk libc6
+libglib1.2-dbg libglib1.2
+dpsyco-sudo dpsyco-lib sudo
+intel-rng-tools libc6 makedev devfsd
+libsphinx2-dev libsphinx2g0 libc6-dev
+tcputils libc6
+ifrench-gut ispell
+liblog4cpp-dev liblog4cpp0 libc6-dev
+whereami debconf
+btoa libc6
+dpkg-multicd
+libgsl0 libc6
+libvanessa-logger0 libc6
+indent-doc
+orville-write debconf libc6
+fdflush libc6
+libadamysql1 libc6
+xfonts-bolkhov-75dpi xutils
+wvdial ppp libc6 libstdc++2.10-glibc2.2
+zlib1 libc5
+fractxtra
+e2fsprogs-bf libc6
+lletters-media
+hexedit libc6 libncurses5
+libgtop2 libc6 libglib2.0-0
+fastlink libc6
+php3-cgi-mysql php3-cgi libc6 libmysqlclient10
+hbf-cns40-7
+libfwbuilder-dev libfwbuilder0 libc6-dev
+bibtool-dev
+torch-examples libc6 libstdc++2.10-glibc2.2 libtorch1
+memtest86
+mutella libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+doc-linux-nl-html
+apt-howto-pt-br
+liblcms libc6
+libjpeg62 libc6
+arpwatch libc6 libpcap0 libpcap0
+menu libc6 libstdc++2.10-glibc2.2
+brltty libc6 debconf
+nullidentd libc6
+libdc1394-dev libdc1394-8 libraw1394-dev libc6-dev
+libestools1.2-dev libestools1.2 libc6-dev
+base-config debconf apt adduser console-data passwd tasksel bsdutils
+libjs0-dev libjs0 ngs-js
+makexvpics libc6 libjpeg-progs netpbm
+zsh30-doc
+libpspell-ispell-dev libpspell-ispell1 libc6-dev
+doc-linux-pl-html
+remstats-doc
+socks4-clients libc6 libsocks4
+netcdfg-dev libc6-dev netcdfg3
+pwgen libc6
+libperl5.6 libc6
+devtodo libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+gnustep-base1-dbg gnustep-base1
+bl libc6
+libcommons-beanutils-java java-common libcommons-collections-java
+glut-data glut-doc
+update
+libtorch-doc
+empire libc6 libncurses5
+perltidy
+lsh libc6 debconf
+urlview libc6 libncurses5
+libppd0 libc6 libglib1.2
+libpam-radius-auth libc6 libpam0g
+cwcp libc6 libncurses5 unixcw debconf
+libselinux-dev libc6-dev
+hyphen-show libc6 libc6
+libjs0 libc6 libncurses5
+blacs1-lam lam3 libc6
+gphoto2 libc6 libcdk4 libexif5 libglib1.2 libjpeg62 libncurses5 libusb-0.1-4
+mkisofs libc6
+rxp librxp1 libc6 librxp1
+libdirectfb-dev libdirectfb8 libc6-dev
+ncbi-tools-bin libc6 ncbi-tools6
+mp4h libc6
+mindi bzip2 mkisofs
+ccmalloc libc6-dev
+s3mod libc6
+ncftp2 libc6 libncurses5 libreadline4
+xchat-common
+libpam-opie libc6 libpam0g
+ed libc6
+startalk libc6 libncurses5
+itcl3.0 libc6 tcl8.0
+ucspi-unix libc6
+mysql-doc
+python-imaging-doc-pdf
+kde-i18n-pl
+mscompress libc6
+attr libattr1 libc6
+ifupdown net-tools libc6
+libgcrypt-dev libgcrypt1 libc6-dev
+kannel libc6 libssl0.9.6 libxml2
+libbow libc6
+hp-ppd
+phylip libc6
+gimpprint-doc
+mopd libc6 debconf
+libpod-pom-perl
+bitchx-dev
+alsa-utils-0.4 libasound0.4 libc6 libncurses5
+libtcp4u3 libc6
+libslbreflex2 libc6 debconf
+cttex libc6
+python2.2-egenix-mxtexttools libc6 python2.2-egenix-mxtools python2.2
+ez-ipupdate libc6 debconf-tiny
+liblockfile1 libc6
+jed-canna libc6 libcanna1g slang1-ja jed-common-ja
+rungetty libc6
+libxdelta2 libc6 libglib1.2
+libstdc++3-doc gcc-3.0-base
+ethiop tetex-base
+youbin libc6
+kernel-patch-2.2.20-arm
+doc-linux-ja-text
+ethtool libc6
+openmcu libc6 libopenh323-1.7.4 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+pike7-gdbm libc6 libgdbmg1 pike7
+dhcpdump libc6 tcpdump
+libpcre3-dev libc6-dev libpcre3
+altgcc libc6 binutils
+libfwbuilder0 libc6
+miscfiles fileutils
+dmachinemon-treeview libc6 libdmachinemon3
+blacs1-mpich mpich libc6
+autolog libc6 cron
+filetraq
+libchasen0 libc6
+bind libc6 netbase
+aspell-de aspell
+libtse3 libc6
+linuxlogo libc6 debconf
+libgsm1-dev libgsm1
+bitcollider libc6
+mirrordir libc6
+kdeartwork-theme-window
+xserver-common debconf xfree86-common libc6
+frozen-bubble-data
+pcx libc6
+wcatalan
+pgp4pine libc6
+scribus-doc-de
+libao2 libc6
+ng-cjk-canna libc6 libcanna1g libncurses5 ng-common
+libavalon-excalibur-java java-common
+libtowitoko2 libc6 debconf
+finger libc6
+liblircclient-dev liblircclient0 libc6-dev
+palo libc6
+irssi-scripts irssi-text
+wgerman
+libpam-tmpdir libc6
+cdbackup libc6 cdrecord
+librecode0 libc6
+gcompris-sound-en gcompris-data
+doc-linux-html
+qpage libc6 libwrap0
+snes9x-svga libc6 svgalibg1 zlib1g snes9x-common
+kernel-headers-2.4.16-686 fileutils
+debianutils
+libghttp1 libc6
+hamlib-utils hamlib1 libc6
+dhcp3-server debconf debianutils dhcp3-common libc6
+console-tools-dev console-tools-libs
+libentity-dev libentity0 libglib1.2-dev
+libldap-java java-common
+wngerman
+tk8.0-doc
+pm3-boot libc6
+wdutch
+hping2 libc6
+libwvstreams-dev libwvstreams3 libc6-dev
+ide-smart libc6
+svgalib-dummyg1 libc6
+xed tcl8.3 tcl8.2
+and libc6
+kernel-patch-2.4.0-reiserfs patch
+motif-doc
+librplay3 libc6
+php3-cgi-snmp php3-cgi libc6 libsnmp4.2
+libdb2++ libc6 libdb2 libstdc++2.10-glibc2.2
+libglib2.0-dbg libglib2.0-0
+libg++2.8.1.3-glibc2.2 libstdc++2.10-glibc2.2 libstdc++2.10-glibc2.2 libc6 libstdc++2.10-glibc2.2
+libcomerr1-heimdal libc6
+lexmark7000linux libc6
+aspell-fo aspell
+rinetd libc6
+smssend libc6
+bpalogin debconf libc6
+kde-i18n-zhcngb2312
+kernel-patch-vlan
+libcurl2-ssl libc6 libssl0.9.6
+libdps-dev libdps1
+cvm libc6
+skkdic-cdb
+vgacardgames libc6 svgalibg1
+aspell-doc
+k7fftwgel-dev k7fftwgel2 libc6
+fbgetty libc6 adduser
+libflac1 debconf libc6 libogg0
+scalapack-doc
+man2html libc6 debianutils
+relay-ctrl libc6
+realpath libc6
+atari-fdisk-cross libc6
+libnss-pgsql1 libc6 libpgsql2
+doc-linux-html-ko
+lurkftp libc6
+libmacrosystem0 libc6 libstdc++2.10-glibc2.2
+potool libc6 libglib1.2
+w3-lisp-e21
+lslk libc6
+jslaunch libc6
+pchar libc6 libsnmp4.2 libstdc++2.10-glibc2.2
+libfreecell-solver0 libc6
+librplay3-dev librplay3
+tclcurl libc6 libcurl2 libcurl2-ssl
+libleakbug1 libc6
+w3cam libc6 libjpeg62 libpng2 libttf2 zlib1g
+libirman-dev libc6-dev
+kwave-doc-fr
+expect5.24-dev expect-dev
+procps libc6 libncurses5
+libcurl2 libc6
+libnss-multidomain-doc
+ebook-dev-ggad
+libkakasi2-dev libkakasi2 libc6-dev
+meschach-dev meschach libc6-dev
+zope-book
+fsp libc6
+octave2.1-htmldoc
+tina libc6 libncurses5
+quicktime4linux-utils libc6 libglib1.2 libpng2 libquicktime4linux0 zlib1g
+libwww-ssl-dev libwww-ssl0
+filter libc6
+libgtrans-ifase-dev libgtrans-ifase0 libc6-dev
+illuminator0 libc6
+ldp-es-garl
+grub-client libc6 libcurl2 libcurl2-ssl libmetakit1 libncurses5 libstdc++2.10-glibc2.2 zlib1g
+ppxp-dev ppxp
+python1.5-distutils python1.5-dev
+xfonts-biznet-iso-8859-2-100dpi xfonts-biznet-100dpi xfonts-100dpi-transcoded
+bximage libc6 libstdc++2.10-glibc2.2
+chase libc6 libgc6
+libdmachinemon3-dev libdmachinemon3
+libares0 libc6
+happy libc6 libgmp3
+libatk1.0-0 libc6 libglib2.0-0
+mrt libc6
+aspell libaspell10 libc6 libltdl3 libncurses5 libpspell4 libstdc++2.10-glibc2.2
+enamdict
+ent libc6
+linklint
+the libc6 libncurses5 regina2
+manpages-ru
+ferite libc6 libferite0 libpcre3
+doc-linux-text-ko
+irda-tools libc6 libglib1.2
+libgnome-pilot1-dev libgnome-pilot1 libc6-dev
+bootparamd portmap netbase libc6
+gruftistats libc6
+lib3ds-dev libc6
+gap4-gdat
+cdrecord-dev
+argante libc6 libncurses5 libreadline4 svgalibg1
+wdg-html-reference
+cim libc6
+dancer-ircd-doc
+irssi-common libc6
+libadaodbc1 libc6
+netcdf-bin libc6 netcdfg3
+cftp libc6 libncurses5
+kernel-patch-2.4.17-s390
+manpages-hu
+3270-common libc6
+libv-doc
+liblogkit-java java-common
+hunt libc6
+hnb libc6 libncurses5 libxml2
+kde-i18n-nony
+clips-common
+trophy-data
+fp-units-misc fp-units-rtl
+gpart libc6
+mailfilter libc6 libstdc++2.10-glibc2.2 debconf
+scribus-doc-en
+libbz2-dev libbz2-1.0 libc6-dev
+dict-easton
+fltk-doc
+nictools-nopci libc6
+nessusd libc6 libgmp3 libnasl1 libnessus1 libpcap0 libpcap0 libwrap0 zlib1g nessus-plugins
+harden-servers debconf
+icmpinfo libc6
+cle libc6 libreadline4
+libvanessa-socket0 libc6 libvanessa-logger0
+lynx-ssl libc6 libncurses5 libssl0.9.6 zlib1g
+pexts-curses libc6 libncurses5 pike7 pike7
+vis5d-doc
+ntfstools libc6 libntfs3
+libecasound-dev libecasound7 libkvutils-dev
+dgpsip libc6
+glibc-doc
+44bsd-rdist libc6
+libwrap0 libc6
+nettoe libc6
+libsmbclient-dev libsmbclient
+libgltt2 libc6 libttf2
+gettext-doc
+guile-www guile1.4
+python2.2 libc6 libdb3 libncurses5 libreadline4 libssl0.9.6 zlib1g
+perdition-postgresql libc6 libvanessa-adt0 libvanessa-logger0 perdition
+twin libc6 libtw zlib1g
+libtorch-dev libtorch1 libc6-dev
+canna libc6 libcanna1g debconf adduser
+heimdal-clients libasn1-5-heimdal libc6 libcomerr1-heimdal libdb3 libgssapi1-heimdal libhdb7-heimdal libkadm5clnt4-heimdal libkadm5srv7-heimdal libkafs0-heimdal libkrb-1-kerberos4kth libkrb5-17-heimdal libncurses5 libotp0-heimdal libreadline4 libroken9-heimdal libsl0-heimdal libssl0.9.6
+expect5.31 expect
+libiso2mb-dev libiso2mb0.8 libc6-dev
+console-data debconf console-common
+sword-dict-naves
+doc++ libc6 libstdc++2.10-glibc2.2
+doc-debian-ko
+crystalspace-doc
+install-doc
+libnbio-java java-common
+gom libc6 libncurses5
+dmapi libc6
+rplay-server libc6 libgsm1 librplay3
+xshipwars-sounds-st
+libunac1-dev libunac1 libc6-dev
+libgnurdf2 libc6 libxml2
+libcteco50000 libc6 debconf
+libcurl-dev libcurl2 libc6-dev
+ifinnish-large ispell
+postal libc6 libssl0.9.6 libstdc++2.10-glibc2.2
+grep-dctrl libc6
+frox libc6
+libmpeg-doc
+flip libc6
+libsolid-dev libsolid libc6-dev
+zlibc libc6
+longrun libc6
+photopc libc6
+libmath3d-0.3-0 libc6
+netselect libc6
+jmpost libc6 libkpathsea3
+iiwusynth libc6 libglib1.2 libncurses5 libreadline4
+nut-doc
+ftape-source make
+xfonts-cyrillic xutils
+wp2x libc6
+pmake libc6
+k6fftwgel2 libc6
+libpng2-dev libpng2 libc6-dev zlib1g-dev
+librumbabase-dev librumbabase1 libc6-dev
+tochnog libc6 libstdc++2.10-glibc2.2
+python2.2-psycopg libc6 libpgsql2 python2.2-egenix-mxdatetime python2.2
+estic libc6 libgcc1 libncurses5 libstdc++3
+rpm2html libc6 libdb3 libpopt0 librpm4 libxml2 zlib1g
+cdebconf libbogl0 libc6 slang1
+dia2code libc6 libxml2
+ipfwadm libc6
+libpgjava java-common
+kon2 libc6 konfont
+reppu libc6 blender
+cpp-3.0-doc gcc-3.0-base
+libxbase2.0-dev libxbase2.0-0 libc6-dev
+lokkit libc6 libnewt0 libpopt0 slang1 ipchains
+rwall libc6
+spicctrl libc6
+readseq libc6 ncbi-tools6
+python-pmw-doc
+cryptcat libc6 libstdc++2.10-glibc2.2
+aumix libc6 libgpmg1 libncurses5
+qstat libc6
+libvncauth0 libc6
+xprt libc6 zlib1g
+gkermit libc6
+speak-freely libc6 libgsm1 libncurses5
+kbackup-multibuf libc6
+xserver-8514 debconf xserver-common-v3 libc6 zlib1g
+ettercap-plugins libc6 ettercap
+c2man libc6 fileutils
+libasound0.4 libc6
+bwbar libc6 libpng2
+cpio libc6
+entity-javascript libentity0 libc6
+lskb
+libace-rmcast5.2-dev libace-rmcast5.2 libace5.2-dev
+libswig1.3 libc6
+gmt-coast-low gmt
+libminidom-dev libminidom0 libc6-dev
+adacgi gnat
+kdesdk-doc
+motifnls
+libgd2-noxpm libc6 libfreetype6 libjpeg62 libpng2 zlib1g
+libid3-3.7-13 libc6 libstdc++2.10-glibc2.2 zlib1g
+mserver libc6
+lp-solve libc6
+apt-howto-ru
+race-data
+libeditline-dev libeditline0 libc6-dev
+liblinc1 libc6 libglib2.0-0
+bind-dev
+lphdisk libc6
+doxygen libc6 libstdc++2.10-glibc2.2
+epic4-help
+cweb libc6 libkpathsea3
+libdvdread2-dev libdvdread2 libc6-dev
+java2html libc6
+python-japanese-codecs libc6
+libcgicg1-dev libcgicg1 libc6-dev
+libgpgme6 libc6 gnupg
+units libc6 libncurses5 libreadline4
+ttf-larabie-straight
+uisp libc6 libstdc++2.10-glibc2.2
+xfonts-biznet-75dpi xutils
+libgnet1.1 libc6 libglib1.2
+ghc4-doc
+kde-i18n-ptbr
+tcsh libc6 libncurses5
+libqt2-emb libc6 libjpeg62 libmng1 libpng2 libstdc++2.10-glibc2.2 zlib1g
+floppybackup libc6 libc6
+setcd libc6
+wxwin2.2-headers
+sqlite-doc
+jed-common slang1
+liblog4cpp-doc
+roxen2 procps pike7 pike7.2 pike7-image pike7.2-image pike7-gz pike7.2-gz pike7-lobotomized-crypto pike7.2-lobotomized-crypto pike7-crypto pike7.2-crypto debconf
+kernel-doc-2.4.14 fileutils
+xfonts-bolkhov-cp1251-75dpi xutils
+gnocatan-help
+imgstamp libc6 libjpeg62
+pax libc6
+ld.so.preload-manager
+devfsd libc6
+fake libc6
+kernel-image-2.4.18-bf2.4 fileutils modutils
+liblualib40-dev liblualib40
+fvwm95-icons
+sdcc libc6
+perdition-ldap libc6 libldap2 perdition
+casio libc6
+fp-units-db fp-units-rtl
+agrep libc6
+libnewt-utf8-pic libnewt-utf8-0 libnewt-utf8-dev
+kde-i18n-hu
+wipe libc6
+slay debconf
+xfonts-intl-chinese xutils
+tcl8.3-dev libc6-dev tcl8.3
+liby2 libc6
+libace5.2-dev libace5.2 libc6-dev
+sniffit libc6 libncurses5 libpcap0 libpcap0
+pgp libc6
+tftpd-hpa libc6 libwrap0
+defoma-doc
+libbitcollider1 libc6
+python2.2-gdbm python2.2 libc6 libgdbmg1
+libkrb-1-kerberos4kth libc6 libssl0.9.6
+epic4-script-splitfire epic4
+libsoap-java java-common libxerces-java
+kernel-doc-2.4.18 fileutils
+kernel-patch-tekram-dc3x5 patch
+libbz2-1.0 libc6
+tdb-dev libc6-dev libtdb1
+fakeroot libc6 libstdc++2.10-glibc2.2
+efax libc6 libpaperg debconf make
+xpdf-chinese-traditional xpdf-common
+linesrv libc6
+sup libc6
+perl2html libc6
+jargon-text
+libferite0 libc6 libpcre3 libxml2
+koffice-doc-html
+kernel-patch-xfs patch
+libcdaudio0-dev libcdaudio0 libc6 libc6-dev
+whichman libc6
+lilo libc6
+omniorb-doc
+libcim3-dev libcim3 libc6-dev
+x86info libc6 debconf makedev
+libroy-dev libroy0
+xfonts-75dpi-transcoded xutils
+util-linux-locales util-linux util-linux
+ntp-refclock debconf libc6 libreadline4
+libexpat1 libc6
+epic4 libc6 libncurses5 libperl5.6 libssl0.9.6 epic4-help
+netspades-server libc6
+uuid-dev libc6-dev e2fsprogs
+simh-unix-images simh
+user-mode-linux-doc
+libtsp3-dev libtsp3 libc6-dev
+hfsutils libc6
+librumba1 libc6 librumbabase1 libstdc++2.10-glibc2.2
+powstatd libc6
+liblog4j java-common
+steghide libc6 libltdl3 libmcrypt4 libmhash2
+debsig-verify libc6 libxmltok1 gnupg
+unhtml libc6
+dvi2ps-fontdata-a2n dvi2ps-fontdata-ja
+xfonts-bolkhov-isocyr-75dpi xutils
+libvanessa-socket-pipe libvanessa-socket0 libc6-dev
+openbabel libc6 libstdc++2.10-glibc2.2
+libc6-pic libc6
+npadmin libc6 libstdc++2.10-glibc2.2
+otp libc6
+whiptail libc6 libnewt0 libpopt0 slang1
+dpsyco-patch dpsyco-lib patch
+ifaroese ispell
+inn2-dev
+pike7.2-gdbm libc6 libgdbmg1 pike7.2
+debian-guide-zh-t
+kforth libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+lout-doc
+libadasockets0
+kimwitu-doc
+librrd0-dev librrd0 libc6-dev
+hamlib-doc
+freefem-examples
+libpam-doc
+busybox-source-0.60.0
+ldp-sag
+bibindex libc6 libncurses5 libreadline4
+hunglish-x3 debconf
+xpdf-utils libc6 libpaperg libstdc++2.10-glibc2.2 xpdf-common
+lynx-cur-wrapper lynx-cur
+ne libc6 libncurses5
+freeamp-doc
+nqc libc6 libstdc++2.10-glibc2.2
+libxerces2-java-doc java-common
+libadolc1-doc
+fwbuilder-doc
+gnome-mime-data
+libasn1-5-heimdal libc6 libcomerr1-heimdal
+xfonts-bolkhov-koi8r-misc xutils
+libv1.25 libc6 libstdc++2.10-glibc2.2
+rpl libc6
+partimage libbz2-1.0 libc6 libnewt0 libssl0.9.6 libstdc++2.10-glibc2.2 slang1 zlib1g
+unrar libc6
+iselect libc6 libncurses5
+liboop-dev liboop3 libc6-dev
+tinyirc libc6 libncurses5
+freecdb libc6
+ncbi-data
+mingetty libc6
+wxwin2.2-doc
+kernel-patch-2.4-ipvs patch
+lanoche
+cocoon-lib
+marlais libc6 libgc6 libreadline4
+libucxx0 libc6 libglib1.2 libsigc++0
+netobjd libc6 libpm3 libpm3-extra libpm3 libpm3-extra
+antiword libc6
+ax25-apps libax25 libc6 libncurses5 debconf
+ipautofw libc6
+libmhash2 libc6
+newbiedoc
+xfs debconf libc6 zlib1g
+m-tx libc6
+tirc libc6 libncurses5
+libnessus-dev libnessus1 libc6-dev
+ncdt libc6
+w3-doc-e21
+dietlibc-doc
+jikespg libc6
+lvm10 libc6 lvm-common file
+gimpprint-locales
+libc6-dbg libc6
+libsasl2-digestmd5-plain libsasl2 libc6
+gmt-doc-pdf
+libdetect0 libc6
+dict libc6 zlib1g
+ircd libc6 debconf
+libttf-dev libttf2 libc6-dev
+binutils-avr libc6 binutils
+python1.5-imaging-sane python1.5-imaging libc6 libsane
+libcoin20-doc
+crossfire-server crossfire-maps libc6
+pkspxy libc6 libdb2 dpkg
+acl-dev libc6-dev acl
+verse libc6 dialog
+libpari1-dev libpari1 libc6-dev
+chipmunk-log-doc
+cvs libc6 zlib1g debconf
+lukemftp libc6 libncurses5
+cfi-sv
+xserver-mach8 debconf xserver-common-v3 libc6 zlib1g
+snmpd libc6 libsnmp4.2 libwrap0
+ldmud libc6
+libelfg0-dev libelfg0 libc6-dev
+alsa-source-0.5 debconf debconf-tiny
+ledit libc6 libncurses5
+libxdelta3 libc6 libglib1.2
+itcl3.1-dev libc6-dev tcl8.3-dev itcl3.1
+kwave-doc-de
+kde-i18n-engb
+doc-linux-zh-text
+cron libc6 libpam0g debianutils
+binutils libc6 debconf shellutils
+libpisock4 libc6
+primaxscan libc6 libtiff3g zlib1g
+debconf-utils debconf
+cwebx libc6
+smartcard libc6 libtowitoko2
+iptables libc6 debconf
+xfonts-cronyx-koi8u-75dpi xutils
+gcc-h8300-hms libc6 binutils-h8300-hms
+xjdic libc6 edict kanjidic
+tunnelv libc6 libssl0.9.6 libstdc++2.10-glibc2.2
+libart-dev libart2
+kdetoys-doc-html
+jigdo-file wget libc6 libdb3 libstdc++2.10-glibc2.2 zlib1g
+popcheck libc6 libncurses5
+enlightenment-theme-shinymetal
+ttmkfdir libc6 libttf2
+libisapnp-dev
+manpages-pt-dev
+xfonts-cronyx-cp1251-75dpi xutils
+pnscan libc6
+less libc6 libncurses5 debianutils debconf
+pfe libc6 libncurses5
+maint-guide-ru
+kernel-patch-mosix patch
+m4-doc
+doc-linux-text-pt
+kerberos4kth1
+samba-doc
+libesmtp-dev libesmtp5 libc6-dev
+libasis-3.14p-1-dev libasis-3.14p-1
+libadasockets0-dev gnat libadasockets0
+evms-cli evms libc6 libevms1
+netkit-inetd libc6
+gmt-doc
+libtool-doc
+cfingerd libc6 netbase
+dmalloc libc6
+libpt-1.2.0 libc6 libssl0.9.6
+lout libc6 zlib1g
+mnogosearch-pgsql-dev
+illuminator-doc
+jered libc6 libncurses5
+allegro-demo-data
+ruby-manual
+xfsprogs-bf libc6
+k6fftwgel-dev k6fftwgel2 libc6
+dpkg-awk gawk
+libgimpprint-doc
+asnparser libc6 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+mailsync libc-client-ssl2001 libc6 libssl0.9.6 libstdc++2.10-glibc2.2
+kernel-patch-2.4.16-arm
+catdvi libc6 libkpathsea3 tetex-base
+linuxcookbook
+qhull-bin libc6 libqhull3
+teknap libc6 libncurses5
+upx-ucl libc6 libstdc++2.10-glibc2.2 libucl0
+pike7-sybase freetds0 libc6 pike7
+lxtools libc6
+gettyps libc6 libncurses5
+yaps libc6
+abiword-doc
+dejagnu expect dpkg
+distributed-net-pproxy
+aribas libc6
+libghttp-dev libghttp1
+libdirectfb8 libc6 libfreetype6 libjpeg62 libpng2 zlib1g
+guile1.4-slib guile1.4 slib
+vdk-doc
+deliver libc6
+nstreams libc6 libpcap0
+pdksh libc6
+gcal libc6 libncurses5
+ipopd libc-client2001 libc6 libpam0g
+libpam-smb libc6
+sfront libc6
+libjunitperf-java java-common
+libasound2 libc6
+kbackup afio kbackup-multibuf
+sysadmin-guide
+parchive libc6
+exuberant-ctags libc6
+cupsys-bsd libc6 libcupsys2 cupsys-client debconf
+libattr1 libc6
+xfonts-gimpers xutils
+manpages-pl-dev
+tmpreaper libc6 debconf
+libclips libc6
+libicu-dev libicu20 libc6-dev
+libsocksd-dev libsocksd
+libcap-dev libcap1 libc6-dev
+motion libc6 libjpeg62 libmysqlclient10
+libobjc1 gcc-3.0-base libc6 libgcc1
+kernel-headers-2.2.20-compact fileutils
+dtmfdial libc6
+libgpcl-dev libgpcl0 libc6-dev
+mangoquest-doc
+libcelsius libc6 libexpat1 libpng2
+libsword-runtime
+libstonith-dev libstonith0
+communicator-nethelp-477
+slang1-dev slang1 libc6-dev
+pgn-extract libc6
+libsnsp-dev libsnsp0 libc6-dev
+cksfv libc6
+libwnn6-dev libwnn6 libc6-dev
+sg3-utils libc6
+pike7.2-image libc6 libfreetype6 libgmp3 libjpeg62 libtiff3g libttf2 zlib1g pike7.2
+doc-linux-de
+randtype libc6 zlib1g
+gij-3.0 gcc-3.0-base libc6 libgcc1 libgcj2 zlib1g
+atlas-doc
+php3-cgi libc6 libgdbmg1 zlib1g mime-support
+fcmp
+elvis-tiny
+lynx-cur libc6 libncurses5 zlib1g debconf
+libpm3 libc6
+atfs-dev atfs
+smartsuite libc6
+kernel-patch-ethernet-drivers patch
+bird libc6 libncurses5 libreadline4
+mendexk libc6
+gpstrans libc6
+bsdutils
+flick-doc
+arla-modules-source debconf m4 libncurses5-dev
+octave2.0-staticlibs octave2.0
+dadadodo libc6
+checkmp3 libc6
+libdb3-util libc6 libdb3
+slpd libc6
+bpowerd sysvinit libc6
+httptunnel libc6
+krb5-config debconf
+kernel-patch-2.4.17-mips
+taper libc6 libncurses5 debconf
+pi libcln2
+haskell-doc
+gbdk-examples
+libxmpi3 libc6
+kde-i18n-nl
+cvsbook-ja
+rsh-server netbase libc6 libpam0g
+trueprint libc6
+esound-clients libaudiofile0 libc6 libesd0 libesd-alsa0 esound-common
+sabre sabre-common dialog libc6 libncurses5 libstdc++2.10-glibc2.2 svgalibg1
+libusb-0.1-4 libc6
+libuclibc0
+console-common
+libgmime0 libc6
+blacs-mpich-dev blacs1-mpich
+netkit-ping libc6
+libsndfile-dev libsndfile0 libc6-dev
+sigrot libc6
+grafix1 libc6 libstdc++2.10-glibc2.2
+dcd libc6
+liblualib40 libc6
+libldap-java-doc
+dpsyco-samba dpsyco-lib samba-common
+ean13 libc6
+libvtk32 libc6 libstdc++2.10-glibc2.2
+libdsp-dev libdsp0 libc6-dev
+python-happydoc-doc
+gputils
+aegis libc6 zlib1g
+kernel-headers-2.4.18-sparc
+libsc-dev libsc2 libc6-dev
+most libc6 slang1
+libsasl2-modules-plain libsasl2 libc6 libdb3 libssl0.9.6
+pike7.2-pg libc6 libpgsql2 pike7.2 pike7.2
+mesademos
+xlhtml libc6
+manpages-pt
+icu-i18ndata icu
+libart-2.0-2 libc6
+geda-gnetlist libc6 libgeda14 libglib1.2 libguile9 geda-symbols
+libpam-runtime
+vsound libc6 sox
+ddd-doc
+kernel-source-2.4.18-hppa binutils fileutils
+picon-unknown
+maint-guide-ja
+libwnn6 libc6
+stonith libc6 libstonith0
+ucf
+mgetty-pvftools libc6
+librpm-dev librpm4 libc6-dev libpopt-dev libdb3-dev
+seesat5 libc6
+libgocr-dev libgocr0 libc6-dev
+apt libc6 libstdc++2.10-glibc2.2
+aegis-doc
+mingw32 mingw32-runtime libc6
+libmimelib1 libc6 libstdc++2.10-glibc2.2
+chasen libc6 libchasen0 ipadic
+libjdom-java-doc
+festival-doc
+rsynth libc6 libgdbmg1
+userinfo libc6
+libunac1 libc6
+libaudiofile0 libc6
+publib-dev
+libmoe1.5 libc6
+junior-games-sim freeciv lincity
+libecgi0 libc6
+xfonts-100dpi xutils
+tasksel libc6 slang1
+gnome-dev-doc
+xfonts-cronyx-100dpi xutils
+ipfm libc6 libpcap0 libpcap0
+libg++27 libc5
+libgsmme1 libc6
+smsclient libc6 debconf
+cmucl-safe cmucl
+vlock libc6 libpam0g
+libdsp0 libc6
+perdition-mysql libc6 libmysqlclient10 libvanessa-adt0 libvanessa-logger0 zlib1g perdition
+par libc6
+fujiplay libc6
+xemacs21-basesupport-el
+xemacs21-mulesupport
+edict
+caudium-dev pike7 pike7
+libradius1-dev libradius1 libc6-dev
+gcc272 libc6 binutils
+fftw2 libc6
+shapetools-tutorial atfs
+libsqlite0 libc6
+lincity-svga lincity libc6 libstdc++2.10-glibc2.2 svgalibg1
+libnasl-dev libnasl1 libc6-dev
+libguile9 libc6 libltdl3 libncurses5 libreadline4
+systune
+dietlibc-dev
+xserver-fbdev debconf xserver-common-v3 libc6 zlib1g
+global libc6
+libhfsp0 libc6
+kernel-patch-2.4.1-ia64
+libcdk4 libc6 libncurses5
+yacas libc6 libgmp3 libstdc++2.10-glibc2.2 lynx debianutils yacas-doc
+ng-common
+spectemu-svga spectemu-common spectrum-roms libc6 libncurses5 libreadline4 svgalibg1
+apcd libc6
+libmail-pop3client-perl
+ftape-doc
+propaganda-debian
+spellutils libc6
+ntp-doc
+epos debconf libc6 libstdc++2.10-glibc2.2
+vfu libc6 libncurses5 libstdc++2.10-glibc2.2
+fp-units-fcl fp-units-rtl fp-units-base
+gprolog-doc
+tclx8.2-dev tclx8.2 tcl8.2-dev
+libmeshio-dev libmeshio0
+tcl8.2 libc6
+doc-linux-es
+zsh-static zsh
+python2.2-ming libming libc6 python2.2
+libstdc++2.9-glibc2.1 libc6
+opie-client libc6
+epos-lpc
+leave libc6
+libgnat-3.14p-1 libc6
+multitee libc6
+ssed libc6
+bcm5700-source
+libcteco5000-dev libcteco50000 libc6-dev
+hexcurse libc6 libncurses5
+igerman ispell
+its4 libc6 libstdc++2.10-glibc2.2
+malaga-doc
+pike7.2 libc6 libgmp3
+dict-elements
+libmowitz-dev libmowitz0 libc6-dev
+povray-doc
+autopilot libc6
+xfonts-biznet-iso-8859-2-base xfonts-biznet-base xfonts-base-transcoded
+libesd0 libaudiofile0 libc6 esound-common
+crashmail libc6
+dhcp libc6 netbase
+courier-doc
+hitop libc6 libstdc++2.10-glibc2.2
+libfreetype6 libc6
+libgnews1 libc6
+libdvdread2 libc6
+kernel-headers-2.2.20-idepci fileutils
+swi-prolog-table libc6 swi-prolog
+mlton libc6 libgmp3 libgmp3-dev
+termcap-compat libc5
+kwave-doc-en
+libcompfaceg1 libc6
+picon-users
+hdlant libc6 libncurses5 libstdc++2.10-glibc2.2
+pike7-lobotomized-crypto libc6 pike7
+jed-ja libc6 slang1-ja jed-common-ja
+inn2-inews libc6
+pilot-link libc6 libpisock4 libstdc++2.10-glibc2.2 debconf
+gdb libc6 libncurses5 libreadline4
+zebra-doc zebra
+evms
+libid3tag0-dev libid3tag0 zlib1g-dev
+iitalian ispell
+tcpspy libc6
+dhcp-relay libc6 ed
+tse3play libc6 libstdc++2.10-glibc2.2 libtse3
+traceroute libc6
+swi-prolog libc6 libncurses5 libreadline4
+bootpc libc6
+dialog libc6 libncurses5 debianutils
+libttf2 libc6
+octave-epstk
+bugzilla-doc
+ebook-dev-alp
+harden-tools
+heimdal-docs
+clanlib0-docs
+db3-doc
+clisp-doc
+wing-data
+libotp0-heimdal libc6 libdb3 libroken9-heimdal libssl0.9.6
+aolserver-doc
+rrlogind libc6
+tclx8.3-dev tclx8.3 tcl8.3-dev
+libxg-dev
+xfonts-thai-ttf xutils
+libasound2-dev libasound2 alsa-headers
+libbogl0 libc6
+python2.2-xml python2.2 python2.2-xmlbase libc6
+groff groff-base debconf libpaperg libc6 libstdc++2.10-glibc2.2
+sipp libc6
+ingerman ispell
+libboost-regex1.27 libc6 libstdc++2.10-glibc2.2 libstlport4.5
+libhoard libc6
+kernel-patch-2.2.17-vm-global bzip2 patch
+libasound1 libc6
+e2fsck-static e2fsprogs
+python1.5-egenix-mxstack libc6 python1.5-egenix-mxtools python1.5
+kdecarddecks
+auto-apt libc6
+z8530-utils2 libc6 makedev
+yafc libc6 libncurses5 libreadline4
+libpam-mysql libc6 libmysqlclient10
+rhino java-common
+mime-codecs libc6
+libunicode-dev libunicode0
+erlang-base
+ctie libc6 libkpathsea3
+console-cyrillic debconf console-tools kbd
+socks4-server libc6 libident libsocks4
+gmod libc6 libncurses5 libstdc++2.10-glibc2.2
+libcrimson-java java-common
+libibtk0 libc6 libstdc++2.10-glibc2.2
+tclreadline libc6 libncurses5 libreadline4 tcl8.3
+oskit
+zope-devguide
+libxerces1-dev libxerces1 libxercesicu1 libc6-dev
+libcap2-bin libc6 libcap2
+openam libc6 libopenh323-1.7.4 libpt-1.2.0 libssl0.9.6 libstdc++2.10-glibc2.2
+ssmtp libc6 debconf
+ocaml-book-fr
+xdelta2 libc6 libdb3 libdb3++ libglib1.2 libstdc++2.10-glibc2.2 libxdelta3 zlib1g
+libgnuvd0 libc6
+uw-imapd libc-client2001 libc6 libpam0g
+guile1.4 libguile9 libc6 libguile9 libltdl3 guile-common
+gnushogi libc6
+libwww-ssl0 libc6 libssl0.9.6 zlib1g
+vlad libc6 libldap2 libncurses5
+sox libc6 libogg0 libvorbis0
+kernel-headers-2.4.16-686-smp fileutils
+mwavem libc6
+libstlport4.5 libc6
+libyahoo-dev libyahoo0 libc6-dev
+kimberlite libc6 tcl8.3 pdksh util-linux
+python2.2-imaging python2.2 libc6 libjpeg62 zlib1g
+sound-recorder libc6 libstdc++2.10-glibc2.2
+apt-howto apt-howto-pt-br apt-howto-en apt-howto-pl apt-howto-ko apt-howto-es apt-howto-it apt-howto-ru
+check libc6
+kernel-image-2.2.20-reiserfs fileutils
+argus-client libc6 libncurses5
+jmon libc6 libncurses5
+installwatch libc6
+a52dec-dev libc6-dev
+tyvis1 libc6 libstdc++2.10-glibc2.2
+ipx libc6
+xfonts-thai-etl xutils
+libforms-doc
+lshell libc6
+tinyproxy libc6
+libpam-ldap libc6 libldap2 libpam0g debconf
+cce libc6
+xshipwars-images-st
+prime-net libc6
+pgapack
+oidentd libc6
+wwl libc6
+pike-mysql libc6 libmysqlclient10 pike
+pike7.2-sybase freetds0 libc6 pike7.2
+skkdic
+netcat libc6
+hex libc6 libstdc++2.10-glibc2.2
+libscrollkeeper0 libc6 libxml2
+snooper libc6 liblockdev1 libncurses5
+c3270 libc6 libncurses5 libreadline4 3270-common
+libcap2 libc6
+xfonts-marumoji xutils
+webbase libwebbase libc6 libmifluz0 libmifluz0 libmysqlclient10 libstdc++2.10-glibc2.2 liburi2 zlib1g debconf
+libentity0 libc6
+kernel-patch-2.4.18-powerpc kernel-source-2.4.18
+libecpg3 libc6
+stereograph libc6 libpng2 zlib1g
+icomlib-bin icomlib1
+hodie libc6
+great yabba
+libwvstreams3
+xfonts-greek-ph-100dpi xfree86-common xutils
+tcl8.2-doc
+hwdata
+goldedplus libc6 libncurses5 libstdc++2.10-glibc2.2
+med-doc doc-linux-html resmed-doc
+strace libc6
+ckermit libc6 libncurses5
+radvd libc6
+rrdtool libc6 libgd-gif1 libpng2 librrd0
+kernel-patch-2.4.0-ia64
+w3m libc6 libgc6 libgpmg1 libncurses5 zlib1g
+kde-i18n-ro
+svgalib1-altdev svgalib1 svgalibg1 libc5-altdev
+fai-kernels
+hypermail libc6 libgdbmg1 libpcre3
+gap4-doc-dvi
+tama libc6
+tk8.3-doc
+vrfy libc6
+dact libbz2-1.0 libc6 libmcrypt4 zlib1g
+poster libc6 libpaperg
+tclx8.3-doc
+libpt-dev libpt-1.2.0 libc6-dev libssl-dev asnparser
+shoop
+systemimager-bin-i386
+varmon libc6 libncurses5
+iputils-ping libc6
+nfsboot
+libginac0 libc6 libcln2 libgmp3
+sdf-doc
+wmf libc6
+sendpage libc6 libdb2
+bin86 libc6
+bcc libc6 bin86
+since libc6
+zsh-beta libc6 libcap1 libncurses5 libpcre3
+splay libc6 libid3-3.7-13 libstdc++2.10-glibc2.2
+mbr libc6
+ncurses-base
+libawe0.4 libc6
+libkore-dev libkore0 libc6-dev
+esound libaudiofile0 libc6 libesd0 libesd-alsa0 libwrap0 esound-common
+python2.2-egenix-mxtools libc6 python2.2
+kde-theme-metallic
+ht libc6 libncurses5 libstdc++2.10-glibc2.2
+libgdbmg1 libc6
+sidplay-base libc6 libsidplay1 libstdc++2.10-glibc2.2
+ack libc6
+libcompfaceg1-dev libcompfaceg1 libc6-dev
+dmachinemon libc6 libdmachinemon3
+nethack-spoilers
+debian-zh-faq-s
+blt-common
+xfonts-cronyx-cp1251-100dpi xutils
+nap libc6 libncurses5 debconf
+cscope libc6 libncurses5
+libntfs3 libc6 libgcc1
+mueller7accent-dict
+libppd-dev libppd0 libc6-dev
+vorbis-tools libao2 libc6 libcurl2 libcurl2-ssl libogg0 libvorbis0
+libticalcs3 libc6 libncurses5 libticables3
+libgarbo libc6 libpng2
+lsh-client lsh-utils libc6 libgmp3 zlib1g
+lincity
+libslp1 libc6
+setserial libc6
+xserver-mach32 debconf xserver-common-v3 libc6 zlib1g
+libdb3-dev libdb3
+gocr libc6 libnetpbm9
+r-doc-pdf
+diction libc6
+nntpcache-dev-doc
+hbf-cns40-2
+unrtf libc6
+tcl8.3 libc6
+cdrecord libc6 debconf makedev
+kakasi libc6 kakasi-dic
+html2text libc6 libstdc++2.10-glibc2.2
+libopie-dev
+keynote libc6 libkeynote0 libssl0.9.6
+mdetect libc6
+linpqa libc6 libpisock4
+efingerd libc6 libident debconf
+hello-dbs libc6
+po-utils libc6
+asis-programs libasis-3.14p-1 libc6 libgnat-3.14p-1 gnat libgnat-3.14p-1 gnat libasis-3.14p-1
+ifinnish-small ispell
+lx-gdb libc6
+heimdal-dev libroken9-heimdal libcomerr1-heimdal libsl0-heimdal libss0-heimdal libasn1-5-heimdal libkrb5-17-heimdal libhdb7-heimdal libkadm5srv7-heimdal libkadm5clnt4-heimdal libgssapi1-heimdal libotp0-heimdal libkafs0-heimdal
+netmask libc6
+libcomedi-dev libcomedi0 libc6-dev
+userv libc6
+libedit2 libc6 libncurses5
+libpsys1 libc6
+libmm11 libc6
+ncbi-tools6-dev ncbi-tools6
+e3
+netsaint-plugins-radius libc6
+libglibwww-dev libglibwww1 libc6-dev
+lua40 libc6 liblua40 liblualib40
+elkdoc
+xserver-svga debconf xserver-common-v3 libc6 zlib1g
+ava libc6 libstdc++2.10-glibc2.2 uisp
+iwidgets3.1-doc
+octave2.0 libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2 less
+kernel-patch-freeswan fileutils libssl-dev gawk
+hermes1 libc6
+rar libc6
+freewnn-cserver-dev
+drawmap libc6
+lsh-server lsh-utils libc6 libgmp3 zlib1g
+icu-docs
+iraf-ibin
+ferite-doc
+slang1-utf8-dev slang1a-utf8 libc6-dev
+xtide-data
+ttf-larabie-deco
+liblwres1 libc6
+kernel-headers-2.4.16-k6 fileutils
+sillypoker libc6 libncurses5 libstdc++2.10-glibc2.2
+sash lockfile-progs
+autofs libc6 procps
+giftrans libc6 xserver-common
+abuse-sfx abuse-frabs abuse-lib
+vgrind libc6 groff
+cpuid libc6
+libxml-sablot-perl libc6 libexpat1 libsablot0
+doc-linux-fr
+python2.2-xmlbase python2.2 libc6 libexpat1
+shhmsg libc6
+mount
+liblcms-dev liblcms
+zmailer libc6 libdb2 libgdbmg1 libpam0g netbase
+ibcs-base libc6 makedev
+alevtd libc6
+lsh-utils-doc
+slrnpull debconf libc6 slang1
+libcommons-collections-java-doc
+liblinc-dev liblinc1 libglib2.0-dev
+aime-doc
+xfonts-scalable xutils
+libucxx-dev libucxx0 libsigcx-dev libglib1.2-dev pkg-config
+kernel-patch-2.2.17-pc9800
+uml-utilities libc6 libncurses5 libreadline4
+libbonobo-conf0 libc6
+libming libc6
+libpm3-extra libc6
+libpam0g-dev libpam0g libc6-dev
+kernel-patch-2.5-lsm patch
+sgrep m4 libc6
+ao40tlmview libc6 libncurses5
+epos-ptd
+postgresql-doc
+swig1.3-examples swig1.3
+records-common
+hns2-tools
+biff libc6
+kde-i18n-et
+user-mode-linux uml-utilities
+epic4-script-lice epic4
+mgetty-docs
+librsync-dev librsync1 libc6-dev
+lxmusserv libc6
+libexpat1-dev libexpat1 libc6-dev
+kernel-source-2.4.17-hppa binutils fileutils
+xfonts-intl-arabic xutils
+rep-doc
+libgdbi0 libc6 libglib1.2 libgql0 libsigc++0 libsigcx0 libucxx0
+libcamlimages-ocaml-doc
+krb5-doc
+isapnptools libc6 dpkg
+kernel-patch-2.2.20-raid bzip2 patch
+libgcj2 libc6 libgcc1
+smstools libc6 libmm11
+acpid libc6
+sfio1999 libc6
+freetds0 libc6 libglib1.2
+debootstrap libc6 wget
+libmhash-dev libmhash2 libc6-dev
+cmucl-small cmucl
+libdotconf-dev libdotconf1.0 libc6-dev
+python2.2-kjbuckets libc6 python2.2
+vold libc6 libg++2.8.1.3-glibc2.2 libstdc++2.10-glibc2.2
+lucas-manifesto
+libeditline0 libc6
+xsltproc libc6 libxml2 libxslt1 zlib1g
+escputil libc6 libncurses5 libreadline4 zlib1g
+maint-guide-fr
+libsolid libc6 libpng2
+xtell libc6 libident libreadline4 netbase debconf
+libnss3 libc6
+alsa-headers-0.5
+xaw3d libc5 ldso
+ldp-es ldp-es-lipp ldp-es-garl ldp-es-gulp ldp-es-glup
+gnugo-dv libc6 libncurses5
+pptpd libc6 libwrap0 ppp netbase debconf perl-base
+ntp ntp-simple ntp-refclock debconf libc6 libreadline4
+timezoneconf debconf
+ax25-tools libax25 libc6 zlib1g
+sfio2000 libc6
+libclass-methodmaker-perl
+atp libc6 libpaperg
+aspell-es aspell
+libwaili libc6 libtiff3g
+falconseye-data
+libcgi-fasttemplate-perl
+egoboo-data
+gri-html-doc
+wmakerconf-data
+tint libc6 libncurses5
+itcl3.1-doc
+cnews libc6 cron
+python1.5-imaging python1.5 libc6 libjpeg62 zlib1g
+libhtml-template-perl
+sword-comm-mhcc
+moria libc6 libncurses5
+jesred libc6
+scrollz libc6 libncurses5
+isdnlog isdnlog-data debconf
+libkore0 libc6
+rio libc6 libstdc++2.10-glibc2.2
+curl libc6 libcurl2 libcurl2-ssl
+liboo2c libc6
+kernel-patch-adaptec patch
+dhttpd libc6 libstdc++2.10-glibc2.2
+perforate libc6
+gcompris-sound-es gcompris-data
+manpages-es-extra
+defrag libc6 libncurses5
+libmikmod2 libc6
+bombardier libc6 libncurses5
+nessus-plugins libc6 libgmp3 libnessus1 libpcap0 libpcap0 zlib1g
+libesd-alsa0 libasound1 libaudiofile0 libc6 esound-common
+c2html libc6
+xfonts-x3270-misc xutils
+libtar libc6 zlib1g
+xserver-p9000 debconf xserver-common-v3 libc6 zlib1g
+xconq-common
+hugs-doc
+hexxagon-text libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+rwhod adduser passwd libc6
+emwin libc6
+libnss-ldap libc6 libldap2 debconf
+wwwconfig-common
+libsigcx-dev libsigcx0 libsigc++-dev pkg-config
+kanjidic
+shhmsg-dev shhmsg libc6-dev
+xserver-mach64 debconf xserver-common-v3 libc6 zlib1g
+ttcn3parser libc6 libstdc++2.10-glibc2.2
+tdb-tools libc6 libgdbmg1 libtdb1
+libsasl7 libc6 libdb2 libpam0g
+isdnlog-data
+kernel-patch-2.2.18-openwall
+netsaint-plugins-samba smbclient
+upx-nrv
+gsl-ref-psdoc
+lockfile-progs libc6 liblockfile1
+ptex-buildsupport
+dvi2ps-fontdata-ja
+scalapack1-lam blacs1-lam libc6
+libopenobex1 libc6 libglib1.2
+teapop netbase debconf libc6
+mp3check libc6 libstdc++2.10-glibc2.2
+fdupes libc6
+libbonobo2 libc6
+stalin libc6 libgc6 libgc6-dev
+xfonts-thai-nectec xutils
+libglibwww-ssl-dev libglibwww-ssl1 libc6-dev
+glade-doc glade-common
+wnorwegian debconf
+template-new libc6 zlib1g
+kernel-patch-ext3-2.2 patch
+hyperspec wget
+gnustep-base-examples
+libopenldap-runtime
+selinux libc6 libpam0g
+dpkg-doc
+jpeginfo libc6 libjpeg62
+libpopt0 libc6
+libnet0-dev libc6-dev libpcap-dev
+libdb1 libc5
+micq libc6
+kerberos4kth-docs
+nano libc6 libncurses5
+mimedecode libc6
+libnewt-dev libnewt0 libc6-dev slang1-dev
+ext2resize libc6
+xmanpages-ja
+cocoon2-doc
+fnlib-data
+diff
+pike7-pg libc6 libpgsql2 pike7 pike7
+gimp-manual
+libwxbase2.2-dbg wxwin2.2-headers libc6-dev
+fhist libc6
+jargon
+httperf libc6 libssl0.9.6
+original-awk
+flex libc6
+svgalib1 libc5 svgalibg1
+swig libc6 libstdc++2.10-glibc2.2 libswig1.1
+xfonts-thai-manop xutils
+heroes-sound-tracks
+guile-common
+rig libc6 libstdc++2.10-glibc2.2
+aspell-pt libaspell10
+sel libc6 libncurses5
+libvorbis-dev libvorbis0 libogg-dev libc6-dev
+juice libc6 libncurses5 libstdc++2.10-glibc2.2
+powermgmt-base makedev libc6 debconf
+apt-dpkg-ref
+libdiscover-dev libdiscover1 libc6-dev
+dpsyco-doc
+mrtgutils libc6 libsensors1
+epwutil libc6
+libpopt-dev libc6-dev libpopt0
+libxmltok1 libc6
+xfonts-dosemu
+xserver-vga16 debconf xserver-common-v3 libc6 zlib1g
+curl-ssl curl libcurl2-ssl
+libjpeg-mmx-progs libc6
+wwwoffle libc6 zlib1g debconf fileutils debianutils
+xml-rpc-api2cpp libxmlrpc-c0 libc6-dev
+netpipe-pvm pvm libc6 libpvm3
+worklog libc6 libncurses5
+sensord lm-sensors libc6 libsensors1
+vim libc6 libgpmg1 libncurses5
+sfs-dev libc6-dev libgmp3-dev sfs-common sfs-lib
+juke libc6 libncurses5
+cdindex-client libc6 libstdc++2.10-glibc2.2
+yydecode libc6
+libgql0-driver-mysql libc6 libglib1.2 libgql0 libmysqlclient10 libsigc++0 libsigcx0 libucxx0
+macutils libc6
+libisc4 libc6
+libmpeg1 libc6
+sgb-src sgb-doc
+libxerces1 libc6 libstdc++2.10-glibc2.2
+libradius1 libc6
+debconf fileutils
+rotix libc6
+poppassd netbase libc6 libpam0g
+libgimpprint-dev libgimpprint1
+kde-i18n-cs
+cfitsio-dev cfitsio2 libc6-dev
+libsnmpkit1 libc6
+python1.5-doc
+python2.2-dev python2.2
+heroes-data
+goops-doc
+aish libc6
+tetex-base texinfo
+libole2-dev libole2-0
+centericq libc6 libncurses5 libsigc++0 libstdc++2.10-glibc2.2
+ircii libc6 libncurses5
+jfsutils libc6
+bison libc6
+libpm3-static
+python2.2-egenix-mxqueue libc6 python2.2-egenix-mxtools python2.2
+libsigc++0 libc6
+ffingerd libc6
+gnat-glade-doc
+mps libc6 libncurses5
+libregex0 libc5
+junit-doc
+eb-utils libc6 libeb6 zlib1g
+gri-ps-doc
+libsidplay1 libc6 libstdc++2.10-glibc2.2
+libquicktime4linux0 libc6
+maint-guide
+libglib2.0-dev libglib2.0-0 libc6-dev pkg-config
+lcdproc libc6 libncurses5 debconf
+dbench libc6
+pr3287 libc6 3270-common
+toolame libc6
+conquest libc6 libncurses5
+pileup libc6 debconf
+slang1-utf8-pic slang1-utf8-dev
+coq-doc
+libcommons-digester-java java-common
+sc libc6 libncurses5
+libefs1 libc6 libglib1.2 zlib1g
+chdrvfont
+libkadm5srv7-heimdal libc6 libhdb7-heimdal libkrb5-17-heimdal libroken9-heimdal
+qt3-doc
+sgmls-doc
+buffer libc6
+cmucl-normal cmucl
+w3-lisp-e20
+kde-i18n-ko
+pidentd netbase adduser passwd libc6
+display-dhammapada libc6
+asd4 libc6 libglib1.2 libxml2
+deroff libc6
+libming-dev libming
+murasaki libc6 modutils
+gettext-base libc6
+libnmz3-dev libnmz3
+ras libc6
+gbdk libc6
+nco libc6 netcdfg3
+geas-doc
+liblzo-dev liblzo1 libc6-dev
+proj libc6
+namazu2 libc6 libnmz3 namazu2-common debconf
+vgagamespack libc6 svgalibg1
+socket libc6
+icont libc6
+libglib2.0-0 libc6
+kde-i18n-sk
+libao0 libc6
+smbclient samba-common libc6 libcupsys2 libncurses5 libpam0g libreadline4
+liburi2 libc6
+mnogosearch-common debconf
+libmeshio0 libc6
+portslave libc6 ppp
+eemu-client libc6
+libnids1 libc6
+kernel-source-2.4.18 binutils bzip2 fileutils
+lucas-redes
+wxwin2.2-examples
+lha libc6
+xpm4.7 libc5
+libctl-dev libctl2 libc6-dev
+c-cpp-reference
+rblcheck libc6
+perl-byacc libc6
+libkvutils-dev libkvutils2
+pfe-doc
+conserver-server libc6 libwrap0 debconf
+libvdk2-doc
+netboot libc6
+jzip libc6 libncurses5
+libmedusa0 libc6
+indent libc6
+uudeview libc6
+mifluz libc6 libmifluz0 libmifluz0 libstdc++2.10-glibc2.2 libunac1 zlib1g
+libkrb5-17-heimdal libasn1-5-heimdal libc6 libcomerr1-heimdal libroken9-heimdal libssl0.9.6 krb5-config
+libmailutils0-dev libmailutils0
+python2.2-mpz python2.2 libc6 libgmp3
+sysstat libc6 debconf
+libopenh323-1.7.4 libc6 libgsm1 libpt-1.2.0 libssl0.9.6
+guile-pg libc6 libguile9 libpgsql2
+mird-dev mird1 libc6-dev
+fml-doc
+alsa-headers
+libsqlite-dev libsqlite0 libc6-dev
+xserver-mono debconf xserver-common-v3 libc6 zlib1g
+tftp-hpa libc6
+libnewt-utf8-dev libnewt-utf8-0 libc6-dev slang1-utf8-dev
+fblogo libc6 libpng3
+libcorelinux-doc
+libwn-dev libwn6 libc6-dev
+hztty libc6
+klic libc6
+libprintsys libc6 libglib1.2
+libncursesw5 libc6
+psutils libc6 libpaperg
+libxalan1.2 libc6 libstdc++2.10-glibc2.2 libxerces1 libxerces1
+fweb libc6 libncurses5
+nscd libc6
+scli libc6 libglib1.2 libncurses5 libreadline4 libxml2
+acs gnucap
+grub-doc
+libgatos-dev libgatos0 libc6-dev
+debfoster libc6
+apt-howto-pl
+libadolc1 libc6
+urlredir libc6
+ldap-utils libc6 libldap2 libncurses5 libsasl7
+e100-source
+pgpgpg libc6 gnupg
+resmed-doc
+glademm libc6 libstdc++2.10-glibc2.2
+tracker libc6
+gocr-doc
+diald libc6 libpam0g libwrap0 netbase ppp debconf
+isdneurofile isdnutils-base libc6 libncurses5 libreadline4 libstdc++2.10-glibc2.2
+expat libc6 libexpat1
+logtools libc6 libstdc++2.10-glibc2.2
+mailcheck libc6
+timeout libc6
+kimwitu libc6
+debian-history-ko
+pdnsd libc6
+shellutils
+rusersd portmap netbase libc6
+harden-remoteaudit nessusd
+libprozilla1 libc6
+liblircclient0 libc6
+gcc-2.95-doc
+libnspr-dev libnspr4
+recover libc6
+octave-ci
+freewnn-common
+libgmp2-dev libgmp2
+manpages-nl debconf
+libasound0.4-dev libasound0.4 alsa-headers alsa-headers-0.4 alsa-headers alsa-headers-0.4
+xinetd libc6 libwrap0 netbase dpkg
+bootcd cdrecord mkisofs cpio fdutils syslinux bc
+geda-gsymcheck libc6 libgeda14 libglib1.2 libguile9 geda-symbols
+tcl3270 libc6 tcl8.3 3270-common
+gc libc6
+pike7-gz libc6 zlib1g pike7
+atm-dev libc6-dev
+w3m-ssl libc6 libgc6 libgpmg1 libncurses5 libssl0.9.6 w3m
+stl-manual
+postfix-snap-doc
+libgle-doc
+rhino-doc
+libgpio0 libc6 libusb-0.1-4
+ocaml-doc
+libucxx0-guile libucxx0-script libc6 libguile9 libsigc++0 libsigcx0 libucxx0
+nas nas-lib libc6 debconf
+winbind libc6 libcupsys2 libpam0g
+gnutls3 libc6 libgdbmg1 zlib1g libgcrypt1
+twoftpd libc6 cvm
+umfpack3 blas libc6
+dvi2ps-fontdata-rrs dvi2ps-fontdata-ja
+ldso libc6
+bulkmail libc6
+python-imaging-doc
+hextype libc6
+aleph-dev aleph libc6 libncurses5
+libflac-dev libflac1 libc6-dev
+lua40-doc
+snmp libc6 libsnmp4.2
+mpg123-oss-i486 libc6
+itk3.1-doc
+fda libc6
+hunglish debconf
+libdb1-altdev libdb1 libc5-altdev
+xfonts-cronyx-koi8u-100dpi xutils
+pptp-linux libc6 ppp
+fftw-dev fftw2 libc6
+atlas2-3dnow libc6 debconf
+sharutils libc6 debianutils
+libcw-dev libcw
+atlas2-base-dev atlas2-base atlas2-headers
+dvi2dvi libc6 libkpathsea3
+libart-2.0-dev libart-2.0-2 pkg-config
+rarpd libc6
+kernel-patch-2.2.18-vm-global bzip2 patch
+scmxx libc6
+abcmidi libc6
+pkspxyc libc6 libdb2
+nkf libc6
+xfonts-baekmuk xutils
+pike7.2-lobotomized-crypto libc6 pike7.2
+mueller7-dict
+mysql-common
+dnstracer libc6
+libnids-dev libnids1 libc6-dev
+kbd libc6 sysvinit console-common debconf dpkg
