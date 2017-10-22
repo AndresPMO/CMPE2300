@@ -256,7 +256,7 @@ namespace Lab02_NicW
                         plUnInstalled.Remove(uninstalled);
                         break;
                     }
-                    else if(uninstalled.Dependacies.Exists(depend => plInstalled.Contains(new Package(new[] { depend }))))
+                    else if ()
                     {
                         //Go through every dependancy, check if it is contained in the installed list.
                         plInstalled.Add(uninstalled);
@@ -265,6 +265,8 @@ namespace Lab02_NicW
                         plUnInstalled.Remove(uninstalled);
                         break;
                     }
+
+                    
                 }
             } while (install);
         }
