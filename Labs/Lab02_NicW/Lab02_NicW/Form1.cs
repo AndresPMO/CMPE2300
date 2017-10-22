@@ -32,8 +32,11 @@ namespace Lab02_NicW
             //Make sure the user opened a file
             if(UI_openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                //Make something to read the data from file
-                //System.IO.StreamReader sReader = new System.IO.StreamReader(UI_openFileDialog.FileName);
+                //Want all new data
+                plLoaded = new List<Package>();
+                //Can't have anything installed or uninstalled if we loaded a new file
+                plInstalled = new List<Package>();
+                plUnInstalled = new List<Package>();
 
                 //Make places to store the data temporarily
                 string[] allLines = System.IO.File.ReadAllLines(UI_openFileDialog.FileName);
@@ -59,11 +62,7 @@ namespace Lab02_NicW
                         plLoaded[plLoaded.IndexOf(tempPackage)].MergePackage(tempPackage);
                     }
                 }
-
-                //Can't have anything installed or uninstalled if we loaded a new file
-                plInstalled = new List<Package>();
-                plUnInstalled = new List<Package>();
-
+                
                 //Show all packages loaded
                 UI_toolStripComboBox_View.SelectedIndex = 0;
                 ShowSelectedLoad();
@@ -257,10 +256,9 @@ namespace Lab02_NicW
                         plUnInstalled.Remove(uninstalled);
                         break;
                     }
-                    else if(plInstalled.Exists(pack => uninstalled.Dependacies.FindAll( upack => pack.Name == upack).Count == uninstalled.Dependacies.Count))
+                    else if(uninstalled.Dependacies.Exists(depend => plInstalled.Contains(new Package(new[] { depend }))))
                     {
-                        //Go through the Installed list. Check to see if we have installed the package needed for something.
-                        //Go through the Uninstalled list. Check if all the dependancies are in the installed list.
+                        //Go through every dependancy, check if it is contained in the installed list.
                         plInstalled.Add(uninstalled);
                         install = true;
                         //Remove from the uninstalled list

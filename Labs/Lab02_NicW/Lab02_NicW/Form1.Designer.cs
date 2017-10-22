@@ -145,7 +145,6 @@
             this.UI_listView_Packages.Size = new System.Drawing.Size(464, 488);
             this.UI_listView_Packages.TabIndex = 2;
             this.UI_listView_Packages.UseCompatibleStateImageBehavior = false;
-            this.UI_listView_Packages.View = System.Windows.Forms.View.Details;
             this.UI_listView_Packages.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.UI_listView_Packages_ColumnClick);
             // 
             // UI_openFileDialog
