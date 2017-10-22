@@ -59,8 +59,12 @@ namespace Lab02_NicW
                         plLoaded[plLoaded.IndexOf(tempPackage)].MergePackage(tempPackage);
                     }
                 }
-                
-                //Show all packages
+
+                //Can't have anything installed or uninstalled if we loaded a new file
+                plInstalled = new List<Package>();
+                plUnInstalled = new List<Package>();
+
+                //Show all packages loaded
                 UI_toolStripComboBox_View.SelectedIndex = 0;
                 ShowSelectedLoad();
             }
@@ -235,7 +239,7 @@ namespace Lab02_NicW
         private void LibraryInstall()
         {
             //bool to see if something was installed
-            bool install;
+            bool install = false;
             //Keep installing until you don't install anything else
             do
             {
@@ -264,15 +268,60 @@ namespace Lab02_NicW
                         break;
                     }
                 }
-
             } while (install);
         }
 
         private void SortedInstall()
         {
+            //bool to see if something was installed
+            bool install = false;
+            //Used to see if all of the dependancies are installed
+            bool allDepend = false;
+            //Keep installing until you don't install anything else
+            do
+            {
+                //Don't know if anything has been installed yet
+                install = false;
 
+                //Make sure the installed list is sorted before we search it.
+                plInstalled.Sort();
+
+                foreach (Package uninstalled in plUnInstalled)
+                {
+                    if (uninstalled.Dependacies.Count == 0)
+                    {
+                        //No dependancies? Install
+                        plInstalled.Add(uninstalled);
+                        install = true;
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(uninstalled);
+                        break;
+                    }
+
+                    //Check if all dependancies are installed
+                    foreach(string depend in uninstalled.Dependacies)
+                    {
+                        allDepend = false;
+                        //If the name of an installed package matches the name of a dependancy,
+                        //Say that we might have a match!
+                        if(plInstalled.BinarySearch(new Package(new[] { depend })) >= 0)
+                        {
+                            allDepend = true;
+                        }
+                        
+                    }
+
+                    if (allDepend)
+                    {
+                        plInstalled.Add(uninstalled);
+                        install = true;
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(uninstalled);
+                        break;
+                    }
+                }
+            } while (install);
         }
-
         
     }
 }
