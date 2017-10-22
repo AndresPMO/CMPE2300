@@ -175,25 +175,57 @@ namespace Lab02_NicW
         private void RawInstall()
         {
             //bool to see if something was installed
-            bool install;
+            bool install = false;
+            //Used to see if all of the dependancies are installed
+            bool allDepend = false;
             //Keep installing until you don't install anything else
             do
             {
                 //Don't know if anything has been installed yet
                 install = false;
 
-                foreach (Package p in plUnInstalled)
+                foreach (Package uninstalled in plUnInstalled)
                 {
                     //Can be installed if it has zero dependancies
                     //OR if all its dependancies have already been installed
-                    if (p.Dependacies.Count == 0)
+                    if (uninstalled.Dependacies.Count == 0)
                     {
                         //Say it can be installed
-                        plInstalled.Add(p);
+                        plInstalled.Add(uninstalled);
                         //Keep looping since we installed something
                         install = true;
                         //Remove from the uninstalled list
-                        plUnInstalled.Remove(p);
+                        plUnInstalled.Remove(uninstalled);
+                        break;
+                    }
+
+                    
+                    //for every uninstalled package, look through all the dependant packages
+                    foreach(string depend in uninstalled.Dependacies)
+                    {
+                        //We assume it doesn't have all the dependancies until we learn it doesn't
+                        allDepend = false;
+
+                        //for all the installed packages, check the names of the uninstalled package
+                        foreach (Package ins in plInstalled)
+                        {
+                            if (ins.Name == depend)
+                            {
+                                allDepend = true;
+                                break;
+                            }
+                        }
+                    }
+
+                    //We can install it!
+                    if (allDepend)
+                    {
+                        //Say it can be installed
+                        plInstalled.Add(uninstalled);
+                        //Keep looping since we installed something
+                        install = true;
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(uninstalled);
                         break;
                     }
                 }
@@ -220,14 +252,8 @@ namespace Lab02_NicW
                         //Remove from the uninstalled list
                         plUnInstalled.Remove(uninstalled);
                         break;
-                    } else if (plInstalled.Exists(pack => pack.Name == uninstalled.Name))
-                    {
-                        //Installed has something with the same name? Merge them together
-                        plInstalled.Find(pack => pack.Name == uninstalled.Name).MergePackage(uninstalled);
-                        //Remove from the uninstalled list
-                        plUnInstalled.Remove(uninstalled);
-                        break;
-                    } else if(plInstalled.Exists(pack => uninstalled.Dependacies.FindAll( upack => pack.Name == upack).Count == uninstalled.Dependacies.Count))
+                    }
+                    else if(plInstalled.Exists(pack => uninstalled.Dependacies.FindAll( upack => pack.Name == upack).Count == uninstalled.Dependacies.Count))
                     {
                         //Go through the Installed list. Check to see if we have installed the package needed for something.
                         //Go through the Uninstalled list. Check if all the dependancies are in the installed list.
