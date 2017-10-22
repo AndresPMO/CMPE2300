@@ -15,7 +15,7 @@ namespace Lab02_NicW
         //The dependancies of the package
         //and a get for the elements of them. Copy only, not master list
         private List<string> dependancy;
-        public List<string> Dependacies { get { return dependancy.GetRange(0, dependancy.Count); } }
+        public List<string> Dependacies { get { return new List<string>(dependancy); } }
 
         //Instance Constructor
         public Package(string[] packages)
@@ -60,7 +60,7 @@ namespace Lab02_NicW
             return this.Name.CompareTo(temp.Name);
         }
 
-        public int CompareNameDepCount(Package arg1, Package arg2)
+        static public int CompareNameDepCount(Package arg1, Package arg2)
         {
             //If Name is the same, compare by dependancy count
             if (arg1.Name.Equals(arg2.Name))
@@ -73,7 +73,7 @@ namespace Lab02_NicW
             }
         }
 
-        public int CompareDepCountName(Package arg1, Package arg2)
+        static public int CompareDepCountName(Package arg1, Package arg2)
         {
             //If Name is the same, compare by dependancy count
             if (arg1.Dependacies.Count == arg2.Dependacies.Count)

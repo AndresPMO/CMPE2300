@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Name", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("Dependancies", System.Windows.Forms.HorizontalAlignment.Left);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.UI_toolStripStatus_Loaded = new System.Windows.Forms.ToolStripStatusLabel();
             this.UI_toolStripStatus_Installable = new System.Windows.Forms.ToolStripStatusLabel();
@@ -94,7 +92,7 @@
             this.UI_toolStripComboBox_View});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(368, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(368, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -103,7 +101,7 @@
             this.UI_toolStripButton_Load.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.UI_toolStripButton_Load.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Load.Name = "UI_toolStripButton_Load";
-            this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 24);
+            this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 22);
             this.UI_toolStripButton_Load.Text = "Load File";
             this.UI_toolStripButton_Load.Click += new System.EventHandler(this.UI_toolStripButton_Load_Click);
             // 
@@ -113,7 +111,7 @@
             this.UI_toolStripButton_Analyze.Image = ((System.Drawing.Image)(resources.GetObject("UI_toolStripButton_Analyze.Image")));
             this.UI_toolStripButton_Analyze.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Analyze.Name = "UI_toolStripButton_Analyze";
-            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 24);
+            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 22);
             this.UI_toolStripButton_Analyze.Text = "Analyze";
             this.UI_toolStripButton_Analyze.Click += new System.EventHandler(this.UI_toolStripButton_Analyze_Click);
             // 
@@ -124,7 +122,7 @@
             "Library Helpers",
             "Binary Search "});
             this.UI_toolStripComboBox_Algorithm.Name = "UI_toolStripComboBox_Algorithm";
-            this.UI_toolStripComboBox_Algorithm.Size = new System.Drawing.Size(121, 27);
+            this.UI_toolStripComboBox_Algorithm.Size = new System.Drawing.Size(121, 25);
             // 
             // UI_toolStripComboBox_View
             // 
@@ -133,7 +131,7 @@
             "Loadable Packages",
             "Unloadable Packages"});
             this.UI_toolStripComboBox_View.Name = "UI_toolStripComboBox_View";
-            this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 23);
+            this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 25);
             this.UI_toolStripComboBox_View.SelectedIndexChanged += new System.EventHandler(this.UI_toolStripComboBox_View_SelectedIndexChanged);
             // 
             // UI_listView_Packages
@@ -142,19 +140,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UI_listView_Packages.GridLines = true;
-            listViewGroup1.Header = "Name";
-            listViewGroup1.Name = "listViewGroup_Name";
-            listViewGroup2.Header = "Dependancies";
-            listViewGroup2.Name = "listViewGroup_Dependancies";
-            this.UI_listView_Packages.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup1,
-            listViewGroup2});
             this.UI_listView_Packages.Location = new System.Drawing.Point(0, 29);
             this.UI_listView_Packages.Name = "UI_listView_Packages";
             this.UI_listView_Packages.Size = new System.Drawing.Size(464, 488);
             this.UI_listView_Packages.TabIndex = 2;
             this.UI_listView_Packages.UseCompatibleStateImageBehavior = false;
             this.UI_listView_Packages.View = System.Windows.Forms.View.Details;
+            this.UI_listView_Packages.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.UI_listView_Packages_ColumnClick);
             // 
             // UI_openFileDialog
             // 

@@ -19,8 +19,6 @@ namespace Lab02_NicW
         List<Package> plInstalled = new List<Package>();
         List<Package> plUnInstalled = new List<Package>();
 
-        //System.IO.ReadAllLines(Path) returns an array of string
-
         public Form1()
         {
             InitializeComponent();
@@ -35,24 +33,21 @@ namespace Lab02_NicW
             if(UI_openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //Make something to read the data from file
-                System.IO.StreamReader sReader = new System.IO.StreamReader(UI_openFileDialog.FileName);
+                //System.IO.StreamReader sReader = new System.IO.StreamReader(UI_openFileDialog.FileName);
+
                 //Make places to store the data temporarily
-                string tempString;
-                string[] tempSArray;
+                string[] allLines = System.IO.File.ReadAllLines(UI_openFileDialog.FileName);
+                string[] packInput;
                 Package tempPackage;
 
-                //Read all the lines
-                while (!sReader.EndOfStream)
+                foreach (string line in allLines)
                 {
-                    //Read a line in the file
-                    tempString = sReader.ReadLine();
-
-                    //Split the line into seperate strings, based on spaces
-                    tempSArray = tempString.Split(' ');
+                    //split each input with a space
+                    packInput = line.Split(new char[]{' '}, StringSplitOptions.RemoveEmptyEntries);
 
                     //Put those strings into a package
-                    tempPackage = new Package(tempSArray);
-                    
+                    tempPackage = new Package(packInput);
+
                     if (!plLoaded.Contains(tempPackage))
                     {
                         //Not a duplicate, add to list
@@ -64,9 +59,7 @@ namespace Lab02_NicW
                         plLoaded[plLoaded.IndexOf(tempPackage)].MergePackage(tempPackage);
                     }
                 }
-                //Don't need to read anymore data
-                sReader.Close();
-
+                
                 //Show all packages
                 UI_toolStripComboBox_View.SelectedIndex = 0;
                 ShowSelectedLoad();
@@ -112,6 +105,27 @@ namespace Lab02_NicW
         private void UI_toolStripComboBox_View_SelectedIndexChanged(object sender, EventArgs e)
         {
             ShowSelectedLoad();
+        }
+
+        private void UI_listView_Packages_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            //Sort the selected list by name, then dependancy count
+            if(UI_toolStripComboBox_View.SelectedIndex == 0)
+            {
+                plLoaded.Sort(Package.CompareNameDepCount);
+                ShowSelectedLoad();
+            }
+            else if (UI_toolStripComboBox_View.SelectedIndex == 1)
+            {
+                plInstalled.Sort(Package.CompareNameDepCount);
+                ShowSelectedLoad();
+            }
+            else
+            {
+                plUnInstalled.Sort(Package.CompareNameDepCount);
+                ShowSelectedLoad();
+                
+            }
         }
 
         private void Form1_Resize(object sender, EventArgs e)
@@ -172,7 +186,7 @@ namespace Lab02_NicW
                 {
                     //Can be installed if it has zero dependancies
                     //OR if all its dependancies have already been installed
-                    if (p.Dependacies.Count == 0 || p.Dependacies.All(o => plInstalled.Contains(new Package(new[] { o }))))
+                    if (p.Dependacies.Count == 0)
                     {
                         //Say it can be installed
                         plInstalled.Add(p);
@@ -188,7 +202,44 @@ namespace Lab02_NicW
 
         private void LibraryInstall()
         {
+            //bool to see if something was installed
+            bool install;
+            //Keep installing until you don't install anything else
+            do
+            {
+                //Don't know if anything has been installed yet
+                install = false;
 
+                foreach(Package uninstalled in plUnInstalled)
+                {
+                    if (uninstalled.Dependacies.Count == 0)
+                    {
+                        //No dependancies? Install
+                        plInstalled.Add(uninstalled);
+                        install = true;
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(uninstalled);
+                        break;
+                    } else if (plInstalled.Exists(pack => pack.Name == uninstalled.Name))
+                    {
+                        //Installed has something with the same name? Merge them together
+                        plInstalled.Find(pack => pack.Name == uninstalled.Name).MergePackage(uninstalled);
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(uninstalled);
+                        break;
+                    } else if(plInstalled.Exists(pack => uninstalled.Dependacies.FindAll( upack => pack.Name == upack).Count == uninstalled.Dependacies.Count))
+                    {
+                        //Go through the Installed list. Check to see if we have installed the package needed for something.
+                        //Go through the Uninstalled list. Check if all the dependancies are in the installed list.
+                        plInstalled.Add(uninstalled);
+                        install = true;
+                        //Remove from the uninstalled list
+                        plUnInstalled.Remove(uninstalled);
+                        break;
+                    }
+                }
+
+            } while (install);
         }
 
         private void SortedInstall()
@@ -196,5 +247,6 @@ namespace Lab02_NicW
 
         }
 
+        
     }
 }
