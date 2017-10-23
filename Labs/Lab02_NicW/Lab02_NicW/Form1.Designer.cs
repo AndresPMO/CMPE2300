@@ -40,6 +40,8 @@
             this.UI_toolStripComboBox_View = new System.Windows.Forms.ToolStripComboBox();
             this.UI_listView_Packages = new System.Windows.Forms.ListView();
             this.UI_openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.columnHeader_Name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader_Dependancy = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +55,7 @@
             this.UI_toolStripStatus_Loaded,
             this.UI_toolStripStatus_Installable,
             this.UI_toolStripStatus_UnInstallble});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 520);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 519);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(381, 22);
             this.statusStrip1.TabIndex = 0;
@@ -139,27 +141,41 @@
             this.UI_listView_Packages.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_listView_Packages.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader_Name,
+            this.columnHeader_Dependancy});
             this.UI_listView_Packages.GridLines = true;
             this.UI_listView_Packages.Location = new System.Drawing.Point(0, 29);
             this.UI_listView_Packages.Name = "UI_listView_Packages";
-            this.UI_listView_Packages.Size = new System.Drawing.Size(464, 488);
+            this.UI_listView_Packages.Size = new System.Drawing.Size(484, 487);
             this.UI_listView_Packages.TabIndex = 2;
             this.UI_listView_Packages.UseCompatibleStateImageBehavior = false;
+            this.UI_listView_Packages.View = System.Windows.Forms.View.Details;
             this.UI_listView_Packages.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.UI_listView_Packages_ColumnClick);
             // 
             // UI_openFileDialog
             // 
             this.UI_openFileDialog.Filter = "Text Files|*.txt|All Files|*.*";
             // 
+            // columnHeader_Name
+            // 
+            this.columnHeader_Name.Text = "Name";
+            this.columnHeader_Name.Width = 200;
+            // 
+            // columnHeader_Dependancy
+            // 
+            this.columnHeader_Dependancy.Text = "Dependancy Count";
+            this.columnHeader_Dependancy.Width = 300;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 542);
+            this.ClientSize = new System.Drawing.Size(484, 541);
             this.Controls.Add(this.UI_listView_Packages);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
-            this.MinimumSize = new System.Drawing.Size(480, 580);
+            this.MinimumSize = new System.Drawing.Size(500, 580);
             this.Name = "Form1";
             this.Text = "Installable Files";
             this.Resize += new System.EventHandler(this.Form1_Resize);
@@ -185,6 +201,8 @@
         private System.Windows.Forms.ToolStripComboBox UI_toolStripComboBox_View;
         private System.Windows.Forms.ListView UI_listView_Packages;
         private System.Windows.Forms.OpenFileDialog UI_openFileDialog;
+        private System.Windows.Forms.ColumnHeader columnHeader_Name;
+        private System.Windows.Forms.ColumnHeader columnHeader_Dependancy;
     }
 }
 

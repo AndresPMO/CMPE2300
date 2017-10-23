@@ -22,9 +22,16 @@ namespace Lab02_NicW
         public Form1()
         {
             InitializeComponent();
+            //Make the second column go the entire length
+            UI_listView_Packages.Columns[1].AutoResize(ColumnHeaderAutoResizeStyle.HeaderSize);
             //Always have a selected index for the combo boxes
             UI_toolStripComboBox_Algorithm.SelectedIndex = 0;
             UI_toolStripComboBox_View.SelectedIndex = 0;
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            UI_listView_Packages.Columns[1].AutoResize(ColumnHeaderAutoResizeStyle.HeaderSize);
         }
 
         private void UI_toolStripButton_Load_Click(object sender, EventArgs e)
@@ -112,28 +119,46 @@ namespace Lab02_NicW
 
         private void UI_listView_Packages_ColumnClick(object sender, ColumnClickEventArgs e)
         {
-            //Sort the selected list by name, then dependancy count
-            if(UI_toolStripComboBox_View.SelectedIndex == 0)
+            if (e.Column == 0)
             {
-                plLoaded.Sort(Package.CompareNameDepCount);
-                ShowSelectedLoad();
-            }
-            else if (UI_toolStripComboBox_View.SelectedIndex == 1)
-            {
-                plInstalled.Sort(Package.CompareNameDepCount);
-                ShowSelectedLoad();
-            }
-            else
-            {
-                plUnInstalled.Sort(Package.CompareNameDepCount);
-                ShowSelectedLoad();
-                
-            }
-        }
+                //Sort the selected list by name, then dependancy count
+                if (UI_toolStripComboBox_View.SelectedIndex == 0)
+                {
+                    plLoaded.Sort(Package.CompareNameDepCount);
+                    ShowSelectedLoad();
+                }
+                else if (UI_toolStripComboBox_View.SelectedIndex == 1)
+                {
+                    plInstalled.Sort(Package.CompareNameDepCount);
+                    ShowSelectedLoad();
+                }
+                else
+                {
+                    plUnInstalled.Sort(Package.CompareNameDepCount);
+                    ShowSelectedLoad();
 
-        private void Form1_Resize(object sender, EventArgs e)
-        {
-            UI_listView_Packages.Columns[1].AutoResize(ColumnHeaderAutoResizeStyle.HeaderSize);
+                }
+            }
+            else if (e.Column == 1)
+            {
+                //Sort the selected list by dependancy count, then name
+                if (UI_toolStripComboBox_View.SelectedIndex == 0)
+                {
+                    plLoaded.Sort(Package.CompareDepCountName);
+                    ShowSelectedLoad();
+                }
+                else if (UI_toolStripComboBox_View.SelectedIndex == 1)
+                {
+                    plInstalled.Sort(Package.CompareDepCountName);
+                    ShowSelectedLoad();
+                }
+                else
+                {
+                    plUnInstalled.Sort(Package.CompareDepCountName);
+                    ShowSelectedLoad();
+
+                }
+            }
         }
 
         private void ShowSelectedLoad()
@@ -179,8 +204,7 @@ namespace Lab02_NicW
         {
             //bool to see if something was installed
             bool install = false;
-            //Used to see if all of the dependancies are installed
-            bool allDepend = false;
+
             //Keep installing until you don't install anything else
             do
             {
@@ -202,21 +226,33 @@ namespace Lab02_NicW
                         break;
                     }
 
-                    
+                    //Used to determine if we can install a package
+                    bool allDepend = false;
                     //for every uninstalled package, look through all the dependant packages
                     foreach(string depend in uninstalled.Dependacies)
                     {
-                        //We assume it doesn't have all the dependancies until we learn it doesn't
+                        //assume we can't install the package
                         allDepend = false;
-
                         //for all the installed packages, check the names of the uninstalled package
                         foreach (Package ins in plInstalled)
                         {
-                            if (ins.Name == depend)
+                            if(depend != ins.Name)
                             {
+                                //Haven't found it.
+                                allDepend = false;
+                            }
+                            else
+                            {
+                                //Did find it installed! Don't need to search this list anymore
                                 allDepend = true;
                                 break;
                             }
+                        }
+
+                        //If we got a false, can't install. Don't keep checking stuff.
+                        if (!allDepend)
+                        {
+                            break;
                         }
                     }
 
@@ -256,7 +292,7 @@ namespace Lab02_NicW
                         plUnInstalled.Remove(uninstalled);
                         break;
                     }
-                    else if ()
+                    else if (uninstalled.Dependacies.TrueForAll(depend => plInstalled.Contains(new Package(new[] { depend }))))
                     {
                         //Go through every dependancy, check if it is contained in the installed list.
                         plInstalled.Add(uninstalled);
@@ -308,7 +344,11 @@ namespace Lab02_NicW
                         {
                             allDepend = true;
                         }
-                        
+                        else
+                        {
+                            //No match, can't install
+                            break;
+                        }
                     }
 
                     if (allDepend)
