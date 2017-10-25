@@ -28,9 +28,11 @@ namespace ICA09_NicW
 
 
 
-        private void ThreadProcess()
+        private void ThreadProcess(object obj)
         {
+            if (!(obj is Queue<Sheeple>)) return; //Bad input, not a queue, or null
 
+            Queue<Sheeple> queue = obj as Queue<Sheeple>;
         }
     }
 }

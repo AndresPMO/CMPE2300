@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.UI_button_Simulate = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.UI_numericUpDown_Queues = new System.Windows.Forms.NumericUpDown();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.UI_label_Sheeple = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UI_numericUpDown_Queues)).BeginInit();
             this.SuspendLayout();
             // 
             // UI_button_Simulate
@@ -45,12 +45,12 @@
             this.UI_button_Simulate.Text = "Simulate";
             this.UI_button_Simulate.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // UI_numericUpDown_Queues
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(188, 13);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(84, 20);
-            this.numericUpDown1.TabIndex = 1;
+            this.UI_numericUpDown_Queues.Location = new System.Drawing.Point(188, 13);
+            this.UI_numericUpDown_Queues.Name = "UI_numericUpDown_Queues";
+            this.UI_numericUpDown_Queues.Size = new System.Drawing.Size(84, 20);
+            this.UI_numericUpDown_Queues.TabIndex = 1;
             // 
             // timer
             // 
@@ -73,11 +73,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 89);
             this.Controls.Add(this.UI_label_Sheeple);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.UI_numericUpDown_Queues);
             this.Controls.Add(this.UI_button_Simulate);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UI_numericUpDown_Queues)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,7 +86,7 @@
         #endregion
 
         private System.Windows.Forms.Button UI_button_Simulate;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown UI_numericUpDown_Queues;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Label UI_label_Sheeple;
     }
