@@ -34,7 +34,7 @@ namespace ICA09_NicW
             CurrentItems--;
         }
 
-        public void ShowSheeple(this CDrawer canvas, List<Queue<Sheeple>> inList)
+        public void ShowSheeple(CDrawer canvas, List<Queue<Sheeple>> inList)
         {
             //Used for the starting x of the sheeple
             int XPos = 0;

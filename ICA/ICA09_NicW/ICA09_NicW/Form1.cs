@@ -25,9 +25,7 @@ namespace ICA09_NicW
         {
             InitializeComponent();
         }
-
-
-
+        
         private void ThreadProcess(object obj)
         {
             if (!(obj is Queue<Sheeple>)) return; //Bad input, not a queue, or null
