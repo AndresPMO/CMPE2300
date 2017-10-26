@@ -40,10 +40,10 @@ namespace Lab02_NicW
             if(UI_openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //Want all new data
-                plLoaded = new List<Package>();
+                plLoaded.Clear();
                 //Can't have anything installed or uninstalled if we loaded a new file
-                plInstalled = new List<Package>();
-                plUnInstalled = new List<Package>();
+                plInstalled.Clear();
+                plUnInstalled.Clear();
 
                 //Make places to store the data temporarily
                 string[] allLines = System.IO.File.ReadAllLines(UI_openFileDialog.FileName);
@@ -332,26 +332,7 @@ namespace Lab02_NicW
                         //Remove from the uninstalled list
                         plUnInstalled.Remove(uninstalled);
                         break;
-                    }
-
-                    //Check if all dependancies are installed
-                    foreach(string depend in uninstalled.Dependacies)
-                    {
-                        allDepend = false;
-                        //If the name of an installed package matches the name of a dependancy,
-                        //Say that we might have a match!
-                        if(plInstalled.BinarySearch(new Package(new[] { depend })) >= 0)
-                        {
-                            allDepend = true;
-                        }
-                        else
-                        {
-                            //No match, can't install
-                            break;
-                        }
-                    }
-
-                    if (allDepend)
+                    }else if (uninstalled.Dependacies.TrueForAll(depend => plInstalled.BinarySearch(new Package(new[] { depend })) >= 0))
                     {
                         plInstalled.Add(uninstalled);
                         install = true;
