@@ -44,6 +44,7 @@
             this.UI_button_Simulate.TabIndex = 0;
             this.UI_button_Simulate.Text = "Simulate";
             this.UI_button_Simulate.UseVisualStyleBackColor = true;
+            this.UI_button_Simulate.Click += new System.EventHandler(this.UI_button_Simulate_Click);
             // 
             // UI_numericUpDown_Queues
             // 
@@ -56,6 +57,7 @@
             // 
             this.timer.Enabled = true;
             this.timer.Interval = 20;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // UI_label_Sheeple
             // 
