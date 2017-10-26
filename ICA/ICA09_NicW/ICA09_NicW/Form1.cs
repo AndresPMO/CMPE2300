@@ -36,7 +36,7 @@ namespace ICA09_NicW
             ListQueue.Clear();
             Processed = 0;
             if (canvas != null)
-                canvas.Dispose();
+                canvas.Close();
             canvas = new CDrawer(800, (int)UI_numericUpDown_Queues.Value * scale, true);
             canvas.Scale = scale;
 
@@ -53,11 +53,14 @@ namespace ICA09_NicW
             Thread thread;
             running = true;
 
-            foreach(Queue<Sheeple> q in ListQueue)
+            lock (key)
             {
-                thread = new Thread(new ParameterizedThreadStart(ThreadProcess));
-                thread.IsBackground = true;
-                thread.Start(q);
+                foreach (Queue<Sheeple> q in ListQueue)
+                {
+                    thread = new Thread(new ParameterizedThreadStart(ThreadProcess));
+                    thread.IsBackground = true;
+                    thread.Start(q);
+                }
             }
 
         }
@@ -95,16 +98,19 @@ namespace ICA09_NicW
             //#2
             canvas.Clear();
             int y = 0;
-            ListQueue.ForEach(lq =>
+            lock (key)
             {
-                int x = 0;
-                foreach (Sheeple sheep in lq)
+                ListQueue.ForEach(lq =>
                 {
-                    sheep.ShowSheeple(canvas, sheep, x, y);
-                    x+= sheep.TotalItems;
-                }
-                y++;
-            });
+                    int x = 0;
+                    foreach (Sheeple sheep in lq)
+                    {
+                        sheep.ShowSheeple(canvas, sheep, x, y);
+                        x += sheep.TotalItems;
+                    }
+                    y++;
+                });
+            }
         }
 
         private void ThreadProcess(object obj)

@@ -49,9 +49,19 @@
             // UI_numericUpDown_Queues
             // 
             this.UI_numericUpDown_Queues.Location = new System.Drawing.Point(188, 13);
+            this.UI_numericUpDown_Queues.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.UI_numericUpDown_Queues.Name = "UI_numericUpDown_Queues";
             this.UI_numericUpDown_Queues.Size = new System.Drawing.Size(84, 20);
             this.UI_numericUpDown_Queues.TabIndex = 1;
+            this.UI_numericUpDown_Queues.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // timer
             // 
