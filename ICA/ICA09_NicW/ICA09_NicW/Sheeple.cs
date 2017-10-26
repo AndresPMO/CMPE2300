@@ -34,33 +34,12 @@ namespace ICA09_NicW
             CurrentItems--;
         }
 
-        public void ShowSheeple(CDrawer canvas, List<Queue<Sheeple>> inList)
-        {
-            //Used for the starting x of the sheeple
-            int XPos = 0;
-            int YPos = 0;
-
-            foreach(Queue<Sheeple> q in inList)
-            {
-                //Make sure the queue has something in it 
-                if(q.Count > 0)
-                {
-                    //Go through every sheeple
-                    foreach(Sheeple sheep in q)
-                    {
-                        //Draw a sheeple and move the x to the end of it
-                        canvas.AddRectangle(XPos, YPos, sheep.TotalItems, 1, sheep.Colour);
-                        XPos += sheep.TotalItems;
-                    }
-                    //Draw text over the first sheeple in the list
-                    canvas.AddText(q.First().CurrentItems.ToString(), 10, 0, YPos, q.First().TotalItems, 1, Color.Black);
-                }
-                //Move a line down
-                YPos++;
-                //Reset the x
-                XPos = 0;
-            }
-
+        public void ShowSheeple(CDrawer canvas, Sheeple sheep, int XPos, int YPos)
+        {  
+            //Draw a sheeple
+            canvas.AddRectangle(XPos, YPos, sheep.TotalItems, 1, sheep.Colour);
+            if(XPos == 0)
+                canvas.AddText(sheep.CurrentItems.ToString(), 10, XPos, YPos, sheep.TotalItems, 1, Color.Black);
         }
     }
 }
