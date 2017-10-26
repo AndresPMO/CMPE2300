@@ -72,12 +72,14 @@
             // UI_label_Sheeple
             // 
             this.UI_label_Sheeple.AutoSize = true;
+            this.UI_label_Sheeple.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.UI_label_Sheeple.Location = new System.Drawing.Point(13, 40);
             this.UI_label_Sheeple.MinimumSize = new System.Drawing.Size(260, 30);
             this.UI_label_Sheeple.Name = "UI_label_Sheeple";
             this.UI_label_Sheeple.Size = new System.Drawing.Size(260, 30);
             this.UI_label_Sheeple.TabIndex = 2;
             this.UI_label_Sheeple.Text = "The next Sheeple to be added";
+            this.UI_label_Sheeple.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
