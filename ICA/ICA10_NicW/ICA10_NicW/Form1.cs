@@ -57,7 +57,7 @@ namespace ICA10_NicW
             //Need something in our list
             if (listPoint.Count == 0) return;
 
-            //Do a shuffle!
+            //Do a shuffle! Fischer-Yates
             Point temp;
             for(int i = listPoint.Count -1; i > 1; i--)
             {
@@ -93,31 +93,47 @@ namespace ICA10_NicW
                 {
                     //First item to add
                     Linked.AddFirst(p);
+                    continue;
                 }
-                else
+
+                ////Need to find where to put it
+                //LinkedListNode<Point> sort = Linked.First;
+                //int sortKey = (p.X * canvas.ScaledHeight + p.Y); //Given formula
+                //int currentValue = (sort.Value.X * canvas.ScaledHeight + sort.Value.Y);
+
+                //while (currentValue < sortKey && sort != null)
+                //{
+                //    //Change sort
+                //    sort = sort.Next;
+                //    if (sort != null)
+                //    {
+                //        currentValue = sort.Value.X * canvas.ScaledHeight + sort.Value.Y;
+                //    }
+                //}
+
+                //if (sort == null)
+                //{
+                //    Linked.AddLast(p);
+                //}
+                //else
+                //{
+                //    Linked.AddBefore(sort, p);
+                //}
+
+                for (LinkedListNode<Point> sort = Linked.First; sort != null; sort = sort.Next)
                 {
-                    //Need to find where to put it
-                    LinkedListNode<Point> sort = Linked.First;
-                    int sortKey = p.X * canvas.ScaledHeight + p.Y; //Given formula
-                    int currentValue = sort.Value.X * canvas.ScaledHeight + sort.Value.Y;
-
-                    while(currentValue < sortKey && sort != null)
-                    {
-                        //Change sort
-                        sort = sort.Next;
-                        if (sort != null)
-                        {
-                            currentValue = sort.Value.X * canvas.ScaledHeight + sort.Value.Y;
-                        }
-                    }
-
-                    if (sort == null)
-                    {
-                        Linked.AddLast(p);
-                    }
-                    else
+                    //if sort is greater than p, add p before sort
+                    if ((sort.Value.X * canvas.ScaledHeight + sort.Value.Y) > (p.X * canvas.ScaledHeight + p.Y))
                     {
                         Linked.AddBefore(sort, p);
+                        break;
+                    }
+                    //Else, if we are at the end and no point
+                    //add to the end
+                    else if (sort.Next == null)
+                    {
+                        Linked.AddLast(p);
+                        break;
                     }
                 }
             }
