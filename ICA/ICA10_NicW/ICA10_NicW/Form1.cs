@@ -96,30 +96,6 @@ namespace ICA10_NicW
                     continue;
                 }
 
-                ////Need to find where to put it
-                //LinkedListNode<Point> sort = Linked.First;
-                //int sortKey = (p.X * canvas.ScaledHeight + p.Y); //Given formula
-                //int currentValue = (sort.Value.X * canvas.ScaledHeight + sort.Value.Y);
-
-                //while (currentValue < sortKey && sort != null)
-                //{
-                //    //Change sort
-                //    sort = sort.Next;
-                //    if (sort != null)
-                //    {
-                //        currentValue = sort.Value.X * canvas.ScaledHeight + sort.Value.Y;
-                //    }
-                //}
-
-                //if (sort == null)
-                //{
-                //    Linked.AddLast(p);
-                //}
-                //else
-                //{
-                //    Linked.AddBefore(sort, p);
-                //}
-
                 for (LinkedListNode<Point> sort = Linked.First; sort != null; sort = sort.Next)
                 {
                     //if sort is greater than p, add p before sort
