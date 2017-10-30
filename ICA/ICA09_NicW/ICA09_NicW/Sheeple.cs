@@ -15,7 +15,7 @@ namespace ICA09_NicW
 
         //Instance Variables
         public int TotalItems { get; private set; }
-        public int CurrentItems { get; private set; }
+        private int CurrentItems { get; set; }
         public Color Colour { get; private set; }
         public bool Done { get { return CurrentItems == 0; } }
 

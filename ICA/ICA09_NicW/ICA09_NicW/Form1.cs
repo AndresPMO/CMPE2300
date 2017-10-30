@@ -33,28 +33,29 @@ namespace ICA09_NicW
         {
             running = false;
             stackSheeple.Clear();
-            ListQueue.Clear();
             Processed = 0;
             if (canvas != null)
                 canvas.Close();
-            canvas = new CDrawer(800, (int)UI_numericUpDown_Queues.Value * scale, true);
+            canvas = new CDrawer(1200, (int)UI_numericUpDown_Queues.Value * scale, true);
             canvas.Scale = scale;
 
             for(int i = 0; i < 200; i++)
             {
                 stackSheeple.Push(new Sheeple());
             }
-
-            for(int i = 0; i < UI_numericUpDown_Queues.Value; i++)
-            {
-                ListQueue.Add(new Queue<Sheeple>());
-            }
-
+            
             Thread thread;
             running = true;
 
             lock (key)
             {
+                ListQueue.Clear();
+
+                for(int i = 0; i < UI_numericUpDown_Queues.Value; i++)
+                {
+                    ListQueue.Add(new Queue<Sheeple>());
+                }
+
                 foreach (Queue<Sheeple> q in ListQueue)
                 {
                     thread = new Thread(new ParameterizedThreadStart(ThreadProcess));
@@ -137,7 +138,7 @@ namespace ICA09_NicW
                     if (queue.Count > 0)
                     {
                         queue.Peek().Process();
-                        if (queue.Peek().CurrentItems == 0)
+                        if (queue.Peek().Done)
                         {
                             Processed += queue.Dequeue().TotalItems;
                         }

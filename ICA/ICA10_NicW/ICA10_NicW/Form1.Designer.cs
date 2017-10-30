@@ -39,10 +39,25 @@
             // 
             this.UI_numericUpDown_Divisor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_numericUpDown_Divisor.Increment = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             this.UI_numericUpDown_Divisor.Location = new System.Drawing.Point(13, 13);
+            this.UI_numericUpDown_Divisor.Minimum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             this.UI_numericUpDown_Divisor.Name = "UI_numericUpDown_Divisor";
             this.UI_numericUpDown_Divisor.Size = new System.Drawing.Size(219, 20);
             this.UI_numericUpDown_Divisor.TabIndex = 0;
+            this.UI_numericUpDown_Divisor.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // UI_button_MakeList
             // 
@@ -54,6 +69,7 @@
             this.UI_button_MakeList.TabIndex = 1;
             this.UI_button_MakeList.Text = "Make List";
             this.UI_button_MakeList.UseVisualStyleBackColor = true;
+            this.UI_button_MakeList.Click += new System.EventHandler(this.UI_button_MakeList_Click);
             // 
             // UI_button_Shuffle
             // 
@@ -65,6 +81,7 @@
             this.UI_button_Shuffle.TabIndex = 2;
             this.UI_button_Shuffle.Text = "Shuffle";
             this.UI_button_Shuffle.UseVisualStyleBackColor = true;
+            this.UI_button_Shuffle.Click += new System.EventHandler(this.UI_button_Shuffle_Click);
             // 
             // UI_button_LinkedList
             // 
@@ -76,6 +93,7 @@
             this.UI_button_LinkedList.TabIndex = 3;
             this.UI_button_LinkedList.Text = "Populate Linked List";
             this.UI_button_LinkedList.UseVisualStyleBackColor = true;
+            this.UI_button_LinkedList.Click += new System.EventHandler(this.UI_button_LinkedList_Click);
             // 
             // Form1
             // 
