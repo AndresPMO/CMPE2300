@@ -37,7 +37,7 @@ namespace ICA09_NicW
             Processed = 0;
             if (canvas != null)
                 canvas.Close();
-            canvas = new CDrawer(1600, (int)UI_numericUpDown_Queues.Value * scale, true);
+            canvas = new CDrawer(800, (int)UI_numericUpDown_Queues.Value * scale, true);
             canvas.Scale = scale;
 
             for(int i = 0; i < 200; i++)
@@ -111,6 +111,8 @@ namespace ICA09_NicW
                     y++;
                 });
             }
+
+            Text = Processed.ToString();
         }
 
         private void ThreadProcess(object obj)
