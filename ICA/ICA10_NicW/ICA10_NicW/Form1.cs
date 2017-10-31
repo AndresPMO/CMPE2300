@@ -57,18 +57,8 @@ namespace ICA10_NicW
             //Need something in our list
             if (listPoint.Count == 0) return;
 
-            //Do a shuffle! Fischer-Yates
-            Point temp;
-            for(int i = listPoint.Count -1; i > 1; i--)
-            {
-                int j = randNum.Next(0, i + 1); // 0 <= j <= i
-                //Hold onto i
-                temp = listPoint[i];
-                //swap j to i
-                listPoint[i] = listPoint[j];
-                //swap i to j
-                listPoint[j] = temp;
-            }
+            //Shuffle our list
+            listPoint = shuffle(listPoint);
 
             //All but the last in the list
             //Draw a fuchsia line to the next point
@@ -80,6 +70,26 @@ namespace ICA10_NicW
             canvas.Render();
         }
 
+        private List<Point> shuffle(List<Point> inList)
+        {
+            List<Point> outList = new List<Point>(inList);
+
+            //Do a shuffle! Fischer-Yates
+            Point temp;
+            for (int i = outList.Count - 1; i > 1; i--)
+            {
+                int j = randNum.Next(0, i + 1); // 0 <= j <= i
+                //Hold onto i
+                temp = outList[i];
+                //swap j to i
+                outList[i] = outList[j];
+                //swap i to j
+                outList[j] = temp;
+            }
+
+            return outList;
+        }
+
         private void UI_button_LinkedList_Click(object sender, EventArgs e)
         {
             //Need something in our list
@@ -89,28 +99,31 @@ namespace ICA10_NicW
             Linked.Clear();
             foreach(Point p in listPoint)
             {
-                if(Linked.Count == 0)
+                //if(Linked.Count == 0)
+                //{
+                //    //First item to add
+                //    Linked.AddFirst(p);
+                //    continue;
+                //}
+                LinkedListNode<Point> sort;
+                for (sort = Linked.First; sort != null; sort = sort.Next)
                 {
-                    //First item to add
-                    Linked.AddFirst(p);
-                    continue;
-                }
-
-                for (LinkedListNode<Point> sort = Linked.First; sort != null; sort = sort.Next)
-                {
-                    //if sort is greater than p, add p before sort
+                    //if sort is greater than p
                     if ((sort.Value.X * canvas.ScaledHeight + sort.Value.Y) > (p.X * canvas.ScaledHeight + p.Y))
                     {
-                        Linked.AddBefore(sort, p);
                         break;
                     }
-                    //Else, if we are at the end and no point
-                    //add to the end
-                    else if (sort.Next == null)
-                    {
-                        Linked.AddLast(p);
-                        break;
-                    }
+                }
+
+                if(sort == null)
+                {
+                    //Got to the end of the list
+                    Linked.AddLast(p);
+                }
+                else
+                {
+                    //Got to a node that was bigger than our point
+                    Linked.AddBefore(sort, p);
                 }
             }
 
