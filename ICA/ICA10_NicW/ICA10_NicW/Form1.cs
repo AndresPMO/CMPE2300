@@ -58,7 +58,7 @@ namespace ICA10_NicW
             if (listPoint.Count == 0) return;
 
             //Shuffle our list
-            listPoint = shuffle(listPoint);
+            listPoint = listPoint.shuffle();
 
             //All but the last in the list
             //Draw a fuchsia line to the next point
@@ -69,27 +69,7 @@ namespace ICA10_NicW
             }
             canvas.Render();
         }
-
-        private List<Point> shuffle(List<Point> inList)
-        {
-            List<Point> outList = new List<Point>(inList);
-
-            //Do a shuffle! Fischer-Yates
-            Point temp;
-            for (int i = outList.Count - 1; i > 1; i--)
-            {
-                int j = randNum.Next(0, i + 1); // 0 <= j <= i
-                //Hold onto i
-                temp = outList[i];
-                //swap j to i
-                outList[i] = outList[j];
-                //swap i to j
-                outList[j] = temp;
-            }
-
-            return outList;
-        }
-
+        
         private void UI_button_LinkedList_Click(object sender, EventArgs e)
         {
             //Need something in our list
@@ -99,12 +79,6 @@ namespace ICA10_NicW
             Linked.Clear();
             foreach(Point p in listPoint)
             {
-                //if(Linked.Count == 0)
-                //{
-                //    //First item to add
-                //    Linked.AddFirst(p);
-                //    continue;
-                //}
                 LinkedListNode<Point> sort;
                 for (sort = Linked.First; sort != null; sort = sort.Next)
                 {
@@ -139,6 +113,32 @@ namespace ICA10_NicW
             canvas.Render();
 
             UI_button_LinkedList.Text = $"LinkedList contains: {Linked.Count} points";
+        }
+
+        
+    }
+
+    public static class MyLibrary
+    {
+        static public List<Point> shuffle(this List<Point> inList)
+        {
+            Random randNum = new Random();
+            List<Point> outList = new List<Point>(inList);
+
+            //Do a shuffle! Fischer-Yates
+            Point temp;
+            for (int i = outList.Count - 1; i > 1; i--)
+            {
+                int j = randNum.Next(0, i + 1); // 0 <= j <= i
+                //Hold onto i
+                temp = outList[i];
+                //swap j to i
+                outList[i] = outList[j];
+                //swap i to j
+                outList[j] = temp;
+            }
+
+            return outList;
         }
     }
 }
