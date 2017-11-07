@@ -38,9 +38,11 @@
             // 
             // UI_button_Load
             // 
+            this.UI_button_Load.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.UI_button_Load.Location = new System.Drawing.Point(13, 13);
             this.UI_button_Load.Name = "UI_button_Load";
-            this.UI_button_Load.Size = new System.Drawing.Size(154, 23);
+            this.UI_button_Load.Size = new System.Drawing.Size(221, 23);
             this.UI_button_Load.TabIndex = 0;
             this.UI_button_Load.Text = "Load File";
             this.UI_button_Load.UseVisualStyleBackColor = true;
@@ -48,9 +50,11 @@
             // 
             // UI_button_Average
             // 
+            this.UI_button_Average.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.UI_button_Average.Location = new System.Drawing.Point(13, 43);
             this.UI_button_Average.Name = "UI_button_Average";
-            this.UI_button_Average.Size = new System.Drawing.Size(154, 23);
+            this.UI_button_Average.Size = new System.Drawing.Size(221, 23);
             this.UI_button_Average.TabIndex = 1;
             this.UI_button_Average.Text = "Average";
             this.UI_button_Average.UseVisualStyleBackColor = true;
@@ -70,7 +74,7 @@
             this.columnHeader_Count});
             this.UI_listView_Bytes.Location = new System.Drawing.Point(13, 73);
             this.UI_listView_Bytes.Name = "UI_listView_Bytes";
-            this.UI_listView_Bytes.Size = new System.Drawing.Size(164, 376);
+            this.UI_listView_Bytes.Size = new System.Drawing.Size(221, 389);
             this.UI_listView_Bytes.TabIndex = 2;
             this.UI_listView_Bytes.UseCompatibleStateImageBehavior = false;
             this.UI_listView_Bytes.View = System.Windows.Forms.View.Details;
@@ -89,14 +93,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(189, 461);
+            this.ClientSize = new System.Drawing.Size(246, 475);
             this.Controls.Add(this.UI_listView_Bytes);
             this.Controls.Add(this.UI_button_Average);
             this.Controls.Add(this.UI_button_Load);
-            this.MaximumSize = new System.Drawing.Size(205, 500);
-            this.MinimumSize = new System.Drawing.Size(205, 500);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Byte List";
             this.ResumeLayout(false);
 
         }

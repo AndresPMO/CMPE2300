@@ -12,6 +12,7 @@ namespace ICA11_NicW
 {
     public partial class Form1 : Form
     {
+        //has a byte as the key, an int as the frequency of that byte
         Dictionary<byte, int> byteDict = new Dictionary<byte, int>();
 
         public Form1()
@@ -42,23 +43,71 @@ namespace ICA11_NicW
                         byteDict[b] = 1;
                     }
                 }
+                ShowDictionary();
             }
         }
 
         private void UI_button_Average_Click(object sender, EventArgs e)
         {
-            //Remove the ones that are below average
+            //Only keep the values that are above the average.
+            //                 |    Find the average value, only accepts values higher than average        ||Return the enumerable to dictionary, key-key and val-val|
+            byteDict = byteDict.Where(input => input.Value > byteDict.Average(frequency => frequency.Value)).ToDictionary(input => input.Key, value => value.Value);
+
+            ShowDictionary();
         }
 
         private void UI_listView_Bytes_ColumnClick(object sender, ColumnClickEventArgs e)
         {
+            //Put the dictionary in a list
+            List<KeyValuePair<byte, int>> temp = byteDict.ToList();
+
             if(e.Column == 0)
             {
                 //Column Byte
+                temp.Sort((arg1, arg2) => arg1.Key.CompareTo(arg2.Key));
             }
             else if (e.Column == 1)
             {
                 //Column Count
+                temp.Sort((arg1, arg2) => arg1.Value.CompareTo(arg2.Value));
+            }
+
+            //Put the list back into the dictionary
+            byteDict = temp.ToDictionary(key => key.Key, val => val.Value);
+
+            ShowDictionary();
+        }
+
+        private void ShowDictionary()
+        {
+            //have to have something to show
+            if (byteDict.Count == 0)
+            {
+                //Clear the listview
+                UI_listView_Bytes.Items.Clear();
+                UI_button_Average.Text = $"Average";
+                return;
+            }
+
+            //Get the average frequency value from the dictionary
+            double average = byteDict.Average(input => input.Value);
+            //Write out the average, no decimal
+            UI_button_Average.Text = $"Average : {(int)average}";
+
+            //Clear the listview
+            UI_listView_Bytes.Items.Clear();
+
+            ListViewItem temp;
+            //Add each item to the listview
+            foreach (KeyValuePair<byte, int> entry in byteDict)
+            {
+                //Add the key to the first column
+                temp = new ListViewItem(entry.Key.ToString("X2"));
+                //Add the frequency with a background colour.
+                //Light green for higher than average, light coral for lower than average.
+                temp.SubItems.Add(entry.Value.ToString(), Color.Black, entry.Value > average ? Color.LightGreen : Color.LightCoral, Font);
+                temp.UseItemStyleForSubItems = false;
+                UI_listView_Bytes.Items.Add(temp);
             }
         }
     }
