@@ -44,20 +44,25 @@ namespace ICA11_NicW
                     }
                 }
                 ShowDictionary();
+                //We have something to average, enable the button
+                UI_button_Average.Enabled = true;
             }
         }
 
         private void UI_button_Average_Click(object sender, EventArgs e)
         {
-            //Only keep the values that are above the average.
-            //                 |    Find the average value, only accepts values higher than average        ||Return the enumerable to dictionary, key-key and val-val|
-            byteDict = byteDict.Where(input => input.Value > byteDict.Average(frequency => frequency.Value)).ToDictionary(input => input.Key, value => value.Value);
+            //Only keep the values that are above or equal to the average.
+            //                 |    Find the average value, only accepts values >= to average               ||           Return the enumerable to dictionary       |
+            byteDict = byteDict.Where(input => input.Value >= byteDict.Average(frequency => frequency.Value)).ToDictionary(input => input.Key, value => value.Value);
 
             ShowDictionary();
         }
 
         private void UI_listView_Bytes_ColumnClick(object sender, ColumnClickEventArgs e)
         {
+            //Have nothing to sort, prevent problems
+            if (byteDict.Count == 0) return;
+
             //Put the dictionary in a list
             List<KeyValuePair<byte, int>> temp = byteDict.ToList();
 
@@ -80,15 +85,6 @@ namespace ICA11_NicW
 
         private void ShowDictionary()
         {
-            //have to have something to show
-            if (byteDict.Count == 0)
-            {
-                //Clear the listview
-                UI_listView_Bytes.Items.Clear();
-                UI_button_Average.Text = $"Average";
-                return;
-            }
-
             //Get the average frequency value from the dictionary
             double average = byteDict.Average(input => input.Value);
             //Write out the average, no decimal
@@ -102,11 +98,12 @@ namespace ICA11_NicW
             foreach (KeyValuePair<byte, int> entry in byteDict)
             {
                 //Add the key to the first column
-                temp = new ListViewItem(entry.Key.ToString("X2"));
+                temp = new ListViewItem(entry.Key.ToString("X"));
                 //Add the frequency with a background colour.
                 //Light green for higher than average, light coral for lower than average.
-                temp.SubItems.Add(entry.Value.ToString(), Color.Black, entry.Value > average ? Color.LightGreen : Color.LightCoral, Font);
+                temp.SubItems.Add(entry.Value.ToString(), Color.Black, entry.Value >= average ? Color.LightGreen : Color.LightCoral, Font);
                 temp.UseItemStyleForSubItems = false;
+                //Actually adding it to the listview
                 UI_listView_Bytes.Items.Add(temp);
             }
         }

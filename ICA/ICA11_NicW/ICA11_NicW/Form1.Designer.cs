@@ -52,6 +52,7 @@
             // 
             this.UI_button_Average.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.UI_button_Average.Enabled = false;
             this.UI_button_Average.Location = new System.Drawing.Point(13, 43);
             this.UI_button_Average.Name = "UI_button_Average";
             this.UI_button_Average.Size = new System.Drawing.Size(221, 23);
