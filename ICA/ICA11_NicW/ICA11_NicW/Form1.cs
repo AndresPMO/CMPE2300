@@ -18,6 +18,10 @@ namespace ICA11_NicW
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
             UI_listView_Bytes.AutoResizeColumn(1, ColumnHeaderAutoResizeStyle.HeaderSize);
         }
 
@@ -62,25 +66,31 @@ namespace ICA11_NicW
         {
             //Have nothing to sort, prevent problems
             if (byteDict.Count == 0) return;
-
-            //Put the dictionary in a list
-            List<KeyValuePair<byte, int>> temp = byteDict.ToList();
-
+            
             if(e.Column == 0)
             {
                 //Column Byte
-                temp.Sort((arg1, arg2) => arg1.Key.CompareTo(arg2.Key));
+                byteDict = byteDict.OrderBy(key => key.Key).ToDictionary(key => key.Key, value => value.Value);
             }
             else if (e.Column == 1)
             {
+                //Put the dictionary in a list
+                List<KeyValuePair<byte, int>> temp = byteDict.ToList();
                 //Column Count
-                temp.Sort((arg1, arg2) => arg1.Value.CompareTo(arg2.Value));
+                temp.Sort(FrequencySort);
+                //Put the list back into the dictionary
+                byteDict = temp.ToDictionary(key => key.Key, val => val.Value);
             }
-
-            //Put the list back into the dictionary
-            byteDict = temp.ToDictionary(key => key.Key, val => val.Value);
-
+            
             ShowDictionary();
+        }
+
+        private int FrequencySort(KeyValuePair<byte, int> arg1, KeyValuePair<byte, int> arg2)
+        {
+            if (arg1.Value == arg2.Value)
+                return arg1.Key.CompareTo(arg2.Key);
+            else
+                return arg1.Value.CompareTo(arg2.Value);
         }
 
         private void ShowDictionary()
@@ -107,5 +117,6 @@ namespace ICA11_NicW
                 UI_listView_Bytes.Items.Add(temp);
             }
         }
+        
     }
 }

@@ -100,6 +100,7 @@
             this.Controls.Add(this.UI_button_Load);
             this.Name = "Form1";
             this.Text = "Byte List";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.ResumeLayout(false);
 
         }
