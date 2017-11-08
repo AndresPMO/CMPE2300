@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+Author: Nicholas Wasylyshyn 
+Project: Lab 02
+Class: A02
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
