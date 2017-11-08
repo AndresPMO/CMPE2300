@@ -23,6 +23,7 @@ namespace Lab02_NicW
         public List<string> Dependacies { get { return new List<string>(dependancy); } }
 
         //Instance Constructor
+        
         public Package(string[] packages)
         {
             //First element of string[] input is the Package Name
@@ -57,6 +58,7 @@ namespace Lab02_NicW
         }
 
         //Comparisons
+        
         public int CompareTo(object obj)
         {
             if (!(obj is Package)) throw new ArgumentException("Input is not Package, or null"); //Bad input
