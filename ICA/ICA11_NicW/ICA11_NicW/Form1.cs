@@ -77,20 +77,12 @@ namespace ICA11_NicW
                 //Put the dictionary in a list
                 List<KeyValuePair<byte, int>> temp = byteDict.ToList();
                 //Column Count
-                temp.Sort(FrequencySort);
+                temp.Sort((arg1, arg2) => arg1.Value == arg2.Value ? arg1.Key.CompareTo(arg2.Key) : arg1.Value.CompareTo(arg2.Value));
                 //Put the list back into the dictionary
                 byteDict = temp.ToDictionary(key => key.Key, val => val.Value);
             }
             
             ShowDictionary();
-        }
-
-        private int FrequencySort(KeyValuePair<byte, int> arg1, KeyValuePair<byte, int> arg2)
-        {
-            if (arg1.Value == arg2.Value)
-                return arg1.Key.CompareTo(arg2.Key);
-            else
-                return arg1.Value.CompareTo(arg2.Value);
         }
 
         private void ShowDictionary()
