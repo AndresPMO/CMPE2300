@@ -55,13 +55,14 @@ namespace ICA11_NicW
 
         private void UI_button_Average_Click(object sender, EventArgs e)
         {
+            double average = byteDict.Average(frequency => frequency.Value);
             //Only keep the values that are above or equal to the average.
-            //                 |    Find the average value, only accepts values >= to average               ||           Return the enumerable to dictionary       |
-            byteDict = byteDict.Where(input => input.Value >= byteDict.Average(frequency => frequency.Value)).ToDictionary(input => input.Key, value => value.Value);
+            //        |Only accepts values >= to average             || Return the enumerable to dictionary|
+            byteDict = byteDict.Where(input => input.Value >= average).ToDictionary(input => input.Key, value => value.Value);
 
             ShowDictionary();
         }
-
+        
         private void UI_listView_Bytes_ColumnClick(object sender, ColumnClickEventArgs e)
         {
             //Have nothing to sort, prevent problems
@@ -84,7 +85,7 @@ namespace ICA11_NicW
             
             ShowDictionary();
         }
-
+        
         private void ShowDictionary()
         {
             //Get the average frequency value from the dictionary
