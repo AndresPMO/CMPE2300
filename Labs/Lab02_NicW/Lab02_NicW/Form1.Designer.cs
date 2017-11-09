@@ -39,9 +39,9 @@
             this.UI_toolStripComboBox_Algorithm = new System.Windows.Forms.ToolStripComboBox();
             this.UI_toolStripComboBox_View = new System.Windows.Forms.ToolStripComboBox();
             this.UI_listView_Packages = new System.Windows.Forms.ListView();
-            this.UI_openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.columnHeader_Name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader_Dependancy = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.UI_openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -94,7 +94,7 @@
             this.UI_toolStripComboBox_View});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(368, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(368, 27);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -103,7 +103,7 @@
             this.UI_toolStripButton_Load.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.UI_toolStripButton_Load.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Load.Name = "UI_toolStripButton_Load";
-            this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 22);
+            this.UI_toolStripButton_Load.Size = new System.Drawing.Size(58, 24);
             this.UI_toolStripButton_Load.Text = "Load File";
             this.UI_toolStripButton_Load.Click += new System.EventHandler(this.UI_toolStripButton_Load_Click);
             // 
@@ -113,7 +113,7 @@
             this.UI_toolStripButton_Analyze.Image = ((System.Drawing.Image)(resources.GetObject("UI_toolStripButton_Analyze.Image")));
             this.UI_toolStripButton_Analyze.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Analyze.Name = "UI_toolStripButton_Analyze";
-            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 22);
+            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 24);
             this.UI_toolStripButton_Analyze.Text = "Analyze";
             this.UI_toolStripButton_Analyze.Click += new System.EventHandler(this.UI_toolStripButton_Analyze_Click);
             // 
@@ -124,7 +124,7 @@
             "Library Helpers",
             "Binary Search "});
             this.UI_toolStripComboBox_Algorithm.Name = "UI_toolStripComboBox_Algorithm";
-            this.UI_toolStripComboBox_Algorithm.Size = new System.Drawing.Size(121, 25);
+            this.UI_toolStripComboBox_Algorithm.Size = new System.Drawing.Size(121, 27);
             // 
             // UI_toolStripComboBox_View
             // 
@@ -133,7 +133,7 @@
             "Loadable Packages",
             "Unloadable Packages"});
             this.UI_toolStripComboBox_View.Name = "UI_toolStripComboBox_View";
-            this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 25);
+            this.UI_toolStripComboBox_View.Size = new System.Drawing.Size(121, 23);
             this.UI_toolStripComboBox_View.SelectedIndexChanged += new System.EventHandler(this.UI_toolStripComboBox_View_SelectedIndexChanged);
             // 
             // UI_listView_Packages
@@ -153,10 +153,6 @@
             this.UI_listView_Packages.View = System.Windows.Forms.View.Details;
             this.UI_listView_Packages.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.UI_listView_Packages_ColumnClick);
             // 
-            // UI_openFileDialog
-            // 
-            this.UI_openFileDialog.Filter = "Text Files|*.txt|All Files|*.*";
-            // 
             // columnHeader_Name
             // 
             this.columnHeader_Name.Text = "Name";
@@ -167,11 +163,15 @@
             this.columnHeader_Dependancy.Text = "Dependancy Count";
             this.columnHeader_Dependancy.Width = 300;
             // 
+            // UI_openFileDialog
+            // 
+            this.UI_openFileDialog.Filter = "Text Files|*.txt|All Files|*.*";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 541);
+            this.ClientSize = new System.Drawing.Size(484, 542);
             this.Controls.Add(this.UI_listView_Packages);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);

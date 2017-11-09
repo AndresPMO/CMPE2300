@@ -1,8 +1,9 @@
 ﻿/*
 Author: Nicholas Wasylyshyn 
-Project: Lab 02
+Project: Lab 02 - Package Installer
 Class: A02
 */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
