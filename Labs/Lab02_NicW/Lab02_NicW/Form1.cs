@@ -155,6 +155,8 @@ namespace Lab02_NicW
         //  Uninstalled: sorts the uninstalled list by dependancy count, then name
         private void UI_listView_Packages_ColumnClick(object sender, ColumnClickEventArgs e)
         {
+            //Cleaning up the if statements would require a delegate. (reference the sort function)
+            //Opted not to make more efficient in effort to save time coding
             if (e.Column == 0)
             {
                 //Sort the selected list by name, then dependancy count

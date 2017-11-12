@@ -25,7 +25,7 @@ namespace Lab02_NicW
 
         
         /// <summary>
-        /// Instance constructor for packages
+        /// Instance constructor for packages. Takes an array of strings to create a name and dependancies
         /// </summary>
         /// <param name="packages">First entry is the name, next are all the dependancies.</param>
         public Package(string[] packages)
