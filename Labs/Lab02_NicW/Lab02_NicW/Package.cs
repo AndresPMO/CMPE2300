@@ -23,12 +23,16 @@ namespace Lab02_NicW
         private List<string> dependancy;
         public List<string> Dependacies { get { return new List<string>(dependancy); } }
 
-        //Instance Constructor
         
+        /// <summary>
+        /// Instance constructor for packages
+        /// </summary>
+        /// <param name="packages">First entry is the name, next are all the dependancies.</param>
         public Package(string[] packages)
         {
             //First element of string[] input is the Package Name
             Name = packages[0];
+            //Make a new list for the dependancies
             dependancy = new List<string>();
             //All others are the dependancies of that Package
             for(int i = 1; i < packages.Length; i++)
@@ -40,34 +44,40 @@ namespace Lab02_NicW
         }
 
         //Overrides
+        //Equality is determined by package Names
         public override bool Equals(object obj)
         {
             if (!(obj is Package)) return false; //input is not Package, or null
             Package temp = (Package)obj;
             return this.Name.Equals(temp.Name);
         }
+        //Always use our Equals override
         public override int GetHashCode()
         {
             return 1;
         }
+        //Return all of the dependancies as a string, comma delimited
         public override string ToString()
         {
-            //Output all the elements of the dependancy list seperated by a comma
+            //Make a string to hold the created string
             string output = "";
+            //Create the string out of all the dependancies
             this.dependancy.ForEach(element => output += (element + ", "));
+            //Remove the final comma and space
+            output.Remove(output.Length - 2, 2);
             return output;
         }
 
         //Comparisons
-        
+        //Default comparison, sort by Name asc
         public int CompareTo(object obj)
         {
             if (!(obj is Package)) throw new ArgumentException("Input is not Package, or null"); //Bad input
 
-            Package temp = (Package)obj;
-            return this.Name.CompareTo(temp.Name);
+            Package temp = (Package)obj;            //Cast the input as the proper type for easy use
+            return this.Name.CompareTo(temp.Name);  //Return the Name comparison
         }
-
+        //Sort by name asc, dependancy count asc
         static public int CompareNameDepCount(Package arg1, Package arg2)
         {
             //If Name is the same, compare by dependancy count
@@ -80,7 +90,7 @@ namespace Lab02_NicW
                 return arg1.Name.CompareTo(arg2.Name);
             }
         }
-
+        //Sort by dependancy count asc, name asc
         static public int CompareDepCountName(Package arg1, Package arg2)
         {
             //If Name is the same, compare by dependancy count
@@ -95,6 +105,11 @@ namespace Lab02_NicW
         }
 
         //Methods
+        /// <summary>
+        /// MergePackage - Will take a second package and attempt to merge with the invoking package.
+        /// Will throw an error if packages do not have the same name.
+        /// </summary>
+        /// <param name="input">The package to merge with the invoking instance.</param>
         public void MergePackage(Package input)
         {
             //Packages need the same name
@@ -103,9 +118,6 @@ namespace Lab02_NicW
             //Add all of the input dependancies to the invoking object.
             //Only add dependancies that are not already part of the invoking object's dependancies.
             this.dependancy = this.dependancy.Union(input.dependancy).ToList();
-
-            //Lambda style of above
-            //this.dependancy.AddRange(input.dependancy.FindAll(inp => !this.dependancy.Contains(inp)));
         }
     }
 }
