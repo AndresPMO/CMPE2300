@@ -10,11 +10,11 @@ namespace ICA12_NicW.Properties
 {
     class PictDrawer : CDrawer
     {
-        Bitmap background = new Bitmap(Properties.Resources.gunFish);
+        
 
         public PictDrawer()
         {
-
+            Bitmap background = new Bitmap(Properties.Resources.gunFish);
         }
     }
 }
