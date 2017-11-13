@@ -63,8 +63,6 @@ namespace Lab02_NicW
             string output = "";
             //Create the string out of all the dependancies
             this.dependancy.ForEach(element => output += (element + ", "));
-            //Remove the final comma and space
-            output.Remove(output.Length - 2, 2);
             return output;
         }
 
