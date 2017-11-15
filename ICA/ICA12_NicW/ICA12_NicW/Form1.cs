@@ -14,6 +14,8 @@ namespace ICA12_NicW
     public partial class Form1 : Form
     {
         RectDrawer rectCanvas = new RectDrawer();
+        PictDrawer pictCanvas = new PictDrawer();
+
         public Form1()
         {
             InitializeComponent();
