@@ -164,20 +164,18 @@ namespace Lab02_NicW
                 {
                     //Sorts the loaded list and shows it
                     plLoaded.Sort(Package.CompareNameDepCount);
-                    ShowSelectedLoad();
                 }
                 else if (UI_toolStripComboBox_View.SelectedIndex == 1)
                 {
                     //sorts the installed list and shows it
                     plInstalled.Sort(Package.CompareNameDepCount);
-                    ShowSelectedLoad();
                 }
                 else
                 {
                     //sorts the uninstalled list and shows it
                     plUnInstalled.Sort(Package.CompareNameDepCount);
-                    ShowSelectedLoad();
                 }
+                ShowSelectedLoad();
             }
             else if (e.Column == 1)
             {
@@ -186,20 +184,18 @@ namespace Lab02_NicW
                 {
                     //Sorts the loaded list and shows it
                     plLoaded.Sort(Package.CompareDepCountName);
-                    ShowSelectedLoad();
                 }
                 else if (UI_toolStripComboBox_View.SelectedIndex == 1)
                 {
                     //sorts the installed list and shows it
                     plInstalled.Sort(Package.CompareDepCountName);
-                    ShowSelectedLoad();
                 }
                 else
                 {
                     //sorts the uninstalled list and shows it
                     plUnInstalled.Sort(Package.CompareDepCountName);
-                    ShowSelectedLoad();
                 }
+                ShowSelectedLoad();
             }
         }
 
