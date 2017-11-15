@@ -17,14 +17,14 @@ namespace ICA13_NicW
         List<BouncingBalls> blueList = new List<BouncingBalls>();
         List<BouncingBalls> redList = new List<BouncingBalls>();
 
-        CDrawer bgCanvas;
-        CDrawer rCanvas;
+        PictDrawer bgCanvas;
+        RectDrawer rCanvas;
 
         public Form1()
         {
             InitializeComponent();
-            bgCanvas = new CDrawer(600, 300, false);
-            rCanvas = new CDrawer(600, 300, false);
+            bgCanvas = new PictDrawer(Properties.Resources.gunFish);
+            rCanvas = new RectDrawer(bgCanvas.ScaledWidth, bgCanvas.ScaledHeight);
         }
 
         private void timer_Tick(object sender, EventArgs e)

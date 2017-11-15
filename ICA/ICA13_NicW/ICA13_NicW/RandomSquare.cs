@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using GDIDrawer;
 
-namespace ICA12_NicW
+namespace ICA13_NicW
 {
     class RandomSquare : Random
     {
@@ -21,7 +21,6 @@ namespace ICA12_NicW
         {
             //Check if we have a valid drawer input
             if (canvas == null) throw new ArgumentException("CDrawer is null");
-
             int tempSize = maxSize;
 
             //make sure max size isn't too big
