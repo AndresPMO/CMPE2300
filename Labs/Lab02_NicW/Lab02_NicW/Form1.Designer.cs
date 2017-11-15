@@ -94,7 +94,7 @@
             this.UI_toolStripComboBox_View});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(368, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(368, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -113,7 +113,7 @@
             this.UI_toolStripButton_Analyze.Image = ((System.Drawing.Image)(resources.GetObject("UI_toolStripButton_Analyze.Image")));
             this.UI_toolStripButton_Analyze.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UI_toolStripButton_Analyze.Name = "UI_toolStripButton_Analyze";
-            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 24);
+            this.UI_toolStripButton_Analyze.Size = new System.Drawing.Size(52, 22);
             this.UI_toolStripButton_Analyze.Text = "Analyze";
             this.UI_toolStripButton_Analyze.Click += new System.EventHandler(this.UI_toolStripButton_Analyze_Click);
             // 
