@@ -69,6 +69,7 @@ namespace MyDrawers
             {
                 AddRectangle(backRectangles[i], Color.Transparent, 1, Color.Blue);
             }
+            Render();
         }
 
         public new void Render()
