@@ -6,18 +6,50 @@ using System.Threading.Tasks;
 using System.Drawing;
 using GDIDrawer;
 
-namespace ICA13_NicW
+namespace MyDrawers
 {
-    class RectDrawer : CDrawer
+    internal class RandomSquare : Random
     {
-        RandomSquare randSquare = null;
-        List<Rectangle> backRectangles = new List<Rectangle>(100);
-        public RectDrawer(int width = 800, int height = 400) : base(width, height)
+        private readonly int maxSize;
+
+        public RandomSquare(int inMaxSize)
         {
-            randSquare = new RandomSquare(ScaledWidth / 5);
+            maxSize = inMaxSize;
+        }
+
+        public Rectangle NextDrawerRect(CDrawer canvas)
+        {
+            //Check if we have a valid drawer input
+            if (canvas == null) throw new ArgumentException("CDrawer is null");
+            int tempSize = maxSize;
+
+            //make sure max size isn't too big
+            if (maxSize > canvas.ScaledHeight)
+                tempSize = canvas.ScaledHeight;
+            else if (maxSize > canvas.ScaledWidth)
+                tempSize = canvas.ScaledWidth;
+
+            //Get an x and y size to make the rectangle with
+            int xSize = Next(10, tempSize);
+            int ySize = Next(10, tempSize);
+
+            //make a rectangle within the bounds of the drawer
+            Rectangle output = new Rectangle(Next(0, canvas.ScaledWidth - xSize), Next(0, canvas.ScaledHeight - ySize), xSize, ySize);
+
+            //Return the rectangle made
+            return output;
+        }
+    }
+
+    public class RectDrawer : CDrawer
+    {
+        List<Rectangle> backRectangles = new List<Rectangle>(100);
+        public RectDrawer(int width = 800, int height = 400, bool bContinuousUpdate = false) : base(width, height, bContinuousUpdate)
+        {
+            RandomSquare randSquare = new RandomSquare(ScaledWidth / 5);
             BBColour = Color.White;
 
-            for(int i = 0; i < 100; i++)
+            for (int i = 0; i < 100; i++)
             {
                 backRectangles.Add(randSquare.NextDrawerRect(this));
             }
@@ -25,6 +57,7 @@ namespace ICA13_NicW
             {
                 AddRectangle(backRectangles[i], Color.White, 1, Color.Blue);
             }
+            Render();
         }
 
         public new void Clear()
@@ -45,9 +78,9 @@ namespace ICA13_NicW
         }
     }
 
-    class PictDrawer : CDrawer
+    public class PictDrawer : CDrawer
     {
-        public PictDrawer(Bitmap image) : base(image.Width, image.Height)
+        public PictDrawer(Bitmap image, bool bContinuousUpdate = false) : base(image.Width, image.Height, bContinuousUpdate)
         {
             Color tempColour;
             int averageColour;
