@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using GDIDrawer;
 
 namespace ICA14_NicW
 {
@@ -51,6 +52,15 @@ namespace ICA14_NicW
 
         }
 
+        public virtual void Show(CDrawer canvas)
+        {
+            RectangleF copy = this.rect;
+            copy.Inflate(3, 3);
 
+            //Add the inflated copy of our rectangle first, in black
+            canvas.AddRectangle((int)copy.X, (int)copy.Y, (int)copy.Width, (int)copy.Height, Color.Black);
+            //Add our rectangle
+            canvas.AddRectangle
+        }
     }
 }
