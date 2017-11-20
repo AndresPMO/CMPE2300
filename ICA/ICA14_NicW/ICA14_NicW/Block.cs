@@ -8,7 +8,7 @@ using GDIDrawer;
 
 namespace ICA14_NicW
 {
-    class Block
+    abstract class Block
     {
         //The rectangle for the block
         protected RectangleF rect;
@@ -47,10 +47,7 @@ namespace ICA14_NicW
             return 1;
         }
 
-        public virtual void Move(List<Block> inList)
-        {
-
-        }
+        public abstract void Move(List<Block> inList);
 
         public virtual void ShowBlock(CDrawer canvas)
         {

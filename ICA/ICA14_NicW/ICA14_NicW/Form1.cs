@@ -24,8 +24,9 @@ namespace ICA14_NicW
             InitializeComponent();
             
             //Initialize the canvas
-            canvas = new PictDrawer(Properties.Resources.HumanTransmutation);
-            
+            canvas = new PictDrawer(Properties.Resources.HumanTransmutation, false);
+            canvas.KeyboardEvent += Canvas_KeyboardEvent;
+
             //Start the movement thread
             Thread thread = new Thread(MoveThread);
             thread.IsBackground = true;
@@ -84,26 +85,29 @@ namespace ICA14_NicW
                 //Check if we have a key to process
                 if(inputKey != Keys.None)
                 {
+                    Point mouse;
+                    canvas.GetLastMousePosition(out mouse);
+
                     if(inputKey == Keys.F)
                     {
                         //Add a falling block
                         lock (blockList)
                         {
-                            //blockList.Add(new FallingBlock());
+                            blockList.Add(new FallingBlock(mouse));
                         }
                     }
                     else if (inputKey == Keys.D)
                     {
                         lock (blockList)
                         {
-                            //blockList.Add(new DrunkBlock());
+                            blockList.Add(new DrunkBlock(mouse));
                         }
                     }
                     else if (inputKey == Keys.C)
                     {
                         lock (blockList)
                         {
-                            //blockList.Add(new ColourBlock());
+                            blockList.Add(new ColourBlock(mouse));
                         }
                     }
                     else if (inputKey == Keys.Escape)
@@ -131,9 +135,19 @@ namespace ICA14_NicW
             }
         }
 
+        //Get the keyboard events, on either the form or CDrawer
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             inputKey = e.KeyCode;
+        }
+
+        private void Canvas_KeyboardEvent(bool bIsDown, Keys keyCode, CDrawer dr)
+        {
+            if (bIsDown)
+            {
+                inputKey = keyCode;
+            }
         }
     }
 }
