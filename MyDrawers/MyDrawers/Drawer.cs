@@ -96,6 +96,7 @@ namespace MyDrawers
                     SetBBPixel(x, y, tempColour);
                 }
             }
+            Render();
         }
 
         public new void Render()

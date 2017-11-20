@@ -102,4 +102,71 @@ namespace ICA14_NicW
             canvas.AddRectangle((int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, Color.White);
         }
     }
+
+    class DrunkBlock : Block
+    {
+        private const float yVelocity = 3;
+        private float xVelocity = 0;
+
+        public DrunkBlock(PointF location) : base(location)
+        {
+            rect.Width = 30;
+            rect.Height = 60;
+        }
+
+        public override void Move(List<Block> inList)
+        {
+            //If we are not outside the screen
+            if (!Outside)
+            {
+                //If we are not intersecting with anyone
+                if (inList.TrueForAll(inblock => !inblock.Equals(this)))
+                {
+                    //Drop by the velocity, 6 pixels
+                    rect.Y += yVelocity;
+                    //Get a new xVelocity and use it
+                    xVelocity = (float)randNum.NextDouble() * 2 - 1;
+                    rect.X += xVelocity;
+                }
+            }
+        }
+
+        public override void ShowBlock(CDrawer canvas)
+        {
+            base.ShowBlock(canvas);
+            canvas.AddRectangle((int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, Color.Pink);
+        }
+    }
+
+    class ColourBlock : Block
+    {
+        private const float velocity = 3;
+        private Color blockColour = RandColor.GetColor();
+
+        public ColourBlock(PointF location) : base(location)
+        {
+            rect.Width = 60;
+            rect.Height = 30;
+        }
+
+        public override void Move(List<Block> inList)
+        {
+            //If we are not outside the screen
+            if (!Outside)
+            {
+                //If we are not intersecting with anyone
+                if (inList.TrueForAll(inblock => !inblock.Equals(this)))
+                {
+                    //Drop by the velocity, 6 pixels
+                    rect.Y += velocity;
+                }
+            }
+        }
+
+        public override void ShowBlock(CDrawer canvas)
+        {
+            base.ShowBlock(canvas);
+            canvas.AddRectangle((int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, blockColour);
+        }
+    }
 }
