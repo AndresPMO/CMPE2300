@@ -52,15 +52,54 @@ namespace ICA14_NicW
 
         }
 
-        public virtual void Show(CDrawer canvas)
+        public virtual void ShowBlock(CDrawer canvas)
         {
             RectangleF copy = this.rect;
             copy.Inflate(3, 3);
 
             //Add the inflated copy of our rectangle first, in black
             canvas.AddRectangle((int)copy.X, (int)copy.Y, (int)copy.Width, (int)copy.Height, Color.Black);
-            //Add our rectangle
-            canvas.AddRectangle
+
+            //Say if we went out of the canvas
+            if(copy.X + copy.Width > canvas.ScaledWidth)
+            {
+                Outside = true;
+            }
+            if(copy.Y + copy.Height > canvas.ScaledHeight)
+            {
+                Outside = true;
+            }
+        }
+    }
+
+    class FallingBlock : Block
+    {
+        private const float velocity = 6;
+
+        public FallingBlock(PointF location) : base(location)
+        {
+            rect.Width = 50;
+            rect.Height = 50;
+        }
+
+        public override void Move(List<Block> inList)
+        {
+            //If we are not outside the screen
+            if (!Outside)
+            {
+                //If we are not intersecting with anyone
+                if(inList.TrueForAll(inblock => !inblock.Equals(this)))
+                {
+                    //Drop by the velocity, 6 pixels
+                    this.rect.Y += velocity;
+                }
+            }
+        }
+
+        public override void ShowBlock(CDrawer canvas)
+        {
+            base.ShowBlock(canvas);
+            canvas.AddRectangle((int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, Color.White);
         }
     }
 }
