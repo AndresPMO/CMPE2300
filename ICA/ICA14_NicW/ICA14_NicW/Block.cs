@@ -36,10 +36,8 @@ namespace ICA14_NicW
             {
                 return false;
             }
-            else
-            {
-                return this.rect.IntersectsWith(temp.rect); //Equal if rectangles overlap
-            }
+
+            return this.rect.IntersectsWith(temp.rect); //Equal if rectangles overlap
         }
 
         public override int GetHashCode()
@@ -160,7 +158,7 @@ namespace ICA14_NicW
         public override void ShowBlock(CDrawer canvas)
         {
             base.ShowBlock(canvas);
-            if(blockColour.A > 0)
+            if(blockColour.A > velocity)
             {
                 blockColour = Color.FromArgb(blockColour.A - (int)velocity, blockColour.R, blockColour.G, blockColour.B);
             }
