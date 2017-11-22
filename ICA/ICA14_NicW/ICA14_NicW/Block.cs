@@ -58,11 +58,7 @@ namespace ICA14_NicW
             canvas.AddRectangle((int)copy.X, (int)copy.Y, (int)copy.Width, (int)copy.Height, Color.Black);
 
             //Say if we went out of the canvas
-            if(copy.X + copy.Width > canvas.ScaledWidth)
-            {
-                Outside = true;
-            }
-            if(copy.Y + copy.Height > canvas.ScaledHeight)
+            if(copy.X + copy.Width > canvas.ScaledWidth || copy.Y + copy.Height > canvas.ScaledHeight)
             {
                 Outside = true;
             }
@@ -164,6 +160,10 @@ namespace ICA14_NicW
         public override void ShowBlock(CDrawer canvas)
         {
             base.ShowBlock(canvas);
+            if(blockColour.A > 0)
+            {
+                blockColour = Color.FromArgb(blockColour.A - (int)velocity, blockColour.R, blockColour.G, blockColour.B);
+            }
             canvas.AddRectangle((int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, blockColour);
         }
     }
