@@ -132,6 +132,7 @@ namespace ICA14_NicW
         {
             base.ShowBlock(canvas);
             canvas.AddRectangle((int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, Color.Pink);
+            canvas.AddText("\u263A", 14, (int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, Color.Black);
         }
     }
 

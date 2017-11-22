@@ -37,7 +37,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.KeyPreview = true;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Block Fall";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
 
