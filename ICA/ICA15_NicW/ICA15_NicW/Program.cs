@@ -11,6 +11,8 @@ namespace ICA15_NicW
         
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+
             Gate[] lGate = { new NANDGate(), new ANDGate(), new ORGate(), new XORGate()};
             foreach(Gate g in lGate)
             {
