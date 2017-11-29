@@ -13,6 +13,7 @@ namespace ICA15_NicW
         {
             Console.ForegroundColor = ConsoleColor.Green;
 
+            //Truth Tables
             Gate[] lGate = { new NANDGate(), new ANDGate(), new ORGate(), new XORGate()};
             foreach(Gate g in lGate)
             {
