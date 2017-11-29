@@ -16,7 +16,7 @@ namespace ICA16_NicW
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
+            Application.Run(new Form1());
         }
     }
 }

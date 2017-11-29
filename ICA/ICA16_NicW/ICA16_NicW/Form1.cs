@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ICA16_NicW
 {
-    public partial class Form : System.Windows.Forms.Form
+    public partial class Form1 : Form
     {
-        public Form()
+        public Form1()
         {
             InitializeComponent();
         }
