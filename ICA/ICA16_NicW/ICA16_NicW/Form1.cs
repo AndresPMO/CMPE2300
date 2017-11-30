@@ -20,9 +20,8 @@ namespace ICA16_NicW
         public Form1()
         {
             InitializeComponent();
+            //Give the shapes a canvas to use
             BaseShape._canvas = canvas;
-            this.Height = canvas.m_ciHeight;
-            this.Width = canvas.m_ciWidth;
         }
 
         private void timer_Tick(object sender, EventArgs e)
@@ -37,6 +36,7 @@ namespace ICA16_NicW
                 }
                 if(bs is IMortal)
                 {
+                    //If it is dead, remove it
                     if(!(bs as IMortal).Step())
                         Shapes.Remove(bs);
                 }
@@ -49,7 +49,8 @@ namespace ICA16_NicW
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            Point mouse = Form.MousePosition;
+            Point mouse;
+            canvas.GetLastMousePosition(out mouse);
 
             if(e.KeyCode == Keys.C)
             {

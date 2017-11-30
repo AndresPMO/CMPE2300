@@ -30,9 +30,8 @@ namespace ICA16_NicW
 
         protected override void VirtualPaint()
         {
-            //radius = (int)(radius + Math.Cos(animationAngle));
-
-            _canvas.AddCenteredEllipse(center, (int)(radius + Math.Cos(animationAngle)) * 2, (int)(radius + Math.Cos(animationAngle)) * 2, _color);
+            int size = (int)(radius + Math.Cos(animationAngle))+ radius;
+            _canvas.AddCenteredEllipse(center, size, size, _color);
         }
 
         public void Animate(CDrawer canvas)
