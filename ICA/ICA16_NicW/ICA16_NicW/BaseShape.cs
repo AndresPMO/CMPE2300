@@ -47,7 +47,7 @@ namespace ICA16_NicW
                 _dir += Math.PI / 2;
                 iNewX = _pt.X;
             }
-            if(iNewY < 0 || iNewY >= _canvas.ScaledHeight)
+            if (iNewY < 0 || iNewY >= _canvas.ScaledHeight)
             {
                 _dir += Math.PI / 2;
                 iNewY = _pt.Y;
