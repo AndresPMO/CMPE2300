@@ -14,9 +14,55 @@ namespace ICA16_NicW
 {
     public partial class Form1 : Form
     {
+        List<BaseShape> Shapes = new List<BaseShape>();
+        PictDrawer canvas = new PictDrawer(Properties.Resources._1200px_Fairy_tail_logo, false);
+
         public Form1()
         {
             InitializeComponent();
+            BaseShape._canvas = canvas;
+            this.Height = canvas.m_ciHeight;
+            this.Width = canvas.m_ciWidth;
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            canvas.Clear();
+
+            foreach(BaseShape bs in Shapes.ToList())
+            {
+                if(bs is IAnimatable)
+                {
+                    (bs as IAnimatable).Animate(canvas);
+                }
+                if(bs is IMortal)
+                {
+                    if(!(bs as IMortal).Step())
+                        Shapes.Remove(bs);
+                }
+                bs.Move();
+                bs.Paint();
+            }
+
+            canvas.Render();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            Point mouse = Form.MousePosition;
+
+            if(e.KeyCode == Keys.C)
+            {
+                Shapes.Clear();
+            }
+            else if (e.KeyCode == Keys.S)
+            {
+                Shapes.Add(new Snake(mouse, Snake._rnd.Next(20, 60)));
+            }
+            else if (e.KeyCode == Keys.B)
+            {
+                Shapes.Add(new Blob(mouse, Blob._rnd.Next(30, 50)));
+            }
         }
     }
 }

@@ -59,6 +59,7 @@ namespace ICA16_NicW
         public void Paint() // NVI - public Paint()
         {
             VirtualPaint(); // invokes VirtualPaint()
+            _canvas.AddCenteredEllipse(_pt, 2, 2, Color.FromArgb(120, Color.Yellow));
         }
         protected abstract void VirtualPaint();
     }
