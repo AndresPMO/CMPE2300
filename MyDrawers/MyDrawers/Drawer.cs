@@ -81,21 +81,25 @@ namespace MyDrawers
 
     public class PictDrawer : CDrawer
     {
-        public PictDrawer(Bitmap image, bool bContinuousUpdate = false) : base(image.Width, image.Height, bContinuousUpdate)
+        public PictDrawer(Bitmap image, bool GrayScale = false, bool bContinuousUpdate = false) : base(image.Width, image.Height, bContinuousUpdate)
         {
             Color tempColour;
             int averageColour;
-
+            
             for (int y = 0; y < image.Height; y++)
             {
                 for (int x = 0; x < image.Width; x++)
                 {
                     tempColour = image.GetPixel(x, y);
-                    averageColour = (tempColour.R + tempColour.B + tempColour.G) / 3;
-                    tempColour = Color.FromArgb(averageColour, averageColour, averageColour);
+                    if (GrayScale)
+                    {
+                        averageColour = (tempColour.R + tempColour.B + tempColour.G) / 3;
+                        tempColour = Color.FromArgb(averageColour, averageColour, averageColour);
+                    }
                     SetBBPixel(x, y, tempColour);
                 }
             }
+            
             Render();
         }
 

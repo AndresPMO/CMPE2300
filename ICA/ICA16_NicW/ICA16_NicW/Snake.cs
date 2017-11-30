@@ -38,6 +38,7 @@ namespace ICA16_NicW
         protected override void VirtualPaint()
         {
             float countdown = length;
+            _canvas.AddCenteredEllipse(segments.First.Value, 3, 3, Color.Red);
             for(LinkedListNode<Point> node = segments.First; node.Next != null; node = node.Next)
             {
                 _canvas.AddLine(node.Value.X, node.Value.Y, node.Next.Value.X, node.Next.Value.Y, Color.FromArgb((int)(_color.A * (countdown / length)), _color));
