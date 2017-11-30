@@ -30,7 +30,7 @@ namespace ICA16_NicW
 
         protected override void VirtualPaint()
         {
-            int size = (int)(radius + Math.Cos(animationAngle))+ radius;
+            int size = (int)(radius * Math.Cos(animationAngle))/2 + radius;
             _canvas.AddCenteredEllipse(center, size, size, _color);
         }
 
