@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+Author: Nicholas Wasylyshyn 
+Project: Lab 03 - Crash
+Class: A02
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
