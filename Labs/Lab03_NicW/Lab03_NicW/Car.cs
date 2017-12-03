@@ -55,6 +55,7 @@ namespace Lab03_NicW
         protected int Width;        //The X size of the vehicle
         protected int Height;       //The Y size of the vehicle
         protected bool FullSpeed;   //Whether to use the top speed of the vehicle or half
+        protected Color Paint;      //The colour of the vehicles body
 
         /// <summary>
         /// Car - The constructor to make a car
@@ -62,12 +63,14 @@ namespace Lab03_NicW
         /// <param name="inSpeed">The top speed of the vehicle</param>
         /// <param name="inWidth">The X size of the vehicle</param>
         /// <param name="inHeight">The Y size of the vehicle</param>
-        public Car(float inSpeed, int inWidth, int inHeight)
+        /// <param name="bodyCol">The colour of the vehicle</param>
+        public Car(float inSpeed, int inWidth, int inHeight, Color bodyCol)
         {
             Speed = inSpeed;
             Width = inWidth;
             Height = inHeight;
-            FullSpeed = true;
+            Paint = bodyCol;
+            FullSpeed = true; //Cars start at full speed
         }
 
         /// <summary>
@@ -160,7 +163,8 @@ namespace Lab03_NicW
         /// <param name="inSpeed">The horizontal speed of the car</param>
         /// <param name="inWidth">The width of the car's hit box</param>
         /// <param name="inHeight">The height of the car's hit box</param>
-        public HorizontalCar(float inSpeed, int inWidth, int inHeight) : base( inSpeed, inWidth, inHeight)
+        /// /// <param name="bodyCol">The colour of the vehicle</param>
+        public HorizontalCar(float inSpeed, int inWidth, int inHeight, Color bodyCol) : base( inSpeed, inWidth, inHeight, bodyCol)
         {
             if(inSpeed > 0)
             {
@@ -199,7 +203,6 @@ namespace Lab03_NicW
                 //Half speed
                 XPos += Speed/2;
             }
-            
         }
     }
 
@@ -214,7 +217,8 @@ namespace Lab03_NicW
         /// <param name="inSpeed">The vertical speed of the car</param>
         /// <param name="inWidth">The width of the car's hit box</param>
         /// <param name="inHeight">The height of the car's hit box</param>
-        public VerticalCar(float inSpeed, int inWidth, int inHeight) : base(inSpeed, inWidth, inHeight)
+        /// /// <param name="bodyCol">The colour of the vehicle</param>
+        public VerticalCar(float inSpeed, int inWidth, int inHeight, Color bodyCol) : base(inSpeed, inWidth, inHeight, bodyCol)
         {
             if(inSpeed > 0)
             {
@@ -254,6 +258,9 @@ namespace Lab03_NicW
         }
     }
 
+    /// <summary>
+    /// VSedan - A vertical car that moves at 4 pixels per tick and has a blue body
+    /// </summary>
     class VSedan : VerticalCar
     {
         protected Color colour = RandColor.GetColor();
@@ -264,7 +271,7 @@ namespace Lab03_NicW
         /// <param name="inSpeed">The vertical speed of the car</param>
         /// <param name="inWidth">The width of the car's hit box</param>
         /// <param name="inHeight">The height of the car's hit box</param>
-        public VSedan(float inSpeed, int inWidth = 40, int inHeight = 70) : base(inSpeed, inWidth, inHeight)
+        public VSedan(float inSpeed = 4, int inWidth = 40, int inHeight = 70) : base(inSpeed, inWidth, inHeight, Color.Blue)
         {}
 
         /// <summary>
@@ -291,7 +298,7 @@ namespace Lab03_NicW
             Canvas.AddRectangle(hitbox.X + hitbox.Width, hitbox.Y + hitbox.Height - 15, 2, 10, Color.Black);   //Bottom right
 
             //Add the body of our car in red
-            Canvas.AddRectangle(hitbox, Color.Blue);
+            Canvas.AddRectangle(hitbox, Paint);
         }
 
         /// <summary>
@@ -300,7 +307,7 @@ namespace Lab03_NicW
         /// <returns>The point gain value of this car</returns>
         public override int GetSafeScore()
         {
-            return 1;
+            return Math.Abs((int)Speed);
         }
         /// <summary>
         /// GetHitScore - When the car collides with another car, this is the point loss value
@@ -309,6 +316,219 @@ namespace Lab03_NicW
         public override int GetHitScore()
         {
             return GetSafeScore()*-1;
+        }
+    }
+
+    /// <summary>
+    /// VHippy - A vertical car that moves at 6 pixels per tick and has a changing body colour
+    /// </summary>
+    class VHippy : VerticalCar, IAnimateable
+    {
+        /// <summary>
+        /// VHippy - Simply initializes the VerticalCar base class
+        /// </summary>
+        /// <param name="inSpeed">The vertical speed of the car</param>
+        /// <param name="inWidth">The width of the car's hit box</param>
+        /// <param name="inHeight">The height of the car's hit box</param>
+        public VHippy(float inSpeed = 6, int inWidth = 50, int inHeight = 60) : base(inSpeed, inWidth, inHeight, Color.Green)
+        { }
+
+        /// <summary>
+        /// GetRect - Will supply the x, y, width, and height to create a rectangle of where the car is
+        /// </summary>
+        /// <returns></returns>
+        public override Rectangle GetRect()
+        {
+            return new Rectangle((int)XPos, (int)YPos, Width, Height);
+        }
+
+        /// <summary>
+        /// VShowCar - Will add our rectangle to the car with tires
+        /// </summary>
+        protected override void VShowCar()
+        {
+            //Get our hitbox from GetRect
+            Rectangle hitbox = GetRect();
+
+            //Add tires; 2 wide, 10 high
+            Canvas.AddRectangle(hitbox.X - 2, hitbox.Y + 5, 2, 10, Color.Black);   //Top left
+            Canvas.AddRectangle(hitbox.X - 2, hitbox.Y + hitbox.Height - 15, 2, 10, Color.Black);   //Bottom left
+            Canvas.AddRectangle(hitbox.X + hitbox.Width, hitbox.Y + 5, 2, 10, Color.Black);   //Top right
+            Canvas.AddRectangle(hitbox.X + hitbox.Width, hitbox.Y + hitbox.Height - 15, 2, 10, Color.Black);   //Bottom right
+
+            //Add the body of our car in red
+            Canvas.AddRectangle(hitbox, Paint);
+        }
+
+        /// <summary>
+        /// Animate - Will make the body of the car change color
+        /// </summary>
+        public void Animate()
+        {
+            Paint = RandColor.GetColor();
+        }
+
+        /// <summary>
+        /// GetSafeScore - When the car leaves the boundaries of the gameboard, this is its point gain value
+        /// </summary>
+        /// <returns>The point gain value of this car</returns>
+        public override int GetSafeScore()
+        {
+            return Math.Abs((int)Speed);
+        }
+        /// <summary>
+        /// GetHitScore - When the car collides with another car, this is the point loss value
+        /// </summary>
+        /// <returns>The point loss value of this car</returns>
+        public override int GetHitScore()
+        {
+            return GetSafeScore() * -1;
+        }
+    }
+
+    /// <summary>
+    /// HAmbulance - A horizontal car that moves at 7 pixels per tick, has a white body, and flashing lights
+    /// </summary>
+    class HAmbulance : HorizontalCar, IAnimateable
+    {
+        Color lightOne = Color.Blue;
+        Color lightTwo = Color.Red;
+
+        /// <summary>
+        /// VSedan - Simply initializes the HorizontalCar base class
+        /// </summary>
+        /// <param name="inSpeed">The vertical speed of the car</param>
+        /// <param name="inWidth">The width of the car's hit box</param>
+        /// <param name="inHeight">The height of the car's hit box</param>
+        public HAmbulance(float inSpeed = 7, int inWidth = 90, int inHeight = 40) : base(inSpeed, inWidth, inHeight, Color.White)
+        {}
+
+        /// <summary>
+        /// GetRect - Will supply the x, y, width, and height to create a rectangle of where the car is
+        /// </summary>
+        /// <returns></returns>
+        public override Rectangle GetRect()
+        {
+            return new Rectangle((int)XPos, (int)YPos, Width, Height);
+        }
+
+        /// <summary>
+        /// VShowCar - Will add our rectangle to the car with tires, and animated lights
+        /// </summary>
+        protected override void VShowCar()
+        {
+            //Get our hitbox from GetRect
+            Rectangle hitbox = GetRect();
+
+            //Add tires; 10 wide, 2 high, black
+            Canvas.AddRectangle(hitbox.X + 5,                   hitbox.Y - 2,              10, 2, Color.Black);   //Top left
+            Canvas.AddRectangle(hitbox.X + 5,                   hitbox.Y + hitbox.Height,  10, 2, Color.Black);   //Bottom left
+            Canvas.AddRectangle(hitbox.X + hitbox.Width - 15,   hitbox.Y -2,               10, 2, Color.Black);   //Top right
+            Canvas.AddRectangle(hitbox.X + hitbox.Width - 15,    hitbox.Y + hitbox.Height, 10, 2, Color.Black);   //Bottom right
+            
+            //Add the body of our car in red
+            Canvas.AddRectangle(hitbox, Paint);
+
+            //Add the animated lights
+            Canvas.AddRectangle(hitbox.X + Width / 2 - 2, hitbox.Y, 4, Height / 2, lightOne);
+            Canvas.AddRectangle(hitbox.X + Width / 2 - 2, hitbox.Y + Height / 2, 4, Height / 2, lightTwo);
+        }
+
+        /// <summary>
+        /// Animate - Will swap the color of the lights that are on top of the car
+        /// </summary>
+        public void Animate()
+        {
+            if(lightOne == Color.Blue)
+            {
+                lightOne = Color.Red;
+                lightTwo = Color.Blue;
+            }
+            else
+            {
+                lightOne = Color.Blue;
+                lightTwo = Color.Red;
+            }
+        }
+
+        /// <summary>
+        /// GetSafeScore - When the car leaves the boundaries of the gameboard, this is its point gain value
+        /// </summary>
+        /// <returns>The point gain value of this car</returns>
+        public override int GetSafeScore()
+        {
+            return Math.Abs((int)Speed);
+        }
+        /// <summary>
+        /// GetHitScore - When the car collides with another car, this is the point loss value
+        /// </summary>
+        /// <returns>The point loss value of this car</returns>
+        public override int GetHitScore()
+        {
+            return GetSafeScore() * -1;
+        }
+    }
+
+    /// <summary>
+    /// HRacecar - A horizontal car that moves at 12 pixels per tick, has a red body, and flashing text
+    /// </summary>
+    class HRacecar : HorizontalCar, IAnimateable
+    {
+        Color textColor = RandColor.GetColor();
+
+        public HRacecar(float inSpeed = 12, int inWidth = 100, int inHeight = 30) : base(inSpeed, inWidth, inHeight, Color.Red)
+        { }
+
+        /// <summary>
+        /// GetRect - Will supply the x, y, width, and height to create a rectangle of where the car is
+        /// </summary>
+        /// <returns></returns>
+        public override Rectangle GetRect()
+        {
+            return new Rectangle((int)XPos, (int)YPos, Width, Height);
+        }
+
+        /// <summary>
+        /// VShowCar - Will add our rectangle to the car with tires, and animated lights
+        /// </summary>
+        protected override void VShowCar()
+        {
+            //Get our hitbox from GetRect
+            Rectangle hitbox = GetRect();
+
+            //Add tires; 10 wide, 5 high, black
+            Canvas.AddRectangle(hitbox.X + 5,                 hitbox.Y - 5,             10, 5, Color.Black);   //Top left
+            Canvas.AddRectangle(hitbox.X + 5,                 hitbox.Y + hitbox.Height, 10, 5, Color.Black);   //Bottom left
+            Canvas.AddRectangle(hitbox.X + hitbox.Width - 15, hitbox.Y - 5,             10, 5, Color.Black);   //Top right
+            Canvas.AddRectangle(hitbox.X + hitbox.Width - 15, hitbox.Y + hitbox.Height, 10, 5, Color.Black);   //Bottom right
+
+            //Add the body of our car in red
+            Canvas.AddRectangle(hitbox, Paint);
+
+            //Add animated text to the top of the car
+            Canvas.AddText("Racecar", 12, hitbox, textColor);
+        }
+
+        public void Animate()
+        {
+            textColor = RandColor.GetColor();
+        }
+
+        /// <summary>
+        /// GetSafeScore - When the car leaves the boundaries of the gameboard, this is its point gain value
+        /// </summary>
+        /// <returns>The point gain value of this car</returns>
+        public override int GetSafeScore()
+        {
+            return Math.Abs((int)Speed);
+        }
+        /// <summary>
+        /// GetHitScore - When the car collides with another car, this is the point loss value
+        /// </summary>
+        /// <returns>The point loss value of this car</returns>
+        public override int GetHitScore()
+        {
+            return GetSafeScore() * -1;
         }
     }
 }

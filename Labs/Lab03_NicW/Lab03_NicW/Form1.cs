@@ -18,6 +18,8 @@ namespace Lab03_NicW
         PictDrawer canvas;
         //Create a list to hold all of our cars
         List<Car> Traffic;
+        //Create a list of all of our car types
+        Car[] Types = { new VSedan(4), new VSedan(-4), new HAmbulance(7), new HAmbulance(-7), new HRacecar(12), new HRacecar(-12), new VHippy(6), new VHippy(-6) };
         //Game score
         int score;
 
@@ -34,26 +36,14 @@ namespace Lab03_NicW
             //No score at the start of the game
             score = 0;
             //Initialize our list of cars
-            Traffic = new List<Car>() { new VSedan(4), new VSedan(-4) };
+            Traffic = new List<Car>();
         }
 
         //After 2 seconds, spawn a new random car
         private void SpawnTimer_Tick(object sender, EventArgs e)
         {
-            //Car tempCar;
-            //switch (Car.randNum.Next(2))
-            //{
-            //    case 0:
-            //        tempCar = new VSedan();
-            //        break;
-            //    case 1:
-            //        tempCar = new HAmbulance();
-            //        break;
-            //    default:
-            //        tempCar = null;
-            //        break;
-            //}
-            //Traffic?.Add(tempCar);
+            Car tempCar = Types[Car.randNum.Next(Types.Length)];
+            Traffic?.Add(tempCar);
         }
 
         //Every 100ms process the game information. ie movements and animations
@@ -77,9 +67,29 @@ namespace Lab03_NicW
             //Move all the cars
             Traffic.ForEach(car => car.Move());
 
-            //Remove all colliding cars, decrease score
+            //A temporary car to compare
+            Car temp;
+            foreach(Car vehicle in Traffic)
+            {
+                //The foreach only changes score
+                //It doesn't have the ability to remove cars
+                if (Traffic.Contains(vehicle))
+                {
+                    //Get the car you hit
+                    temp = Traffic[Traffic.IndexOf(vehicle)];
+                    //Decrease score from both cars
+                    score += (vehicle.GetHitScore() + temp.GetHitScore());
+                }
+                if (Car.OutOfBounds(vehicle))
+                {
+                    //Car made it safely, increase the score
+                    score += vehicle.GetSafeScore();
+                }
+            }
+            //Remove all colliding cars
             Traffic.RemoveAll(car => Traffic.Contains(car));
-            //Remove all cars that are out of bounds, increase score
+
+            //Remove all cars that are out of bounds
             Traffic.RemoveAll(car => Car.OutOfBounds(car));
 
             //Write the score on the forms title
