@@ -104,28 +104,30 @@ namespace Lab03_NicW
 
             //A temporary car to compare
             Car temp;
-            foreach(Car vehicle in Traffic)
+            foreach(Car vehicle in Traffic.ToList())
             {
                 //The foreach only changes score
-                //It doesn't have the ability to remove cars
                 if (Traffic.Contains(vehicle))
                 {
                     //Get the car you hit
                     temp = Traffic[Traffic.IndexOf(vehicle)];
                     //Decrease score from both cars
                     score += (vehicle.GetHitScore() + temp.GetHitScore());
+
+                    //Remove the cars
+                    Traffic.RemoveAll(input => object.ReferenceEquals(input, vehicle));
+                    Traffic.RemoveAll(input => object.ReferenceEquals(input, temp));
                 }
                 if (Car.OutOfBounds(vehicle))
                 {
                     //Car made it safely, increase the score
                     score += vehicle.GetSafeScore();
+                    //Remove the car
+                    Traffic.RemoveAll(input => object.ReferenceEquals(input, vehicle));
+
+
                 }
             }
-            //Remove all colliding cars
-            Traffic.RemoveAll(car => Traffic.Contains(car));
-
-            //Remove all cars that are out of bounds
-            Traffic.RemoveAll(car => Car.OutOfBounds(car));
 
             //Write the score on the forms title
             Text = $"Score = {score} points";
