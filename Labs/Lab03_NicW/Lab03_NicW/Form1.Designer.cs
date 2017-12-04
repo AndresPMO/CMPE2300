@@ -41,7 +41,7 @@
             // SpawnTimer
             // 
             this.SpawnTimer.Enabled = true;
-            this.SpawnTimer.Interval = 2000;
+            this.SpawnTimer.Interval = 4000;
             this.SpawnTimer.Tick += new System.EventHandler(this.SpawnTimer_Tick);
             // 
             // Form1

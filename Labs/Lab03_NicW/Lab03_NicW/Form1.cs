@@ -23,8 +23,6 @@ namespace Lab03_NicW
         PictDrawer canvas;
         //Create a list to hold all of our cars
         List<Car> Traffic;
-        //Create a list of all of our car types
-        Car[] Types = { new VSedan(4), new VSedan(-4), new HAmbulance(7), new HAmbulance(-7), new HRacecar(12), new HRacecar(-12), new VHippy(6), new VHippy(-6) };
         //Game score
         int score;
 
@@ -36,19 +34,47 @@ namespace Lab03_NicW
             canvas = new PictDrawer(Properties.Resources.Crash, false, true);
             //Connect the canvas to all the cars
             Car.Canvas = canvas;
-            //Give the cars a random
-            Car.randNum = new Random();
             //No score at the start of the game
             score = 0;
             //Initialize our list of cars
             Traffic = new List<Car>();
         }
 
-        //After 2 seconds, spawn a new random car
+        //After 4 seconds, spawn a new random car, decrease interval by 10ms every tick
         private void SpawnTimer_Tick(object sender, EventArgs e)
         {
-            Car tempCar = Types[Car.randNum.Next(Types.Length)];
+            Car tempCar = null;
+            switch (Car.randNum.Next(8))
+            {
+                case 0:
+                    tempCar = new VSedan(4);
+                    break;
+                case 1:
+                    tempCar = new VSedan(-4);
+                    break;
+                case 2:
+                    tempCar = new HAmbulance(7);
+                    break;
+                case 3:
+                    tempCar = new HAmbulance(-7);
+                    break;
+                case 4:
+                    tempCar = new HRacecar(12);
+                    break;
+                case 5:
+                    tempCar = new HRacecar(-12);
+                    break;
+                case 6:
+                    tempCar = new VHippy(6);
+                    break;
+                case 7:
+                    tempCar = new VHippy(-6);
+                    break;
+            }
             Traffic?.Add(tempCar);
+            //decrease interval
+            if(SpawnTimer.Interval > 1000)
+                SpawnTimer.Interval -= 10;
         }
 
         //Every 100ms process the game information. ie movements and animations
@@ -107,6 +133,16 @@ namespace Lab03_NicW
             canvas.Clear();
             Traffic.ForEach(car => car.ShowCar());
             canvas.Render();
+
+            //End the game if score is too low
+            if(score < 0)
+            {
+                canvas.Clear();
+                canvas.AddText("Game Over", 35, Color.Red);
+                canvas.Render();
+                SpawnTimer.Enabled = false;
+                GameTimer.Enabled = false;
+            }
         }
     }
 }

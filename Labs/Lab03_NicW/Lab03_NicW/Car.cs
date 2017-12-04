@@ -32,6 +32,7 @@ namespace Lab03_NicW
     {
         //Canvas is the game screen, shared by all vehicles
         private static PictDrawer canvas;
+        //Public interface for the canvas
         public static PictDrawer Canvas {
             get
             {
@@ -76,6 +77,14 @@ namespace Lab03_NicW
             Height = inHeight;
             Paint = bodyCol;
             FullSpeed = true; //Cars start at full speed
+        }
+
+        /// <summary>
+        /// Car - The static constructor to initialize randNum
+        /// </summary>
+        static Car()
+        {
+            randNum = new Random();
         }
 
         /// <summary>
@@ -153,7 +162,16 @@ namespace Lab03_NicW
             FullSpeed = !FullSpeed;
         }
 
+        /// <summary>
+        /// GetSafeScore - Get the score of the car when it exits the screen
+        /// </summary>
+        /// <returns>The score of the car</returns>
         public abstract int GetSafeScore();
+
+        /// <summary>
+        /// GetHitScore - Get the score of the car when it hits another car
+        /// </summary>
+        /// <returns>The negative score of the car</returns>
         public abstract int GetHitScore();
     }
 
@@ -168,7 +186,7 @@ namespace Lab03_NicW
         /// <param name="inSpeed">The horizontal speed of the car</param>
         /// <param name="inWidth">The width of the car's hit box</param>
         /// <param name="inHeight">The height of the car's hit box</param>
-        /// /// <param name="bodyCol">The colour of the vehicle</param>
+        /// <param name="bodyCol">The colour of the vehicle</param>
         public HorizontalCar(float inSpeed, int inWidth, int inHeight, Color bodyCol) : base( inSpeed, inWidth, inHeight, bodyCol)
         {
             if(inSpeed > 0)
@@ -222,7 +240,7 @@ namespace Lab03_NicW
         /// <param name="inSpeed">The vertical speed of the car</param>
         /// <param name="inWidth">The width of the car's hit box</param>
         /// <param name="inHeight">The height of the car's hit box</param>
-        /// /// <param name="bodyCol">The colour of the vehicle</param>
+        /// <param name="bodyCol">The colour of the vehicle</param>
         public VerticalCar(float inSpeed, int inWidth, int inHeight, Color bodyCol) : base(inSpeed, inWidth, inHeight, bodyCol)
         {
             if(inSpeed > 0)
@@ -282,7 +300,7 @@ namespace Lab03_NicW
         /// <summary>
         /// GetRect - Will supply the x, y, width, and height to create a rectangle of where the car is
         /// </summary>
-        /// <returns></returns>
+        /// <returns>The hitbox of the car</returns>
         public override Rectangle GetRect()
         {
             return new Rectangle((int)XPos, (int)YPos, Width, Height);
@@ -396,6 +414,7 @@ namespace Lab03_NicW
     /// </summary>
     class HAmbulance : HorizontalCar, IAnimateable
     {
+        //The colour of the lights on top of the car
         Color lightOne = Color.Blue;
         Color lightTwo = Color.Red;
 
@@ -479,8 +498,15 @@ namespace Lab03_NicW
     /// </summary>
     class HRacecar : HorizontalCar, IAnimateable
     {
+        //The changing colour on the car
         Color textColor = RandColor.GetColor();
 
+        /// <summary>
+        /// HRacecar - Simply initializes the VerticalCar base class
+        /// </summary>
+        /// <param name="inSpeed">The horizontal speed of the car</param>
+        /// <param name="inWidth">The width of the car's hit box</param>
+        /// <param name="inHeight">The height of the car's hit box</param>
         public HRacecar(float inSpeed = 12, int inWidth = 100, int inHeight = 30) : base(inSpeed, inWidth, inHeight, Color.Red)
         { }
 
@@ -514,6 +540,9 @@ namespace Lab03_NicW
             Canvas.AddText("Racecar", 12, hitbox, textColor);
         }
 
+        /// <summary>
+        /// Changes the colour of the text on top of the car
+        /// </summary>
         public void Animate()
         {
             textColor = RandColor.GetColor();
