@@ -44,6 +44,8 @@ namespace Lab03_NicW
         private void SpawnTimer_Tick(object sender, EventArgs e)
         {
             Car tempCar = null;
+
+            //Pick a random car type with a +/- speed
             switch (Car.randNum.Next(8))
             {
                 case 0:
@@ -71,6 +73,8 @@ namespace Lab03_NicW
                     tempCar = new VHippy(-6);
                     break;
             }
+
+            //If traffic is not null, add the car
             Traffic?.Add(tempCar);
             //decrease interval
             if(SpawnTimer.Interval > 1000)
