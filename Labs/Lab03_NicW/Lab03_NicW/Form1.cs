@@ -113,7 +113,6 @@ namespace Lab03_NicW
                     temp = Traffic[Traffic.IndexOf(vehicle)];
                     //Decrease score from both cars
                     score += (vehicle.GetHitScore() + temp.GetHitScore());
-
                     //Remove the cars
                     Traffic.RemoveAll(input => object.ReferenceEquals(input, vehicle));
                     Traffic.RemoveAll(input => object.ReferenceEquals(input, temp));
@@ -124,8 +123,6 @@ namespace Lab03_NicW
                     score += vehicle.GetSafeScore();
                     //Remove the car
                     Traffic.RemoveAll(input => object.ReferenceEquals(input, vehicle));
-
-
                 }
             }
 
